@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catálogo Digital (Local)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><img src="assets/logo.svg" alt="CATÁLOGO" class="brandLogo"></div>
+    <nav class="crumbs" id="crumbs"></nav>
+  </header>
+
+  <main class="layout">
+    <section class="left">
+   <div class="svgShell" id="svgShell">
+  <div class="svgToolbar">
+    <button id="btnZoomIn" class="iconBtn" title="Zoom +">🔍+</button>
+    <button id="btnZoomReset" class="iconBtn" title="100%">100%</button>
+  </div>
+
+  <div id="svgViewport" class="svgViewport">
+    <object id="svgObj" type="image/svg+xml" data=""></object>
+  </div>
+
+  <div class="loading" id="svgLoading">Loading…</div>
+  <div class="errBox" id="svgErr" style="display:none;"></div>
+</div>
+    </section>
+
+    <aside class="right">
+      <div class="panel">
+        <div class="panelTop">
+          <div class="thumbWrap" id="thumbWrap"></div>
+
+          <div class="selected">
+            <div class="selectedTitle" id="selTitle">Please select a part or subassembly</div>
+            <div class="meta">
+              <div class="pn" id="selPn"></div>
+              <div class="small" id="selQty"></div>
+              <div class="small" id="selPrice"></div>
+            </div>
+
+            <div class="actions">
+              <button class="btn" id="btnOpenSub" disabled>Open subassembly view</button>
+              <div class="qtyBox">
+                <button class="qtyBtn" id="qtyDown">−</button>
+                <input class="qtyInput" id="qtyInput" type="number" min="1" value="1" />
+                <button class="qtyBtn" id="qtyUp">+</button>
+                <div class="unit">UN</div>
+              </div>
+              <button class="btn primary" id="btnAdd" disabled>Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart">
+          <div class="cartHeader">
+            <div class="colPN">P/N</div>
+            <div class="colDesc">Description</div>
+            <div class="colPrice">Price</div>
+            <div class="colQty">Qty</div>
+            <div class="colRm"></div>
+          </div>
+          <div class="cartBody" id="cartBody"></div>
+
+          <div class="cartFooter">
+            <button class="btn big primary" id="btnSend">Send order request</button>
+            <div class="hint">Please ensure that the desired part numbers and quantities are correct before submitting your request.</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
