@@ -678,6 +678,8 @@ function applyZoom(){
   // aumentar o object cria área de scroll real
   obj.style.width  = (w * zoom) + "px";
   obj.style.height = (h * zoom) + "px";
+
+  viewport.classList.toggle('canPan', zoom !== 1);
 }
 
 function zoomIn(){
@@ -691,6 +693,7 @@ function zoomReset(){
   obj.style.height = "100%";
   viewport.scrollLeft = 0;
   viewport.scrollTop = 0;
+  viewport.classList.remove('canPan');
 }
 
 document.getElementById('btnZoomIn').addEventListener('click', zoomIn);
@@ -705,3 +708,66 @@ obj.addEventListener('load', () => {
   if (zoom !== 1) applyZoom();
 });
 
+// Pan robusto para SVG dentro de <object>: usa overlay + SPACE
+(() => {
+  const viewport = document.getElementById('svgViewport');
+
+  // cria overlay uma vez
+  let overlay = document.getElementById('panOverlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'panOverlay';
+    overlay.className = 'panOverlay';
+    viewport.appendChild(overlay);
+  }
+
+  let spaceDown = false;
+  let dragging = false;
+  let startX = 0, startY = 0;
+  let startSL = 0, startST = 0;
+
+  window.addEventListener('keydown', (e) => {
+    if (e.code !== 'Space') return;
+    if (spaceDown) return;
+    spaceDown = true;
+
+    overlay.style.pointerEvents = 'auto';   // agora intercepta para pan
+    viewport.classList.add('isPanning');    // se tiveres cursor grabbing etc.
+    e.preventDefault();
+  }, { passive: false });
+
+  window.addEventListener('keyup', (e) => {
+    if (e.code !== 'Space') return;
+    spaceDown = false;
+    dragging = false;
+
+    overlay.style.pointerEvents = 'none';   // volta a deixar clicar no SVG
+    viewport.classList.remove('isPanning');
+    e.preventDefault();
+  }, { passive: false });
+
+  overlay.addEventListener('mousedown', (e) => {
+    if (!spaceDown) return;
+    if (e.button !== 0) return;
+
+    dragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+    startSL = viewport.scrollLeft;
+    startST = viewport.scrollTop;
+
+    e.preventDefault();
+  });
+
+  window.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+    viewport.scrollLeft = startSL - (e.clientX - startX);
+    viewport.scrollTop  = startST - (e.clientY - startY);
+    e.preventDefault();
+  }, { passive: false });
+
+  window.addEventListener('mouseup', () => {
+    dragging = false;
+  });
+})();
+  
