@@ -59,63 +59,80 @@ async function main(){
   // 1) ler manifesto
   const manifest = await fetchText("txt/index.json").then(JSON.parse);
 
-  // 2) ORDERS: construir lista + preencher date/time lendo cada txt
+  // 2) ORDERS: construir lista
   const ordersHost = $("ordersList");
   renderOrdersSkeleton();
 
   const orders = Array.isArray(manifest.orders) ? manifest.orders : [];
-  if(!orders.length){
-    ordersHost.innerHTML = `<div class="listEmpty">Sem pedidos.</div>`;
-  }else{
-    ordersHost.innerHTML = "";
-  }
 
-  // vamos buscar date/time dentro de cada ficheiro (para exemplo está ok)
-  const enriched = [];
+  // ===== pedidos locais (browser) =====
+  const localKey = "orderRequestsLocal";
+  const localRaw = JSON.parse(localStorage.getItem(localKey) || "[]");
+
+  const localOrders = localRaw.map(x => ({
+    file: `order_request_${x.id}.txt`,
+    id: String(x.id),
+    dateTime: x.dt || "(sem data)",
+    txt: x.content || "",
+    source: "local"
+  }));
+
+  // ===== pedidos do servidor (txt/) =====
+  const serverOrders = [];
   for(const item of orders){
     const file = item.file;
     const url = `txt/${file}`;
     try{
       const txt = await fetchText(url);
-      enriched.push({
+      serverOrders.push({
         file,
         id: idFromFilename(file),
         dateTime: parseDateTimeFromTxt(txt),
-        txt
+        txt,
+        source: "server"
       });
     }catch{
-      enriched.push({
+      serverOrders.push({
         file,
         id: idFromFilename(file),
         dateTime: "(erro a ler ficheiro)",
-        txt: ""
+        txt: "",
+        source: "server"
       });
     }
   }
 
-  // ordenar por id desc (assumindo timestamp)
-  enriched.sort((a,b) => (b.id.localeCompare(a.id)));
+  // ===== lista final (locais primeiro, tudo ordenado por id desc) =====
+  const allOrders = [...localOrders, ...serverOrders];
+  allOrders.sort((a,b) => (b.id.localeCompare(a.id)));
+
+  if(!allOrders.length){
+    ordersHost.innerHTML = `<div class="listEmpty">Sem pedidos.</div>`;
+  }else{
+    ordersHost.innerHTML = "";
+  }
 
   let current = null;
 
   const openOrder = async (file) => {
-    const hit = enriched.find(x => x.file === file);
+    const hit = allOrders.find(x => x.file === file);
     if(!hit) return;
 
     current = file;
     setSelectedRow(ordersHost, file);
 
-    // se já temos txt em memória, usa; senão fetch
+    // local: já tem conteúdo; server: já tem, mas se vier vazio tenta fetch
     let txt = hit.txt;
-    if(!txt){
+
+    if(!txt && hit.source === "server"){
       try{ txt = await fetchText(`txt/${file}`); }
       catch{ txt = "Erro a carregar o ficheiro."; }
     }
 
-    $("txtViewer").textContent = txt;
+    $("txtViewer").textContent = txt || "Ficheiro vazio.";
   };
 
-  for(const o of enriched){
+  for(const o of allOrders){
     const row = createOrderRow({
       id: o.id,
       dateTime: o.dateTime,
@@ -126,8 +143,8 @@ async function main(){
   }
 
   // abre o primeiro por defeito
-  if(enriched.length){
-    await openOrder(enriched[0].file);
+  if(allOrders.length){
+    await openOrder(allOrders[0].file);
   }
 
   // 3) CATALOGUES
