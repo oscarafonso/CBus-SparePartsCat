@@ -1,0 +1,17 @@
+Order request
+Date/time: 2024-07-29 17:41:05
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+73082106    Protective cover M8                     TBA          2
+77851717    Protective cover M12                    TBA          4
+79288182    Hex flange bolt DIN 6921 M12            TBA          1
+73343577    Support bracket M8                      TBA          3
+70805556    Cable clamp M12                         TBA          8
+72120130    Support bracket M8                      TBA          6
+72980894    Flat washer DIN 125 M8                  TBA          1
+77325145    Spring washer DIN 127 M12               TBA          3
+76424024    Spring washer DIN 127 M10               TBA          6
+77205490    Hex flange bolt DIN 6921 M8             TBA          8
+79020423    Flat washer DIN 125 M8                  TBA          3
+74230697    Support bracket M12                     TBA          7

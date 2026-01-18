@@ -1,0 +1,14 @@
+Order request
+Date/time: 2025-11-02 18:56:53
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+70606428    Flat washer DIN 125 M10                 TBA          8
+70823748    Flat washer DIN 125 M10                 TBA          8
+75332172    Electrical connector M12                TBA          3
+70212824    Mounting plate M10                      TBA          4
+75458113    Cable clamp M12                         TBA          5
+77237973    Protective cover M8                     TBA          2
+71508206    Hex flange bolt DIN 6921 M8             TBA          8
+74513838    Mounting plate M10                      TBA          5
+78893342    Cable clamp M10                         TBA          1

@@ -1,0 +1,12 @@
+Order request
+Date/time: 2025-06-02 02:31:37
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+72612325    Hex socket screw DIN 912 M12            TBA          8
+72381057    Hydraulic hose M10                      TBA          6
+75090983    Support bracket M8                      TBA          4
+70218872    Hex flange bolt DIN 6921 M12            TBA          5
+75594198    Support bracket M10                     TBA          3
+73116227    Hydraulic hose M10                      TBA          5
+73924599    Mounting plate M12                      TBA          8

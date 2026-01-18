@@ -1,0 +1,11 @@
+Order request
+Date/time: 2024-02-27 01:15:49
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+75613467    Electrical connector M12                TBA          4
+72230689    Flat washer DIN 125 M10                 TBA          2
+72178005    Support bracket M8                      TBA          4
+79272882    Protective cover M12                    TBA          4
+78968137    Electrical connector M12                TBA          3
+70005631    Protective cover M8                     TBA          3

@@ -1,0 +1,15 @@
+Order request
+Date/time: 2024-04-05 11:22:08
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+79670029    Hex socket screw DIN 912 M10            TBA          1
+79228169    Hydraulic hose M8                       TBA          7
+71732059    Protective cover M10                    TBA          1
+73725349    Mounting plate M10                      TBA          7
+73967030    Mounting plate M12                      TBA          3
+76451145    Mounting plate M8                       TBA          5
+70313907    Hydraulic hose M8                       TBA          8
+78104373    Hex flange bolt DIN 6921 M10            TBA          5
+71207466    Cable clamp M12                         TBA          2
+77575950    Hex flange bolt DIN 6921 M12            TBA          8

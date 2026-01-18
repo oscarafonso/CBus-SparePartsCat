@@ -1,0 +1,15 @@
+Order request
+Date/time: 2025-09-25 08:50:34
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+71069471    Spring washer DIN 127 M10               TBA          3
+78737338    Mounting plate M10                      TBA          8
+75394577    Spring washer DIN 127 M8                TBA          7
+75066647    Hydraulic hose M10                      TBA          8
+79141781    Hex socket screw DIN 912 M8             TBA          2
+77538458    Flat washer DIN 125 M12                 TBA          4
+73924509    Cable clamp M12                         TBA          6
+73436039    Mounting plate M8                       TBA          6
+79667092    Spring washer DIN 127 M8                TBA          7
+79517212    Spring washer DIN 127 M12               TBA          8

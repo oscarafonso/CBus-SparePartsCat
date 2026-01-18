@@ -1,0 +1,17 @@
+Order request
+Date/time: 2024-12-30 10:06:21
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+74710561    Cable clamp M8                          TBA          6
+77826413    Support bracket M12                     TBA          3
+78560876    Cable clamp M12                         TBA          4
+78549399    Hydraulic hose M12                      TBA          6
+74466176    Cable clamp M12                         TBA          2
+73817333    Hex socket screw DIN 912 M8             TBA          4
+79950444    Hydraulic hose M12                      TBA          4
+77231987    Spring washer DIN 127 M10               TBA          1
+76741901    Spring washer DIN 127 M12               TBA          4
+70127223    Flat washer DIN 125 M12                 TBA          2
+75277741    Hydraulic hose M8                       TBA          6
+77369671    Spring washer DIN 127 M10               TBA          8

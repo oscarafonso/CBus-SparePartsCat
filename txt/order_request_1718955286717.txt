@@ -1,0 +1,16 @@
+Order request
+Date/time: 2024-06-21 07:34:46
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+72011933    Hex socket screw DIN 912 M8             TBA          3
+70715945    Support bracket M8                      TBA          6
+70546238    Hex flange bolt DIN 6921 M12            TBA          3
+71840074    Spring washer DIN 127 M10               TBA          7
+75569594    Protective cover M8                     TBA          6
+74774282    Support bracket M12                     TBA          2
+71615651    Mounting plate M10                      TBA          3
+74008411    Spring washer DIN 127 M10               TBA          5
+72861080    Spring washer DIN 127 M8                TBA          5
+78184634    Support bracket M12                     TBA          7
+72243369    Flat washer DIN 125 M12                 TBA          6

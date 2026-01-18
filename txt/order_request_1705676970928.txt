@@ -1,0 +1,16 @@
+Order request
+Date/time: 2024-01-19 15:09:30
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+79249637    Spring washer DIN 127 M12               TBA          2
+79584848    Hex flange bolt DIN 6921 M10            TBA          3
+74605732    Hydraulic hose M8                       TBA          5
+75031586    Support bracket M10                     TBA          2
+76537482    Hex flange bolt DIN 6921 M12            TBA          7
+76482259    Spring washer DIN 127 M10               TBA          3
+75931959    Flat washer DIN 125 M10                 TBA          2
+75935645    Support bracket M8                      TBA          6
+70269238    Mounting plate M12                      TBA          6
+73475164    Mounting plate M8                       TBA          4
+76361439    Protective cover M12                    TBA          5

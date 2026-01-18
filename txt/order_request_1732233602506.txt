@@ -1,0 +1,14 @@
+Order request
+Date/time: 2024-11-22 00:00:02
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+78435960    Hex flange bolt DIN 6921 M10            TBA          7
+78160999    Protective cover M10                    TBA          6
+73438993    Mounting plate M12                      TBA          5
+78307003    Support bracket M8                      TBA          3
+77015665    Flat washer DIN 125 M8                  TBA          4
+71067044    Cable clamp M8                          TBA          4
+71939529    Hydraulic hose M12                      TBA          2
+71320034    Mounting plate M8                       TBA          4
+75660603    Protective cover M12                    TBA          4

@@ -1,0 +1,16 @@
+Order request
+Date/time: 2024-09-06 03:47:24
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+76624820    Cable clamp M8                          TBA          8
+70383861    Support bracket M8                      TBA          6
+75178856    Support bracket M8                      TBA          6
+74819043    Cable clamp M8                          TBA          8
+77008535    Flat washer DIN 125 M8                  TBA          8
+78994457    Support bracket M10                     TBA          8
+76324218    Support bracket M12                     TBA          2
+76114480    Cable clamp M8                          TBA          8
+76644580    Hex socket screw DIN 912 M12            TBA          2
+70299777    Support bracket M12                     TBA          2
+70764963    Spring washer DIN 127 M12               TBA          8

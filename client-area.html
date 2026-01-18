@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Google Font: Rubik -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Client area</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <a href="index.html" title="Voltar ao catálogo">
+        <img src="assets/logo.svg" alt="CATÁLOGO" class="brandLogo">
+      </a>
+    </div>
+
+    <div class="crumbs"></div>
+
+    <div class="topRightTitle">Client area</div>
+  </header>
+
+  <main class="layout layoutClient">
+    <!-- LEFT: orders list -->
+    <aside class="left">
+      <div class="panel">
+        <div class="panelTop">
+          <div class="panelTitle">Order request history</div>
+        </div>
+
+        <div class="list">
+          <div class="listHeader">
+            <div>Requests</div>
+          </div>
+          <div class="listBody" id="ordersList">
+            <div class="listEmpty">A carregar…</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- CENTER: txt viewer -->
+    <section class="mid">
+      <div class="panel">
+        <div class="panelTop">
+          <div class="panelTitle">Selected request</div>
+        </div>
+
+        <div class="viewerWrap">
+          <pre class="txtViewer" id="txtViewer">Seleciona um pedido à esquerda.</pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT: catalogues -->
+    <aside class="right">
+      <div class="panel">
+        <div class="panelTop">
+          <div class="panelTitle">Digital catalogues available</div>
+        </div>
+
+        <div class="list">
+          <div class="listHeader">
+            <div>Catalogues</div>
+          </div>
+          <div class="listBody" id="cataloguesList">
+            <div class="listEmpty">A carregar…</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="client-area.js"></script>
+</body>
+</html>

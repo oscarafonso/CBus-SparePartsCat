@@ -1,0 +1,13 @@
+Order request
+Date/time: 2025-03-17 06:18:59
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+73273240    Mounting plate M8                       TBA          3
+76791742    Cable clamp M8                          TBA          6
+74247347    Hydraulic hose M10                      TBA          5
+74939598    Support bracket M12                     TBA          4
+70482200    Hex socket screw DIN 912 M10            TBA          5
+77126862    Spring washer DIN 127 M10               TBA          8
+76427628    Cable clamp M12                         TBA          1
+77198218    Cable clamp M8                          TBA          8

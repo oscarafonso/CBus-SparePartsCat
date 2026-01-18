@@ -1,0 +1,15 @@
+Order request
+Date/time: 2025-04-24 16:25:18
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+77409943    Hydraulic hose M10                      TBA          8
+74327125    Protective cover M12                    TBA          7
+72738347    Flat washer DIN 125 M12                 TBA          5
+72541869    Mounting plate M8                       TBA          4
+78858888    Mounting plate M10                      TBA          3
+71577205    Support bracket M10                     TBA          5
+75609430    Mounting plate M8                       TBA          3
+78738198    Electrical connector M12                TBA          2
+72842287    Hex socket screw DIN 912 M10            TBA          2
+74568694    Cable clamp M12                         TBA          8

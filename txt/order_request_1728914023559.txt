@@ -1,0 +1,13 @@
+Order request
+Date/time: 2024-10-14 13:53:43
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+76733338    Electrical connector M8                 TBA          4
+72855650    Flat washer DIN 125 M12                 TBA          8
+76671357    Spring washer DIN 127 M10               TBA          8
+75694279    Hex flange bolt DIN 6921 M8             TBA          4
+77940841    Cable clamp M8                          TBA          1
+74303428    Hex flange bolt DIN 6921 M12            TBA          4
+79598747    Hex flange bolt DIN 6921 M8             TBA          4
+72483814    Support bracket M8                      TBA          8

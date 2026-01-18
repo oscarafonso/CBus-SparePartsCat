@@ -1,11 +1,50 @@
 :root{
   --blue:#003764; --gray:#878787; --gray2:#9ca3af; --gray3: #87878780; --line:#e5e7eb; --bg:#87878766; --card:#ffffff;
   --shadow: 0 10px 25px rgba(0,0,0,.08); --radius: 14px;
-  --font: Rubik, sans-serif;
+  --font: "Rubik", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --pressY: 1px;
+
+  --sh3d:
+    inset 0 10px 18px rgba(255,255,255,.55),
+    inset 0 -8px 14px rgba(0,0,0,.06),
+    0 8px 18px rgba(0,0,0,.14);
+
+  --sh3d-hover:
+    inset 0 14px 26px rgba(255,255,255,.16),
+    inset 0 -12px 18px rgba(0,0,0,.13),
+    0 14px 28px rgba(0,0,0,.20);
+
+  --sh3d-active:
+    inset 0 10px 18px rgba(255,255,255,.22),
+    inset 0 -12px 18px rgba(0,0,0,.10),
+    0 7px 16px rgba(0,0,0,.14);
+
 }
 *{ box-sizing:border-box; }
-body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
-.topbar{ height:64px; display:flex; align-items:center; gap:18px; padding:0 18px; background:var(--blue); color:#fff; }
+
+body{ 
+  margin:0; 
+  font-family: var(--font);
+  background:var(--bg); 
+  color:#111827; 
+}
+
+.topbar{ 
+  height:64px; 
+  display:flex; 
+  align-items:center; 
+  gap:18px; padding:0 18px; 
+  background:var(--blue); 
+  color:#fff; 
+  gap:12px;
+}
+
+/* crumbs empurram o botão para a direita */
+.crumbs{
+  flex:1;
+  min-width:0;
+}
+
 .brand{
   display:flex;
   align-items:center;
@@ -114,64 +153,15 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
   align-items:center; 
 }
 
-.btn{ 
-  padding:10px 12px; 
-  border-radius:10px; 
-  border:1.5px solid var(--blue);
-  background:var(--gray3);
-  cursor:pointer; 
-  font-weight:700; 
-  white-space:nowrap;
-
-  /* 3D mais visível, mas com highlight suave (queda gradual) */
-  box-shadow:
-    inset 0 10px 18px rgba(255,255,255,.55),  /* “luz” suave, não linha dura */
-    inset 0 -8px 14px rgba(0,0,0,.06),        /* sombra de base subtil */
-    0 8px 18px rgba(0,0,0,.14);               /* elevação um pouco maior */
-  transition: transform .10s ease, box-shadow .16s ease, filter .16s ease;
+/* ===== 3D ENGINE (comum) ===== */
+.btn,
+.clientBtn{
+  transition: transform .12s ease, box-shadow .16s ease, filter .16s ease;
+  box-shadow: var(--sh3d);
 }
 
-.btn:hover{
-  filter: brightness(1.03);
-  box-shadow:
-    inset 0 12px 22px rgba(255,255,255,.32),
-    inset 0 -10px 16px rgba(0,0,0,.07),
-    0 12px 26px rgba(0,0,0,.16);
-}
-
-.btn:active{
-  transform: translateY(1px);
-  filter: brightness(1.01);
-  box-shadow:
-    inset 0 10px 18px rgba(255,255,255,.22),
-    inset 0 -12px 18px rgba(0,0,0,.10),
-    0 7px 16px rgba(0,0,0,.14);
-}
-
-.btn:disabled{ 
-  opacity:.5; 
-  cursor:not-allowed; 
-  filter:none;
-  box-shadow:
-    inset 0 10px 18px rgba(255,255,255,.18),
-    inset 0 -8px 14px rgba(0,0,0,.05),
-    0 6px 14px rgba(0,0,0,.10);
-}
-
-/* Primary: mesma linguagem, mas sombras controladas no azul */
-.btn.primary{ 
-  border-radius:10px; 
-  background:var(--blue); 
-  border:1.5px solid var(--blue);
-  color:#fff;
-
-  box-shadow:
-    inset 0 12px 22px rgba(255,255,255,.14), /* highlight suave no azul */
-    inset 0 -10px 16px rgba(0,0,0,.12),
-    0 10px 22px rgba(0,0,0,.18);
-}
-
-.btn.primary:hover{
+.clientBtn:hover{
+  transform: translateY(-1px);
   filter: brightness(1.04);
   box-shadow:
     inset 0 14px 26px rgba(255,255,255,.16),
@@ -179,21 +169,69 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
     0 14px 28px rgba(0,0,0,.20);
 }
 
+.btn:active,
+.clientBtn:active{
+  transform: translateY(var(--pressY));
+  filter: brightness(1.01);
+  box-shadow: var(--sh3d-active);
+}
+
+/* disabled só se aplica a <button> */
+.btn:disabled{
+  opacity:.5;
+  cursor:not-allowed;
+  filter:none;
+  box-shadow:
+    inset 0 10px 18px rgba(255,255,255,.18),
+    inset 0 -8px 14px rgba(0,0,0,.05),
+    0 6px 14px rgba(0,0,0,.10);
+}
+
+/* ===== BTN (base) ===== */
+.btn{
+  padding:10px 12px;
+  border-radius:10px;
+  border:1.5px solid var(--blue);
+  background:var(--gray3);
+  cursor:pointer;
+  font-weight:700;
+  white-space:nowrap;
+}
+
+/* ===== BTN primary (só cores + sombras ligeiramente adaptadas) ===== */
+.btn.primary{
+  background:var(--blue);
+  border-color:var(--blue);
+  color:#fff;
+
+  /* mantém o mesmo “motor”, mas com highlights mais adequados ao azul */
+  box-shadow:
+    inset 0 12px 22px rgba(255,255,255,.14),
+    inset 0 -10px 16px rgba(0,0,0,.12),
+    0 10px 22px rgba(0,0,0,.18);
+}
+.btn.primary:hover{
+  filter: brightness(1.04);
+  box-shadow:
+    inset 0 14px 26px rgba(255,255,255,.16),
+    inset 0 -12px 18px rgba(0,0,0,.13),
+    0 14px 28px rgba(0,0,0,.20);
+}
 .btn.primary:active{
-  transform: translateY(1px);
-  filter: brightness(1.02);
+  transform: translateY(var(--pressY));
   box-shadow:
     inset 0 12px 22px rgba(255,255,255,.10),
     inset 0 -14px 20px rgba(0,0,0,.16),
     0 9px 20px rgba(0,0,0,.20);
 }
 
-.btn.big{ 
-  width:100%; 
-  padding:12px 14px; 
-  font-size:16px; 
-  border-radius:10px; 
+/* big é só sizing */
+.btn.big{
+  width:100%;
+  padding:12px 14px;
+  font-size:16px;
 }
+
 
 .qtyBox{ 
   margin-left:auto; 
@@ -379,9 +417,24 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
   position:absolute;
   top:10px;
   right:10px;
+
   display:flex;
-  gap:8px;
+  align-items:flex-start;   /* 🔑 topo do rail */
+  gap:10px;
+
   z-index:5;
+}
+
+.zoomStack{
+  display:flex;
+  flex-direction:column;
+  align-items:stretch;          /* 🔑 todos com mesma largura */
+  gap:0;                        /* 🔑 sem espaço entre botões */
+
+  border:1px solid rgba(135,135,135,.22);
+  border-radius:12px;
+  overflow:hidden;              /* 🔑 cantos perfeitos */
+  background:#fff;
 }
 
 .iconBtn{
@@ -395,6 +448,36 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
 }
 .iconBtn:hover{ border-color: rgba(0,55,100,.35); }
 
+/* os botões dentro do rail ficam “encaixados” e centrados */
+.zoomStack .iconBtn{
+  width:44px;                   /* compacto */
+  height:36px;                  /* compacto */
+  padding:0;                    /* sem padding extra */
+  border:0;                     /* o rail já tem border */
+  border-radius:0;              /* cantos vêm do rail */
+  display:flex;
+  align-items:center;
+  justify-content:center;       /* 🔑 tudo centrado */
+  line-height:1;
+  box-shadow:none;              /* remove variações */
+}
+
+/* separadores fininhos entre botões */
+.zoomStack .iconBtn + .iconBtn{
+  border-top:1px solid rgba(135,135,135,.18);
+}
+
+/* hover discreto (não mexe layout) */
+.zoomStack .iconBtn:hover{
+  border-color:transparent;     /* anula hover antigo */
+  background:rgba(0,0,0,.03);
+}
+
+#btnZoomReset{
+  font-weight:600;
+  opacity:.85;
+}
+
 .svgViewport{
   cursor: default;
   position:absolute;
@@ -403,6 +486,7 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
 }
 
 .panOverlay{
+  cursor: inherit;
   position:absolute;
   inset:0;
   z-index: 5;
@@ -427,6 +511,204 @@ body{ margin:0; font-family:var(--font); background:var(--bg); color:#111827; }
 }
 
 
+/* LINK CLIENT AREA */
+.clientBtn{
+  display:flex;
+  align-items:center;
+  gap:8px;
+
+  padding:4px 8px;
+  border-radius:12px;
+  border:1px solid var(--line);
+  background: rgb(200, 200, 200);
+
+  position: relative;
+  overflow: hidden;
+
+  font-weight:600;
+  text-decoration:none;
+  color:var(--blue);
+  white-space:nowrap;
+  cursor:pointer;
+  transition: transform .12s ease, box-shadow .16s ease, filter .16s ease;
+}
+
+/* overlay branco discreto elegante */
+.clientBtn::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,.45),
+    rgba(255,255,255,.12) 45%,
+    rgba(255,255,255,0) 70%
+  );
+  pointer-events:none;
+}
+
+
+/* ÍCONE */
+.clientIcon{
+  
+  
+  display:grid;
+  place-items:center;
+  color: var(--blue);
+  font-size:26px;
+  line-height:1;
+}
+
+.clientSvg{ display:block; }
+
+/* evita seleções acidentais */
+.svgViewport, .panOverlay { 
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.panHint{
+  position:absolute;
+  top:12px;                 /* 🔑 encostado acima */
+  left:50%;
+  transform:translateX(-50%); /* 🔑 centrado horizontalmente */
+  z-index:6;
+
+  color: var(--gray1);
+  font: 600 13px Rubik, sans-serif;
+  letter-spacing:.02em;
+  white-space: nowrap;
+
+  opacity:.35;              /* 🔑 subtil */
+  pointer-events:none;      /* não interfere */
+
+  background: rgba(255,255,255,.15);
+  padding: 6px 12px;
+  border-radius: 12px;
+}
+
+.btn:not(.primary):hover,
+.clientBtn:hover{
+  filter: brightness(1.06);
+}
 
 
 
+
+
+/* ===== Client area header ===== */
+.topRightTitle{
+  font-weight:900;
+  font-size:14px;
+  opacity:.95;
+  white-space:nowrap;
+}
+
+/* ===== 3-column layout (client area) ===== */
+.layoutClient{
+  grid-template-columns: minmax(360px, 30vw) 1fr minmax(280px, 22vw);
+}
+
+/* títulos consistentes */
+.panelTitle{
+  font-weight:900;
+  color:var(--blue);
+  font-size:14px;
+}
+
+/* ===== List (1 column, header/body style like cart) ===== */
+.list{
+  display:flex;
+  flex-direction:column;
+  min-height:0;
+  flex:1;
+}
+
+.listHeader{
+  padding:6px 10px;
+  border-bottom:1px solid var(--line);
+  background: var(--blue);
+  color: var(--gray2);
+  font-weight:500;
+  font-size:12px;
+}
+
+.listBody{
+  padding:0 10px;
+  overflow:auto;
+  min-height:0;
+  border-bottom:2px solid var(--blue);
+}
+
+.listEmpty{
+  color:#6b7280;
+  padding:12px 0;
+}
+
+/* row style (hover like cartRow) */
+.listRow{
+  width:100%;
+  text-align:left;
+
+  display:block;
+  padding:10px 6px;
+  margin:0 -6px;
+
+  border:0;
+  background:transparent;
+  cursor:pointer;
+
+  color:#111827;
+  text-decoration:none;
+
+  border-radius:10px;
+}
+
+.listRow:hover{
+  box-shadow: inset 0 0 0 9999px rgba(0,0,0,.03);
+}
+
+/* 2-line content */
+.listTop{
+  font-weight:800;
+  font-size:12px;
+  line-height:1.15;
+  color:var(--blue);
+}
+
+.listSub{
+  margin-top:4px;
+  font-size:11px;
+  color:var(--gray);
+  line-height:1.15;
+}
+
+/* selected: bold + obvious + outer shadow above/below */
+.listRow.selected{
+  font-weight:900;
+  box-shadow:
+    0 -10px 14px rgba(0,0,0,.10),
+    0  10px 14px rgba(0,0,0,.10),
+    inset 0 0 0 1px rgba(0,55,100,.18);
+  background: rgba(255,255,255,.85);
+}
+
+/* links in right panel should look like rows */
+.linkRow{ display:block; }
+
+/* ===== Center viewer ===== */
+.viewerWrap{
+  flex:1;
+  min-height:0;
+  padding:10px;
+  overflow:auto;
+}
+
+.txtViewer{
+  margin:0;
+  white-space:pre-wrap;   /* mantém quebras + adapta ao width */
+  word-break:break-word;
+  font-size:12px;
+  line-height:1.35;
+  color:#111827;
+}

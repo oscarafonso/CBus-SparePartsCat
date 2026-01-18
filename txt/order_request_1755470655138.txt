@@ -1,0 +1,17 @@
+Order request
+Date/time: 2025-08-17 22:44:15
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+72438648    Protective cover M8                     TBA          5
+74964883    Electrical connector M12                TBA          4
+73569463    Hydraulic hose M10                      TBA          8
+70524367    Cable clamp M8                          TBA          1
+76962666    Hydraulic hose M8                       TBA          3
+77247397    Hydraulic hose M10                      TBA          1
+78330735    Cable clamp M10                         TBA          8
+79082785    Hex flange bolt DIN 6921 M10            TBA          8
+71319552    Protective cover M10                    TBA          3
+78329733    Flat washer DIN 125 M12                 TBA          3
+71439165    Support bracket M12                     TBA          6
+70016273    Hydraulic hose M10                      TBA          3

@@ -10,6 +10,35 @@ const state = {
   bomRows: [],
 };
 
+// ===== Order request TXT formatting (aligned, like client-area samples) =====
+const COL_PN    = 12;
+const COL_DESC  = 40;
+const COL_PRICE = 10;
+const COL_QTY   = 4;
+
+function pad(str, w, right=false){
+  str = String(str ?? '');
+
+  if(str.length > w){
+    // deixa espaço para ellipsis
+    str = str.slice(0, w - 1) + '…';
+  }
+
+  return right ? str.padStart(w) : str.padEnd(w);
+}
+
+function row(pn, desc, price, qty){
+  return (
+    pad(pn,    COL_PN) +
+    pad(desc,  COL_DESC) +
+    pad(price, COL_PRICE) +
+    pad(qty,   COL_QTY, true)
+  );
+}
+
+
+
+
 function toast(msg){
   const t = $('toast');
   t.textContent = msg;
@@ -75,18 +104,52 @@ function setupUI(){
   $('qtyUp').addEventListener('click', ()=> $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value||'1',10)+1)));
   $('qtyInput').addEventListener('change', ()=> $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value||'1',10))));
   $('btnSend').addEventListener('click', ()=>{
-    if(!state.cart.length){ toast('Your cart empty!'); return; }
-    const dt=new Date().toISOString().replace('T',' ').slice(0,19);
-    let out=`Order request\nDate/time: ${dt}\n\nP/N\tDescription\tPrice\tQty\n---\t-----------\t-----\t---\n`;
-    for(const r of state.cart){
-      out += `${r.partNo}\t${r.desc}\t${r.price||'TBA'}\t${r.qty}\n`;
-    }
-    const blob=new Blob([out],{type:'text/plain;charset=utf-8'});
-    const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download=`order_request_${Date.now()}.txt`;
-    document.body.appendChild(a); a.click(); a.remove();
-    setTimeout(()=>URL.revokeObjectURL(a.href),1000);
-    toast("We've received your order request and will get back to you shortly.");
-  });
+  if(!state.cart.length){ toast('Your cart is empty!'); return; }
+
+  const dt = new Date().toISOString().replace('T',' ').slice(0,19);
+
+  let out = '';
+  out += 'Order request\n';
+  out += `Date/time: ${dt}\n\n`;
+
+  out += row('P/N','Description','Price','Qty') + '\n';
+  out += row('---','-----------','-----','---') + '\n';
+
+  for(const r of state.cart){
+    out += row(
+      r.partNo,
+      r.desc,
+      r.price || 'TBA',
+      r.qty
+    ) + '\n';
+  }
+
+  // ===== guardar pedido no browser =====
+  const ts = Date.now();
+  try {
+    const key = 'orderRequestsLocal';
+    const arr = JSON.parse(localStorage.getItem(key) || '[]');
+
+    arr.unshift({ id: ts, dt: dt, content: out });
+
+    localStorage.setItem(key, JSON.stringify(arr.slice(0, 200)));
+  } catch(e){}
+
+  // ===== download =====
+  const blob = new Blob([out], {type:'text/plain;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `order_request_${ts}.txt`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+
+  toast("We've received your order request and will get back to you shortly.");
+  state.cart = [];
+  renderCart();
+});
+
   $('btnAdd').addEventListener('click', ()=>{
     if(!state.selected) return;
     const qty=Math.max(1, parseInt($('qtyInput').value||'1',10));
@@ -559,7 +622,29 @@ function findHotspotNByPoint(doc, clientX, clientY){
 function wireBridge(){
   const obj = $('svgObj');
   const doc = obj.contentDocument;
+if(!doc) return;
+
+// 🔑 permitir teclado dentro do SVG
+try{
+  doc.documentElement.setAttribute('tabindex','0');
+}catch{}
+
+  // 🔑 apanhar SPACE mesmo quando o foco está “lá dentro”
+  doc.addEventListener('keydown', pan.onKeyDown, { passive:false, capture:true });
+  doc.addEventListener('keyup',   pan.onKeyUp,   { passive:false, capture:true });
+
+  // opcional: ao clicar no SVG, garante que o modo pan não fica preso
+  doc.addEventListener('mousedown', () => pan.up(), true);
+
   if(!doc) return;
+
+    doc.addEventListener('contextmenu', (e) => {
+    if (window.spaceDown || window.dragging) e.preventDefault();
+  }, true);
+
+  doc.addEventListener('selectstart', (e) => {
+    if (window.spaceDown || window.dragging) e.preventDefault();
+  }, true);
 
   // build mapping from actual geometry
   state.map = buildMapFromGeometry(doc);
@@ -667,9 +752,11 @@ main();
 let zoom = 1;
 const ZOOM_STEP = 0.25;
 const ZOOM_MAX = 4;
+const ZOOM_MIN = 1;
 
 const viewport = document.getElementById('svgViewport');
 const obj = document.getElementById('svgObj');
+const panHint = document.getElementById('panHint');
 
 function applyZoom(){
   const w = viewport.clientWidth;
@@ -680,11 +767,19 @@ function applyZoom(){
   obj.style.height = (h * zoom) + "px";
 
   viewport.classList.toggle('canPan', zoom !== 1);
+
+    // 🔑 garante coerência
+  syncZoomState();
 }
 
 function zoomIn(){
   zoom = Math.min(ZOOM_MAX, +(zoom + ZOOM_STEP).toFixed(2));
   applyZoom();
+}
+function zoomOut(){
+  zoom = Math.max(ZOOM_MIN, +(zoom - ZOOM_STEP).toFixed(2));
+  if (zoom === 1) zoomReset();
+  else applyZoom();
 }
 
 function zoomReset(){
@@ -694,10 +789,60 @@ function zoomReset(){
   viewport.scrollLeft = 0;
   viewport.scrollTop = 0;
   viewport.classList.remove('canPan');
+
+    // 🔑 garante coerência
+  syncZoomState();
 }
 
+function syncZoomState(){
+  // Se zoom está activo, GARANTE object escalado + canPan
+  if(zoom !== 1){
+    const w = viewport.clientWidth;
+    const h = viewport.clientHeight;
+
+    const wantW = (w * zoom) + "px";
+    const wantH = (h * zoom) + "px";
+
+    // se alguém te “desfez” o tamanho, repõe
+    if(obj.style.width !== wantW)  obj.style.width  = wantW;
+    if(obj.style.height !== wantH) obj.style.height = wantH;
+
+    viewport.classList.add('canPan');
+
+  }else{
+    // zoom 1: garante estado limpo
+    viewport.classList.remove('canPan');
+    if(obj.style.width && obj.style.width !== "100%") obj.style.width = "100%";
+    if(obj.style.height && obj.style.height !== "100%") obj.style.height = "100%";
+
+  }
+}
+
+// LISTENERS DO WATCHDOG (aqui)
+viewport.addEventListener('mouseenter', syncZoomState);
+viewport.addEventListener('mousedown', syncZoomState, true);
+window.addEventListener('focus', syncZoomState);
+window.addEventListener('resize', () => {
+  if (zoom !== 1) syncZoomState();
+});
+obj.addEventListener('load', () => {
+  if (zoom !== 1) syncZoomState();
+});
+
+document.getElementById('btnZoomOut').addEventListener('click', zoomOut);
 document.getElementById('btnZoomIn').addEventListener('click', zoomIn);
 document.getElementById('btnZoomReset').addEventListener('click', zoomReset);
+
+// Zoom com mousewheel quando o ponteiro está sobre o viewport do SVG
+viewport.addEventListener('wheel', (e) => {
+  // só quando o rato está mesmo no viewport (já está, porque o listener é no viewport)
+  e.preventDefault();
+
+  // deltaY > 0 = roda para baixo (zoom out), deltaY < 0 = roda para cima (zoom in)
+  if (e.deltaY < 0) zoomIn();
+  else zoomOut();
+}, { passive: false });
+
 
 window.addEventListener('resize', () => {
   if (zoom !== 1) applyZoom();
@@ -708,11 +853,10 @@ obj.addEventListener('load', () => {
   if (zoom !== 1) applyZoom();
 });
 
-// Pan robusto para SVG dentro de <object>: usa overlay + SPACE
-(() => {
+// ---- PAN controller (reutilizável) ----
+const pan = (() => {
   const viewport = document.getElementById('svgViewport');
 
-  // cria overlay uma vez
   let overlay = document.getElementById('panOverlay');
   if (!overlay) {
     overlay = document.createElement('div');
@@ -726,36 +870,61 @@ obj.addEventListener('load', () => {
   let startX = 0, startY = 0;
   let startSL = 0, startST = 0;
 
-  window.addEventListener('keydown', (e) => {
-    if (e.code !== 'Space') return;
-    if (spaceDown) return;
+  function syncPanState(){
+    window.spaceDown = spaceDown;
+    window.dragging  = dragging;
+  }
+
+  function setCursor(){
+    overlay.style.cursor = dragging ? 'grabbing' : (spaceDown ? 'grab' : '');
+  }
+
+  function down(){
     spaceDown = true;
+    syncPanState();
+    overlay.style.pointerEvents = 'auto';
+    viewport.classList.add('isPanning');
+    setCursor();
+  }
 
-    overlay.style.pointerEvents = 'auto';   // agora intercepta para pan
-    viewport.classList.add('isPanning');    // se tiveres cursor grabbing etc.
-    e.preventDefault();
-  }, { passive: false });
-
-  window.addEventListener('keyup', (e) => {
-    if (e.code !== 'Space') return;
+  function up(){
     spaceDown = false;
     dragging = false;
-
-    overlay.style.pointerEvents = 'none';   // volta a deixar clicar no SVG
+    syncPanState();
+    overlay.style.pointerEvents = 'none';
     viewport.classList.remove('isPanning');
+    setCursor();
+  }
+
+  function onKeyDown(e){
+    if (e.code !== 'Space') return;
+    if (!spaceDown) down();
     e.preventDefault();
-  }, { passive: false });
+  }
 
+  function onKeyUp(e){
+    if (e.code !== 'Space') return;
+    up();
+    e.preventDefault();
+  }
+
+  // impedir o mini-menu / seleção do Edge enquanto pan
+  overlay.addEventListener('contextmenu', (e) => e.preventDefault());
+  viewport.addEventListener('contextmenu', (e) => {
+    if (spaceDown || dragging) e.preventDefault();
+  });
+  document.addEventListener('selectstart', (e) => {
+    if (spaceDown || dragging) e.preventDefault();
+  }, true);
+
+  // mouse drag (só quando spaceDown)
   overlay.addEventListener('mousedown', (e) => {
-    if (!spaceDown) return;
-    if (e.button !== 0) return;
-
+    if (!spaceDown || e.button !== 0) return;
     dragging = true;
-    startX = e.clientX;
-    startY = e.clientY;
-    startSL = viewport.scrollLeft;
-    startST = viewport.scrollTop;
-
+    syncPanState();
+    startX = e.clientX; startY = e.clientY;
+    startSL = viewport.scrollLeft; startST = viewport.scrollTop;
+    setCursor();
     e.preventDefault();
   });
 
@@ -764,10 +933,29 @@ obj.addEventListener('load', () => {
     viewport.scrollLeft = startSL - (e.clientX - startX);
     viewport.scrollTop  = startST - (e.clientY - startY);
     e.preventDefault();
-  }, { passive: false });
+  }, { passive:false });
 
   window.addEventListener('mouseup', () => {
+    if (!dragging) return;
     dragging = false;
+    syncPanState();
+    setCursor();
   });
+
+  window.addEventListener('blur', up);
+  document.addEventListener('visibilitychange', () => { if (document.hidden) up(); });
+
+  // listeners no documento principal
+  window.addEventListener('keydown', onKeyDown, { passive:false, capture:true });
+  window.addEventListener('keyup',   onKeyUp,   { passive:false, capture:true });
+
+  // estado inicial
+  overlay.style.pointerEvents = 'none';
+  syncPanState();
+  setCursor();
+
+  return { onKeyDown, onKeyUp, up };
 })();
+
+
   

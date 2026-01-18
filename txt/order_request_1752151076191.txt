@@ -1,0 +1,13 @@
+Order request
+Date/time: 2025-07-10 12:37:56
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+72243662    Electrical connector M10                TBA          3
+71255481    Spring washer DIN 127 M10               TBA          2
+73636558    Flat washer DIN 125 M10                 TBA          6
+73806060    Mounting plate M12                      TBA          2
+71968362    Protective cover M8                     TBA          7
+72518768    Mounting plate M8                       TBA          8
+74281266    Hydraulic hose M12                      TBA          5
+76526092    Mounting plate M12                      TBA          7

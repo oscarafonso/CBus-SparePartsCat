@@ -1,0 +1,15 @@
+Order request
+Date/time: 2026-01-18 15:09:30
+
+P/N         Description                             Price      Qty
+---         -----------                             -----      ---
+77307904    Flat washer DIN 125 M12                 TBA          2
+74179107    Cable clamp M10                         TBA          8
+78535451    Protective cover M12                    TBA          1
+79126845    Cable clamp M8                          TBA          7
+78389759    Protective cover M12                    TBA          2
+77204661    Spring washer DIN 127 M10               TBA          2
+77029214    Flat washer DIN 125 M10                 TBA          6
+73349843    Hex flange bolt DIN 6921 M12            TBA          6
+73546876    Cable clamp M10                         TBA          1
+72861416    Support bracket M10                     TBA          8
