@@ -58,7 +58,7 @@ body{
 .dot{ opacity:.6; margin-left:6px; }
 .crumbs{ display:flex; align-items:center; gap:10px; font-size:14px; overflow:auto; white-space:nowrap; }
 .crumbs a{ color:#e5f0ff; text-decoration:underline; }
-.crumbs span.current{ font-weight:900; }
+.crumbs span.current{ font-weight:700; }
 .layout{ display:grid; grid-template-columns: 1fr 420px; gap:18px; padding:18px; height: calc(100vh - 64px); }
 .left,.right{ min-height:0; }
 .svgShell{
@@ -66,8 +66,8 @@ body{
   height:100%; overflow:hidden; position:relative;
 }
 #svgObj{ width:100%; height:100%; display:block; border:0; }
-.loading{ position:absolute; left:14px; top:14px; color:var(--gray); font-weight:900; background:rgba(255,255,255,.85); padding:8px 10px; border-radius:10px; border:1px solid var(--line); }
-.errBox{ position:absolute; inset:14px; border:1px solid #fecaca; background:#fff; border-radius:12px; padding:12px; color:#b91c1c; font-weight:900; }
+.loading{ position:absolute; left:14px; top:14px; color:var(--gray); font-weight:700; background:rgba(255,255,255,.85); padding:8px 10px; border-radius:10px; border:1px solid var(--line); }
+.errBox{ position:absolute; inset:14px; border:1px solid #fecaca; background:#fff; border-radius:12px; padding:12px; color:#b91c1c; font-weight:700; }
 
 .panel{ background:var(--card); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow);
   height:100%; display:flex; flex-direction:column; overflow:hidden;
@@ -598,7 +598,7 @@ body{
 
 /* ===== Client area header ===== */
 .topRightTitle{
-  font-weight:900;
+  font-weight:700;
   font-size:14px;
   opacity:.95;
   white-space:nowrap;
@@ -611,7 +611,7 @@ body{
 
 /* títulos consistentes */
 .panelTitle{
-  font-weight:900;
+  font-weight:700;
   color:var(--blue);
   font-size:14px;
 }
@@ -685,7 +685,7 @@ body{
 
 /* selected: bold + obvious + outer shadow above/below */
 .listRow.selected{
-  font-weight:900;
+  font-weight:700;
   box-shadow:
     0 -10px 14px rgba(0,0,0,.10),
     0  10px 14px rgba(0,0,0,.10),
