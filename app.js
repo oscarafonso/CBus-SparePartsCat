@@ -10,7 +10,7 @@ const state = {
   bomRows: [],
 };
 
-// ===== Order request TXT formatting (aligned, like client-area samples) =====
+/*// ===== Order request TXT formatting (aligned, like client-area samples) =====
 const COL_PN = 12;
 const COL_DESC = 40;
 const COL_PRICE = 10;
@@ -34,7 +34,7 @@ function row(pn, desc, price, qty) {
     pad(price, COL_PRICE) +
     pad(qty, COL_QTY, true)
   );
-}
+}*/
 
 
 
@@ -112,17 +112,15 @@ function setupUI() {
     out += 'Order request\n';
     out += `Date/time: ${dt}\n\n`;
 
-    out += row('P/N', 'Description', 'Price', 'Qty') + '\n';
-    out += row('---', '-----------', '-----', '---') + '\n';
+    out += 'Items:\n';
+    out += 'P/N | Description | Price | Qty\n';
+    out += '--------------------------------\n';
 
     for (const r of state.cart) {
-      out += row(
-        r.partNo,
-        r.desc,
-        r.price || 'TBA',
-        r.qty
-      ) + '\n';
+      out += `${r.partNo} | ${r.desc} | ${r.price || 'TBA'} | ${r.qty}\n`;
     }
+
+
 
     // ===== guardar pedido no browser =====
     const ts = Date.now();
