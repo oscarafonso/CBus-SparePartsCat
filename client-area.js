@@ -1,36 +1,36 @@
 const $ = (id) => document.getElementById(id);
 
-function escapeHtml(s){
+function escapeHtml(s) {
   return String(s)
-    .replaceAll("&","&amp;")
-    .replaceAll("<","&lt;")
-    .replaceAll(">","&gt;");
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
 }
 
-function parseDateTimeFromTxt(txt){
+function parseDateTimeFromTxt(txt) {
   // procura uma linha do tipo: "Date/time: 2026-01-18 12:34:56"
   const m = txt.match(/^\s*Date\/time:\s*(.+)\s*$/mi);
   return m ? m[1].trim() : "(sem data)";
 }
 
-function idFromFilename(file){
+function idFromFilename(file) {
   // order_request_1700000000000.txt -> "1700000000000"
   const base = file.replace(/\.txt$/i, "");
   return base.startsWith("order_request_") ? base.slice("order_request_".length) : base;
 }
 
-async function fetchText(url){
+async function fetchText(url) {
   const res = await fetch(url, { cache: "no-store" });
-  if(!res.ok) throw new Error(`fetch failed: ${url}`);
+  if (!res.ok) throw new Error(`fetch failed: ${url}`);
   return await res.text();
 }
 
-function renderOrdersSkeleton(){
+function renderOrdersSkeleton() {
   const host = $("ordersList");
   host.innerHTML = "";
 }
 
-function createOrderRow({ id, dateTime, file, onClick }){
+function createOrderRow({ id, dateTime, file, onClick }) {
   const btn = document.createElement("button");
   btn.type = "button";
   btn.className = "listRow";
@@ -50,12 +50,12 @@ function createOrderRow({ id, dateTime, file, onClick }){
   return btn;
 }
 
-function setSelectedRow(host, file){
+function setSelectedRow(host, file) {
   const rows = host.querySelectorAll(".listRow");
   rows.forEach(r => r.classList.toggle("selected", r.dataset.file === file));
 }
 
-async function main(){
+async function main() {
   // 1) ler manifesto
   const manifest = await fetchText("txt/index.json").then(JSON.parse);
 
@@ -79,10 +79,10 @@ async function main(){
 
   // ===== pedidos do servidor (txt/) =====
   const serverOrders = [];
-  for(const item of orders){
+  for (const item of orders) {
     const file = item.file;
     const url = `txt/${file}`;
-    try{
+    try {
       const txt = await fetchText(url);
       serverOrders.push({
         file,
@@ -91,7 +91,7 @@ async function main(){
         txt,
         source: "server"
       });
-    }catch{
+    } catch {
       serverOrders.push({
         file,
         id: idFromFilename(file),
@@ -104,11 +104,11 @@ async function main(){
 
   // ===== lista final (locais primeiro, tudo ordenado por id desc) =====
   const allOrders = [...localOrders, ...serverOrders];
-  allOrders.sort((a,b) => (b.id.localeCompare(a.id)));
+  allOrders.sort((a, b) => (b.id.localeCompare(a.id)));
 
-  if(!allOrders.length){
+  if (!allOrders.length) {
     ordersHost.innerHTML = `<div class="listEmpty">Sem pedidos.</div>`;
-  }else{
+  } else {
     ordersHost.innerHTML = "";
   }
 
@@ -116,7 +116,7 @@ async function main(){
 
   const openOrder = async (file) => {
     const hit = allOrders.find(x => x.file === file);
-    if(!hit) return;
+    if (!hit) return;
 
     current = file;
     setSelectedRow(ordersHost, file);
@@ -124,15 +124,15 @@ async function main(){
     // local: já tem conteúdo; server: já tem, mas se vier vazio tenta fetch
     let txt = hit.txt;
 
-    if(!txt && hit.source === "server"){
-      try{ txt = await fetchText(`txt/${file}`); }
-      catch{ txt = "Erro a carregar o ficheiro."; }
+    if (!txt && hit.source === "server") {
+      try { txt = await fetchText(`txt/${file}`); }
+      catch { txt = "Erro a carregar o ficheiro."; }
     }
 
     $("txtViewer").textContent = txt || "Ficheiro vazio.";
   };
 
-  for(const o of allOrders){
+  for (const o of allOrders) {
     const row = createOrderRow({
       id: o.id,
       dateTime: o.dateTime,
@@ -143,7 +143,7 @@ async function main(){
   }
 
   // abre o primeiro por defeito
-  if(allOrders.length){
+  if (allOrders.length) {
     await openOrder(allOrders[0].file);
   }
 
@@ -152,15 +152,15 @@ async function main(){
   const cats = Array.isArray(manifest.catalogues) ? manifest.catalogues : [];
   catHost.innerHTML = "";
 
-  if(!cats.length){
+  if (!cats.length) {
     catHost.innerHTML = `<div class="listEmpty">Sem catálogos.</div>`;
-  }else{
+  } else {
     cats.forEach((c, idx) => {
       const a = document.createElement("a");
       a.className = "listRow linkRow" + (idx === 0 ? " selected" : "");
       a.href = c.href || "#";
       a.innerHTML = `
-        <div class="listTop">${escapeHtml(c.title || `Catálogo ${idx+1}`)}</div>
+        <div class="listTop">${escapeHtml(c.title || `Catálogo ${idx + 1}`)}</div>
         <div class="listSub">${escapeHtml(c.subtitle || "")}</div>
       `.trim();
       catHost.appendChild(a);
@@ -171,5 +171,5 @@ async function main(){
 main().catch((e) => {
   console.error(e);
   const ordersHost = $("ordersList");
-  if(ordersHost) ordersHost.innerHTML = `<div class="listEmpty">Erro a carregar client area.</div>`;
+  if (ordersHost) ordersHost.innerHTML = `<div class="listEmpty">Erro a carregar client area.</div>`;
 });
