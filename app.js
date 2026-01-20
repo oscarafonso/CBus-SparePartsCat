@@ -61,11 +61,30 @@ function renderCrumbs() {
   el.appendChild(root);
 
   for (let i = 0; i < state.path.length; i++) {
-    const sep = document.createElement('span'); sep.textContent = '>'; sep.style.opacity = '0.7'; el.appendChild(sep);
+    const sep = document.createElement('span');
+    sep.textContent = '>';
+    sep.style.opacity = '0.7';
+    el.appendChild(sep);
+
+    const SEP = ' | '; //definir o separador
+
     if (i === state.path.length - 1) {
-      const s = document.createElement('span'); s.className = 'current'; s.textContent = state.path[i]; el.appendChild(s);
+      const pn = state.path[i];
+
+      let desc = '';
+      try {
+        desc = sessionStorage.getItem(`pnDesc:${pn}`) || '';
+      } catch { }
+
+      const s = document.createElement('span');
+      s.className = 'current';
+      s.textContent = desc ? pn + SEP + desc : pn;
+
+      el.appendChild(s);
     } else {
-      const a = document.createElement('a'); a.href = '#/' + state.path.slice(0, i + 1).join('/'); a.textContent = state.path[i]; el.appendChild(a);
+      const a = document.createElement('a');
+      a.href = '#/' + state.path.slice(0, i + 1).join('/');
+      a.textContent = state.path[i]; el.appendChild(a);
     }
   }
 }
@@ -173,6 +192,15 @@ function setupUI() {
   });
   $('btnOpenSub').addEventListener('click', () => {
     if (!state.selected?.hasSub) return;
+
+    // 👉 guardar descrição do subassembly que vais abrir
+    try {
+      sessionStorage.setItem(
+        `pnDesc:${state.selected.partNo}`,
+        state.selected.desc || ''
+      );
+    } catch { }
+
     const next = [...state.path, state.selected.partNo].join('/');
     window.location.hash = '#/' + next;
   });
@@ -182,10 +210,16 @@ async function setSelected(partNo, desc, qty) {
   const tw = $('thumbWrap'); tw.innerHTML = '';
   const tryHead = async (url) => { try { const h = await fetch(url, { method: 'HEAD' }); return h.ok ? url : null; } catch { return null; } };
   const base = state.config.thumbs_dir || 'assets/thumbs/';
-  const url = (await tryHead(`${base}thumb_${partNo}.jpg`)) || (await tryHead(`${base}thumb_${partNo}.png`));
-  if (url) {
-    const img = document.createElement('img'); img.src = url; img.alt = partNo; tw.appendChild(img);
-  }
+  const url =
+    (await tryHead(`${base}thumb_${partNo}.jpg`)) ||
+    (await tryHead(`${base}thumb_${partNo}.png`)) ||
+    `${base}thumb_default.jpg`;
+
+  const img = document.createElement('img');
+  img.src = url;
+  img.alt = partNo;
+  tw.appendChild(img);
+
   state.selected = { partNo, desc, qty, price: 'TBA', hasSub: false };
   $('selTitle').textContent = desc || '(sem descrição)';
   $('selPn').textContent = `P/N: ${partNo}`;
