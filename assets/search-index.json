@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-01-23T16:59:02.979117Z",
+  "generatedAt": "2026-01-23T17:09:21.434303Z",
   "svgsIndexed": 45,
   "svgsWithBom": 45,
   "rowsIndexed": 506,
@@ -1916,8 +1916,8 @@
       "descN": "interver elfa3 dv3-750wh-a"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "1",
       "partNo": "5A54095001",
       "desc": "Fuse box connection plate",
@@ -1926,8 +1926,8 @@
       "descN": "fuse box connection plate"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "2",
       "partNo": "70005081",
       "desc": "150A Fuse",
@@ -1936,8 +1936,8 @@
       "descN": "150a fuse"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "3",
       "partNo": "70023773",
       "desc": "100A Fuse",
@@ -1946,8 +1946,8 @@
       "descN": "100a fuse"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "4",
       "partNo": "70030867",
       "desc": "Low-Profile Socket Head Screw M8×20",
@@ -1956,8 +1956,8 @@
       "descN": "low-profile socket head screw m8×20"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "5",
       "partNo": "70030872",
       "desc": "Fuse box",
@@ -1966,8 +1966,8 @@
       "descN": "fuse box"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "6",
       "partNo": "70031505",
       "desc": "250A Fuse",
@@ -1976,8 +1976,8 @@
       "descN": "250a fuse"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "7",
       "partNo": "70037453",
       "desc": "400A Fuse",
@@ -1986,8 +1986,8 @@
       "descN": "400a fuse"
     },
     {
-      "svgBase": "5A44108101",
-      "code": "5A44108101",
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
       "pos": "8",
       "partNo": "70045469",
       "desc": "M8 Flange Nut, Zinc-Plated",
@@ -5459,7 +5459,6 @@
   },
   "missingCodeDesc": [
     "5A42049501",
-    "5A42052801",
-    "5A44108101"
+    "5A42052801"
   ]
 }
