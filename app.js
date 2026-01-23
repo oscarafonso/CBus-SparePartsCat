@@ -755,7 +755,35 @@ async function loadSvg(url) {
       if (done) return;
       clearTimeout(to);
       loading.style.display = 'none';
-      setTimeout(() => { try { wireBridge(); } catch (e) { toast('map falhou'); } resolve(); }, 80);
+      setTimeout(() => {
+        try {
+          wireBridge();
+
+          // ✅ Apply pending selection from Search page
+          try {
+            const raw = sessionStorage.getItem('searchJump');
+            if (raw) {
+              const j = JSON.parse(raw);
+
+              // svgBase actual = último elemento do hash path (porque route() usa state.path[last])
+              const current = state.path?.length ? state.path[state.path.length - 1] : null;
+
+              if (j && j.svgBase && current && j.svgBase === current) {
+                setSelected(j.partNo, j.desc, j.qty);
+
+                // opcional: se quiseres já meter qty no input do carrinho
+                const q = parseInt(j.qty || '1', 10);
+                if (!Number.isNaN(q) && q > 0) $('qtyInput').value = String(q);
+
+                sessionStorage.removeItem('searchJump');
+              }
+            }
+          } catch { }
+        } catch (e) {
+          toast('map falhou');
+        }
+        resolve();
+      }, 80);
       done = true;
     }, { once: true });
 
