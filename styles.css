@@ -882,3 +882,135 @@ body {
   line-height: 1.35;
   color: #111827;
 }
+
+/* ===== Header right links ===== */
+.topLinks{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* botão Search mais discreto */
+.searchBtn{
+  display:flex;
+  align-items:center;
+  gap:6px;
+
+  padding:4px 10px;
+  border-radius:999px;
+
+  border:1px solid rgba(255,255,255,.28);
+  background: rgba(255,255,255,.08);
+
+  color:#e5f0ff;
+  text-decoration:none;
+  font-weight:600;
+  font-size:12px;
+
+  opacity:.92;
+  transition: opacity .15s ease, background .15s ease, border-color .15s ease;
+}
+
+.searchBtn:hover{
+  opacity:1;
+  background: rgba(255,255,255,.13);
+  border-color: rgba(255,255,255,.35);
+}
+
+.searchBtn:active{
+  background: rgba(255,255,255,.10);
+}
+
+.searchIcon{
+  font-size:14px;
+  line-height:1;
+  opacity:.95;
+}
+
+.searchText{
+  white-space:nowrap;
+}
+
+/* ===== Search page ===== */
+.layoutSearch{
+  grid-template-columns: 1fr; /* single column, same layout base */
+}
+
+/* Search bar inside panelTop */
+.searchBar{
+  margin-top:10px;
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.searchInput{
+  flex:1;
+  min-width:0;
+  padding:10px 12px;
+  border-radius:10px;
+  border:1.5px solid var(--blue);
+  font: 600 13px var(--font);
+  outline:none;
+  background: rgba(255,255,255,.95);
+}
+
+.searchInput:focus{
+  box-shadow: 0 0 0 3px rgba(0,55,100,.18);
+}
+
+.searchMeta{
+  margin-top:8px;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  align-items:baseline;
+}
+
+.searchStatus{
+  font-size:12px;
+  color:#111827;
+  font-weight:600;
+  opacity:.9;
+}
+
+.searchRules{
+  font-size:11px;
+  color:var(--gray);
+  line-height:1.2;
+  text-align:right;
+}
+
+/* Result rows: 3 columns (thumb / code / preview) */
+.searchRow{
+  display:grid;
+  grid-template-columns: 64px 160px 1fr;
+  gap:10px;
+  align-items:center;
+}
+
+.searchThumb{
+  width:64px;
+  height:48px;
+  object-fit:cover;
+  border-radius:10px;
+  border:1px solid var(--line);
+  background:#f3f4f6;
+}
+
+.searchCode{
+  font-weight:900;
+  font-size:12px;
+  color:var(--blue);
+  line-height:1.1;
+}
+
+.searchPreview{
+  font-size:12px;
+  color:#111827;
+  line-height:1.25;
+}
+
+.searchPreview strong{
+  font-weight:900;
+}

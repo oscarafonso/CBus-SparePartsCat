@@ -23,28 +23,30 @@
   <header class="topbar">
     <div class="brand"><img src="assets/logo.svg" alt="CATÁLOGO" class="brandLogo"></div>
     <nav class="crumbs" id="crumbs"></nav>
-    <a href="client-area.html" class="clientBtn" id="clientAreaLink" title="Client area" aria-label="Client area">
-      <span class="clientIcon" aria-hidden="true">
+    <div class="topLinks">
+      <a href="search.html" class="searchBtn" id="searchLink" title="Search" aria-label="Search">
+        <span class="searchIcon" aria-hidden="true">🔎</span>
+        <span class="searchText">Search</span>
+      </a>
 
-        <svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <!-- cabeça (ligeiramente oval, mais orgânica) -->
-          <path fill="currentColor" d="M12 0
-       c-3.3 0-6 2.7-6 6.2
-       C6 9.8 8.2 12 12 12
-       c3.8 0 6-2.2 6-5.8
-       C18 2.7 15.3 0 12 0Z" />
-          <!-- busto / ombros (curva mais natural + “pescoço”) -->
-          <path fill="currentColor" d="M0 24
-       c.3-5.5 4.8-9.5 8.7-10.6
-       c1 .9 2.1 1.4 3.3 1.4
-       s2.3-.5 3.3-1.4
-       C19.2 14.5 23.7 18.5 24 24Z" />
-        </svg>
-
-
-      </span>
-      <span class="clientText">Client area</span>
-    </a>
+      <a href="client-area.html" class="clientBtn" id="clientAreaLink" title="Client area" aria-label="Client area">
+        <span class="clientIcon" aria-hidden="true">
+          <svg width="30" height="30" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M12 0
+          c-3.3 0-6 2.7-6 6.2
+          C6 9.8 8.2 12 12 12
+          c3.8 0 6-2.2 6-5.8
+          C18 2.7 15.3 0 12 0Z" />
+            <path fill="currentColor" d="M0 24
+          c.3-5.5 4.8-9.5 8.7-10.6
+          c1 .9 2.1 1.4 3.3 1.4
+          s2.3-.5 3.3-1.4
+          C19.2 14.5 23.7 18.5 24 24Z" />
+          </svg>
+        </span>
+        <span class="clientText">Client area</span>
+      </a>
+    </div>
   </header>
 
   <main class="layout">
