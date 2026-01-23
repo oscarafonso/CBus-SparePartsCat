@@ -48,13 +48,11 @@ function validateTokens(tokens) {
     if (!t) continue;
 
     if (!multi) {
-      // single term: allow >= 3 chars regardless of type
       if (t.length >= 3) valid.push(t);
       else ignored.push({ t, why: 'min. 3 chars (single term)' });
       continue;
     }
 
-    // multi-term rules
     if (isDigitsOnly(t)) {
       if (t.length >= 5) valid.push(t);
       else ignored.push({ t, why: 'min. 5 digits' });
@@ -66,7 +64,6 @@ function validateTokens(tokens) {
 
   return { valid, ignored };
 }
-
 
 function tokenMatchesEntry(entry, token) {
   // AND per token: matches if present in partNoN OR descN
@@ -144,7 +141,6 @@ function renderEmpty(msg) {
   const host = $('results');
   host.innerHTML = '';
 
-  // Keep UI silent when msg is empty
   if (!msg) return;
 
   const d = document.createElement('div');
@@ -157,7 +153,7 @@ function setStatus(msg) {
   const el = $('searchStatus');
   if (!el) return;
   el.textContent = msg || '';
-  el.style.display = msg ? '' : 'none'; // hide when empty (more discreet)
+  el.style.display = msg ? '' : 'none';
 }
 
 function buildHits(validTokens) {
@@ -165,18 +161,15 @@ function buildHits(validTokens) {
   const hits = [];
 
   for (const e of entries) {
-    // AND across valid tokens
     let ok = true;
     for (const t of validTokens) {
       if (!tokenMatchesEntry(e, t)) { ok = false; break; }
     }
     if (!ok) continue;
 
-    // tokens that matched each field
     const partTokens = validTokens.filter(t => fieldMatches(e, t, 'partNo'));
     const descTokens = validTokens.filter(t => fieldMatches(e, t, 'desc'));
 
-    // if both matched, create 2 independent result rows
     if (partTokens.length) {
       hits.push({
         svgBase: e.svgBase,
@@ -203,7 +196,7 @@ function buildHits(validTokens) {
     }
   }
 
-  // sort: partNo hits first, then code, then partNo
+  // (You said you don't want ordering, but keeping your existing stable behavior.)
   hits.sort((a, b) => {
     if (a.matchField !== b.matchField) return a.matchField === 'partNo' ? -1 : 1;
     const c = String(a.code).localeCompare(String(b.code));
@@ -212,6 +205,26 @@ function buildHits(validTokens) {
   });
 
   return hits;
+}
+
+// ✅ NEW: helper to fetch assembly description (and detect missing)
+function getAssemblyDescFor(code) {
+  const key = normPart(code);
+  const map = INDEX?.codeDesc || null;
+  if (!map) return { desc: '', missing: true };
+
+  const desc = map[key];
+  const missing = !desc;
+
+  return { desc: desc || '', missing };
+}
+
+// ✅ NEW: optional faster missing detection if generator provides missingCodeDesc list
+function isMissingAssemblyDesc(code) {
+  const key = normPart(code);
+  const list = INDEX?.missingCodeDesc;
+  if (Array.isArray(list)) return list.includes(key);
+  return false;
 }
 
 function renderHits(hits) {
@@ -236,10 +249,23 @@ function renderHits(hits) {
     thumb.src = thumbUrlFor(h.svgBase);
     thumb.onerror = () => { thumb.onerror = null; thumb.src = 'assets/thumbs/thumb_default.jpg'; };
 
-    // col 2: code
-    const code = document.createElement('div');
-    code.className = 'searchCode';
-    code.textContent = h.code;
+    // col 2: code + description
+    const codeWrap = document.createElement('div');
+    codeWrap.className = 'searchCodeWrap';
+
+    const codeEl = document.createElement('div');
+    codeEl.className = 'searchCode';
+    codeEl.textContent = h.code;
+
+    // ✅ NEW: robust description from index.codeDesc + fallback label if missing
+    const { desc } = getAssemblyDescFor(h.code);
+    const missing = isMissingAssemblyDesc(h.code) || (!desc);
+
+    const codeDescEl = document.createElement('div');
+    codeDescEl.className = 'searchCodeDesc';
+    codeDescEl.textContent = desc || (missing ? 'Missing description' : '');
+
+    codeWrap.append(codeEl, codeDescEl);
 
     // col 3: preview (highlight all matches)
     const prev = document.createElement('div');
@@ -247,7 +273,7 @@ function renderHits(hits) {
     const caseInsensitive = (h.matchField === 'desc');
     prev.appendChild(buildHighlightedFragment(h.previewText, h.highlightTokens, caseInsensitive));
 
-    row.append(thumb, code, prev);
+    row.append(thumb, codeWrap, prev);
 
     row.addEventListener('click', () => {
       const payload = {
@@ -288,7 +314,6 @@ function runSearch() {
 
   const hits = buildHits(valid);
 
-  // status: optional ignored tokens + results count
   const ignoredMsg = ignored.length
     ? ('Ignored: ' + ignored.map(x => `'${x.t}'`).join(', ') + ' · ')
     : '';
@@ -319,7 +344,6 @@ function bindUI() {
   $('btnClear').addEventListener('click', () => {
     $('q').value = '';
     $('q').focus();
-    // Keep silent + clean
     setStatus('');
     renderEmpty('');
   });

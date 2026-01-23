@@ -1067,3 +1067,20 @@ body {
 }
 
 .searchHeader[hidden]{ display:none !important; }
+
+.searchCodeWrap{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+  min-width:0;
+}
+
+.searchCodeDesc{
+  font-size:11px;
+  color:var(--gray);
+  font-weight:600;
+  line-height:1.15;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}

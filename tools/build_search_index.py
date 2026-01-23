@@ -224,7 +224,7 @@ def main():
         for r in bom_rows:
             entries.append({
                 "svgBase": svg_base,
-                "code": code,
+                "code": normalize_partno(code),
                 "pos": r.get("pos"),
                 "partNo": r.get("partNo"),
                 "desc": r.get("desc"),
@@ -234,13 +234,54 @@ def main():
             })
             row_count += 1
 
+    # Build 1 description per code (based on partNo), keeping the FIRST occurrence
+    code_desc = {}
+    for e in entries:
+        k = e.get("partNoN")  # normalized part number
+        d = (e.get("desc") or "").strip()
+        if not k or not d:
+            continue
+        if k not in code_desc:
+            code_desc[k] = d
+
+    
+    # ✅ Build list of ALL SVG codes from filenames (for diagnostics)
+    all_codes = set()
+    root_codes = set()
+
+    for fname in os.listdir(SVGS_DIR):
+        if not fname.lower().endswith(".svg"):
+            continue
+
+        base = os.path.splitext(fname)[0]
+
+        if base.startswith("pai_"):
+            c = normalize_partno(base[4:])
+            root_codes.add(c)
+            all_codes.add(c)
+        else:
+            all_codes.add(normalize_partno(base))
+
+    # ✅ Ensure root assembly always has a description
+    for rc in root_codes:
+        if rc not in code_desc:
+            code_desc[rc] = "Root assembly"
+
+    # ✅ Diagnostic list: codes that exist as SVGs but have no description in codeDesc
+    missing_code_desc = sorted([c for c in all_codes if c not in code_desc])
+
+
+    
+
     index = {
-        "schemaVersion": SCHEMA_VERSION,
+         "schemaVersion": SCHEMA_VERSION,
         "generatedAt": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "svgsIndexed": svg_count,
         "svgsWithBom": svgs_with_bom,
         "rowsIndexed": row_count,
         "entries": entries,
+        "codeDesc": code_desc,
+        "missingCodeDesc": missing_code_desc,
     }
 
     os.makedirs(os.path.dirname(OUT_FILE), exist_ok=True)
@@ -252,6 +293,9 @@ def main():
     print(f"SVGs with BOM  : {svgs_with_bom}")
     print(f"BOM rows       : {row_count}")
     print(f"Output         : {OUT_FILE}")
+    print(f"Codes missing description: {len(missing_code_desc)}")
+    if missing_code_desc:
+        print("Missing (first 30):", ", ".join(missing_code_desc[:30]))
 
 
 if __name__ == "__main__":
