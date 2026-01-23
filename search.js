@@ -35,26 +35,29 @@ function lettersCount(t) {
 function validateTokens(tokens) {
   // Rules:
   // Single term:
-  //  - digits: len >= 5
-  //  - contains letters: >= 3 letters
+  //  - any token: len >= 3 (digits / letters / alphanumeric)
   // Multiple terms:
-  //  - digits: len >= 5
-  //  - contains letters: len >= 2 chars
+  //  - digits-only tokens: len >= 5
+  //  - tokens containing letters (or mixed): len >= 2 chars
   const multi = tokens.length >= 2;
 
   const valid = [];
   const ignored = [];
 
   for (const t of tokens) {
-    if (isDigitsOnly(t)) {
-      if (t.length >= 5) valid.push(t);
-      else ignored.push({ t, why: 'min. 5 digits' });
+    if (!t) continue;
+
+    if (!multi) {
+      // single term: allow >= 3 chars regardless of type
+      if (t.length >= 3) valid.push(t);
+      else ignored.push({ t, why: 'min. 3 chars (single term)' });
       continue;
     }
 
-    if (!multi) {
-      if (lettersCount(t) >= 3) valid.push(t);
-      else ignored.push({ t, why: 'min. 3 letters (single term)' });
+    // multi-term rules
+    if (isDigitsOnly(t)) {
+      if (t.length >= 5) valid.push(t);
+      else ignored.push({ t, why: 'min. 5 digits' });
     } else {
       if (t.length >= 2) valid.push(t);
       else ignored.push({ t, why: 'min. 2 chars (multi-term)' });
@@ -63,6 +66,7 @@ function validateTokens(tokens) {
 
   return { valid, ignored };
 }
+
 
 function tokenMatchesEntry(entry, token) {
   // AND per token: matches if present in partNoN OR descN
