@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-01-23T17:09:21.434303Z",
+  "generatedAt": "2026-01-24T00:10:43.797301Z",
   "svgsIndexed": 45,
   "svgsWithBom": 45,
-  "rowsIndexed": 506,
+  "rowsIndexed": 510,
   "entries": [
     {
       "svgBase": "5A10004401",
@@ -859,21 +859,61 @@
       "svgBase": "5A42049801",
       "code": "5A42049801",
       "pos": "1",
-      "partNo": "5A42046301",
-      "desc": "Air dryer support",
+      "partNo": "70025678",
+      "desc": "Compressed air hose",
       "qty": "1",
-      "partNoN": "5A42046301",
-      "descN": "air dryer support"
+      "partNoN": "70025678",
+      "descN": "compressed air hose"
     },
     {
       "svgBase": "5A42049801",
       "code": "5A42049801",
       "pos": "2",
-      "partNo": "5A42050001",
-      "desc": "Air dryer kit",
+      "partNo": "5A42038100",
+      "desc": "Silent block 40x40 Kit",
+      "qty": "4",
+      "partNoN": "5A42038100",
+      "descN": "silent block 40x40 kit"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "3",
+      "partNo": "5A42049501",
+      "desc": "Compressor assembly",
       "qty": "1",
-      "partNoN": "5A42050001",
-      "descN": "air dryer kit"
+      "partNoN": "5A42049501",
+      "descN": "compressor assembly"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "4",
+      "partNo": "5A42049601",
+      "desc": "Compressor support base",
+      "qty": "1",
+      "partNoN": "5A42049601",
+      "descN": "compressor support base"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "5",
+      "partNo": "5A42052801",
+      "desc": "Compressor Intake Filter Assembly",
+      "qty": "1",
+      "partNoN": "5A42052801",
+      "descN": "compressor intake filter assembly"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "6",
+      "partNo": "70030847",
+      "desc": "Hex flange screw M12X30X1.75 10.9",
+      "qty": "6",
+      "partNoN": "70030847",
+      "descN": "hex flange screw m12x30x1.75 10.9"
     },
     {
       "svgBase": "5A42050001",
@@ -5134,8 +5174,12 @@
     "70031009": "Bushing M12x1.5",
     "70034981": "Air Compressor",
     "70038976": "Hex flange screw M6X30",
-    "5A42046301": "Air dryer support",
-    "5A42050001": "Air dryer kit",
+    "70025678": "Compressed air hose",
+    "5A42038100": "Silent block 40x40 Kit",
+    "5A42049501": "Compressor assembly",
+    "5A42049601": "Compressor support base",
+    "5A42052801": "Compressor Intake Filter Assembly",
+    "70030847": "Hex flange screw M12X30X1.75 10.9",
     "70023293": "Push-in Silencer",
     "70023722": "Union M22X1.5-22L",
     "5A420149": "Push-in connector",
@@ -5152,6 +5196,8 @@
     "70036621": "Ffitting with M22×1.5 thread - regular",
     "70036626": "ABC Union regular",
     "70045546": "ABC Regular Fitting – Female M22×1.5",
+    "5A42046301": "Air dryer support",
+    "5A42050001": "Air dryer kit",
     "5A420135": "M22–1/4 reduction nut",
     "5A42050701": "L bracket",
     "70023295": "Check valve",
@@ -5457,8 +5503,5 @@
     "5A44086A01": "Electrical components",
     "50021302": "Root assembly"
   },
-  "missingCodeDesc": [
-    "5A42049501",
-    "5A42052801"
-  ]
+  "missingCodeDesc": []
 }
