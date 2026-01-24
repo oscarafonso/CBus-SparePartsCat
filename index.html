@@ -12,7 +12,15 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Catálogo Digital (Local)</title>
-  <link rel="stylesheet" href="styles.css" />
+  
+  <script>
+    (function () {
+      const l = document.createElement('link');
+      l.rel = 'stylesheet';
+      l.href = 'styles.css?v=' + Date.now();
+      document.head.appendChild(l);
+    })();
+  </script>
 
   <!-- EmailJS -->
   <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
@@ -120,7 +128,12 @@
   </main>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="app.js"></script>
+  <script>
+    const v = Date.now();
+    const s = document.createElement('script');
+    s.src = 'app.js?v=' + v;
+    document.body.appendChild(s);
+  </script>
 </body>
 
 </html>
