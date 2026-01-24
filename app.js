@@ -1,19 +1,19 @@
 const $ = (id) => document.getElementById(id);
 
 // Canonicalize svg identifiers across Windows (case-insensitive) and Linux servers (case-sensitive)
-function canonSvgBase(seg){
+function canonSvgBase(seg) {
   const s = String(seg || '');
   // Only normalize the 'pai_' prefix case; keep the rest untouched (codes are typically uppercase like 5A...)
   return s.match(/^pai_/i) ? ('pai_' + s.slice(4)) : s;
 }
 
-function canonSvgUrl(url){
+function canonSvgUrl(url) {
   const s = String(url || '');
   // Normalize only the filename prefix 'pai_' (case-insensitive) inside assets/svgs/ URLs
   return s.replace(/(assets\/svgs\/)pai_/i, '$1pai_');
 }
 
-function normPartNo(s){
+function normPartNo(s) {
   return String(s || '').replace(/[\s\-_]/g, '').toUpperCase();
 }
 
@@ -93,36 +93,43 @@ async function loadSearchMeta() {
 function renderCrumbs() {
   const el = $('crumbs');
   el.innerHTML = '';
+
   const root = document.createElement('a');
   root.href = '#/';
   root.textContent = state.config.title || 'Catálogo';
   el.appendChild(root);
 
-  for (let i = 0; i < state.path.length; i++) {
+  // ✅ Só esconder o root "pai_*" se estiver no início
+  const hasRootSeg = state.path.length && /^pai_/i.test(state.path[0]);
+  const visiblePath = hasRootSeg ? state.path.slice(1) : state.path.slice();
+  const offset = hasRootSeg ? 1 : 0;
+
+  const SEP = ' | '; // definir o separador
+
+  for (let i = 0; i < visiblePath.length; i++) {
     const sep = document.createElement('span');
     sep.textContent = '>';
     sep.style.opacity = '0.7';
     el.appendChild(sep);
 
-    const SEP = ' | '; //definir o separador
+    const pn = visiblePath[i];
 
-    if (i === state.path.length - 1) {
-      const pn = state.path[i];
-
+    if (i === visiblePath.length - 1) {
       let desc = '';
-      try {
-        desc = sessionStorage.getItem(`pnDesc:${pn}`) || '';
-      } catch { }
+      try { desc = sessionStorage.getItem(`pnDesc:${pn}`) || ''; } catch {}
 
       const s = document.createElement('span');
       s.className = 'current';
       s.textContent = desc ? pn + SEP + desc : pn;
-
       el.appendChild(s);
     } else {
       const a = document.createElement('a');
-      a.href = '#/' + state.path.slice(0, i + 1).join('/');
-      a.textContent = state.path[i]; el.appendChild(a);
+
+      // ✅ Link tem de usar o state.path completo (com root), por isso usamos offset
+      a.href = '#/' + state.path.slice(0, i + 1 + offset).join('/');
+      a.textContent = pn;
+
+      el.appendChild(a);
     }
   }
 }
@@ -828,7 +835,7 @@ async function loadSvg(url) {
                       const desc = map[normPartNo(codeKey)] || (pn.match(/^pai_/i) ? 'Root assembly' : '');
                       if (desc) sessionStorage.setItem(`pnDesc:${pn}`, desc);
                     }
-                  } catch {}
+                  } catch { }
 
                   renderCrumbs();
                 }
@@ -841,7 +848,7 @@ async function loadSvg(url) {
                 sessionStorage.removeItem('searchJump');
               }
             }
-          } catch {}
+          } catch { }
 
         } catch (e) {
           toast('map falhou');
