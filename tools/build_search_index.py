@@ -271,6 +271,97 @@ def main():
     missing_code_desc = sorted([c for c in all_codes if c not in code_desc])
 
 
+
+    # ----------------------------
+    # Build parent graph (parentsOf) from BOM entries
+    # ----------------------------
+
+    # Which codes have an SVG file (from filenames) – used to decide if an item is a "subassembly"
+    svg_codes = set(all_codes)  # already normalized
+
+    # parents_of[child_code] = set([parent_code_or_root, ...])
+    # parent is stored as a "code" too; for root, we store the normalized root code (same as your code variable).
+    parents_of = {}
+
+    # Helper: convert a svgBase to a normalized code key
+    def svgbase_to_codekey(svg_base: str) -> str:
+        # svg_base may be "pai_XXXX" or "XXXX" (case can vary)
+        base = (svg_base or "")
+        if base.lower().startswith("pai_"):
+            return normalize_partno(base[4:])
+        return normalize_partno(base)
+
+    # Build parents_of using BOM rows:
+    # If a BOM row partNo matches an existing svg code, then that code is a child of the current svg (parent).
+    for e in entries:
+        parent_key = svgbase_to_codekey(e.get("svgBase") or "")
+        child_key = e.get("partNoN") or ""
+
+        if not parent_key or not child_key:
+            continue
+
+        # only consider child_key that has an SVG (i.e., is a subassembly view)
+        if child_key not in svg_codes:
+            continue
+
+        parents_of.setdefault(child_key, set()).add(parent_key)
+
+    # Root codes have no parents (by definition). Ensure they exist as keys in parents_of (empty set) for completeness.
+    for rc in root_codes:
+        parents_of.setdefault(rc, set())
+
+    # Convert sets -> sorted lists (stable JSON)
+    parents_of_json = {k: sorted(list(v)) for k, v in parents_of.items()}
+
+    # ----------------------------
+    # Compute ALL paths to root for each code (pathsToRoot)
+    # ----------------------------
+
+    # Identify a single root to use as starting point for paths.
+    # If you have multiple catalogs, this will compute paths to ANY root in root_codes.
+    roots = sorted(list(root_codes))
+
+    # Safety: avoid infinite recursion in case of cycles (shouldn't happen, but exports can be weird)
+    MAX_PATHS_PER_CODE = 500  # safety cap
+    MAX_DEPTH = 50            # safety cap
+
+    from functools import lru_cache
+
+    @lru_cache(maxsize=None)
+    def paths_from_roots_to(code_key: str):
+        """
+        Returns list of paths (each path is a list of code_keys) from any root to code_key.
+        Example: [ [root,z,y,x], [root,c,b,a,x] ]
+        """
+        # If code is a root, path is just [root]
+        if code_key in root_codes:
+            return [[code_key]]
+
+        # If no parents, no path from root (or orphan)
+        plist = parents_of.get(code_key)
+        if not plist:
+            return []
+
+        out = []
+        for p in plist:
+            # Recurse to parent paths
+            parent_paths = paths_from_roots_to(p)
+            for pp in parent_paths:
+                if len(pp) >= MAX_DEPTH:
+                    continue
+                out.append(pp + [code_key])
+                if len(out) >= MAX_PATHS_PER_CODE:
+                    return out
+        return out
+
+    paths_to_root = {}
+    for c in sorted(list(svg_codes)):
+        paths = paths_from_roots_to(c)
+        if paths:
+            paths_to_root[c] = paths
+        else:
+            paths_to_root[c] = []  # explicit empty = orphan/no-root-path
+
     
 
     index = {
@@ -282,6 +373,8 @@ def main():
         "entries": entries,
         "codeDesc": code_desc,
         "missingCodeDesc": missing_code_desc,
+        "parentsOf": parents_of_json,
+        "pathsToRoot": paths_to_root,
     }
 
     os.makedirs(os.path.dirname(OUT_FILE), exist_ok=True)

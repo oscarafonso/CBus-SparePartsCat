@@ -1,26 +1,7 @@
 const $ = (id) => document.getElementById(id);
 
-// Canonicalize svg identifiers across Windows (case-insensitive) and Linux servers (case-sensitive)
-function canonSvgBase(seg){
-  const s = String(seg || '');
-  // Only normalize the 'pai_' prefix case; keep the rest untouched (codes are typically uppercase like 5A...)
-  return s.match(/^pai_/i) ? ('pai_' + s.slice(4)) : s;
-}
-
-function canonSvgUrl(url){
-  const s = String(url || '');
-  // Normalize only the filename prefix 'pai_' (case-insensitive) inside assets/svgs/ URLs
-  return s.replace(/(assets\/svgs\/)pai_/i, '$1pai_');
-}
-
-function normPartNo(s){
-  return String(s || '').replace(/[\s\-_]/g, '').toUpperCase();
-}
-
-
 const state = {
   config: null,
-  searchMeta: null, // loaded from assets/search-index.json (codeDesc for breadcrumbs)
   selected: null,
   cart: [],
   path: [],
@@ -69,26 +50,7 @@ function toast(msg) {
 async function loadConfig() {
   const res = await fetch('data/catalog.json');
   state.config = await res.json();
-  // Ensure root svg URL uses canonical 'pai_' prefix (Linux servers are case-sensitive)
-  if (state.config && state.config.root_svg) {
-    state.config.root_svg = canonSvgUrl(state.config.root_svg);
-  }
 }
-
-async function loadSearchMeta() {
-  // Lightweight metadata used for breadcrumbs when entering via Search (code -> description).
-  // This avoids relying on Search page state and keeps behavior consistent online/offline.
-  state.searchMeta = { codeDesc: {} };
-  try {
-    const res = await fetch('assets/search-index.json', { cache: 'no-store' });
-    if (!res.ok) return;
-    const j = await res.json();
-    state.searchMeta.codeDesc = (j && j.codeDesc) ? j.codeDesc : {};
-  } catch {
-    // ignore; breadcrumbs will fall back to code-only
-  }
-}
-
 
 function renderCrumbs() {
   const el = $('crumbs');
@@ -797,52 +759,53 @@ async function loadSvg(url) {
         try {
           wireBridge();
 
-          // ✅ Apply pending selection from Search page (auto-select + full breadcrumb path)
+          // ✅ Apply pending selection from Search page
           try {
             const raw = sessionStorage.getItem('searchJump');
             if (raw) {
               const j = JSON.parse(raw);
 
+              // svgBase actual = último elemento do hash path (porque route() usa state.path[last])
               const current = state.path?.length ? state.path[state.path.length - 1] : null;
 
-              if (j && j.svgBase && current && canonSvgBase(j.svgBase) === canonSvgBase(current)) {
+              if (j && j.svgBase && current && j.svgBase === current) {
 
-                // If Search provided a full path (root -> ... -> current), apply it and keep URL/history in sync
                 if (Array.isArray(j.path) && j.path.length >= 2) {
                   const rootCode = j.path[0];
                   const rest = j.path.slice(1);
 
-                  state.path = [canonSvgBase(`pai_${rootCode}`), ...rest.map(canonSvgBase)];
+                  state.path = [`pai_${rootCode}`, ...rest];
 
+                  // keep URL + history in sync
                   try {
                     history.replaceState(null, '', '#/' + state.path.join('/'));
                   } catch {
                     location.hash = '#/' + state.path.join('/');
                   }
 
-                  // Fill breadcrumb descriptions from loaded codeDesc (best-effort)
                   try {
-                    const map = state.searchMeta?.codeDesc || {};
                     for (const pn of state.path) {
                       const codeKey = pn.replace(/^pai_/i, '');
-                      const desc = map[normPartNo(codeKey)] || (pn.match(/^pai_/i) ? 'Root assembly' : '');
-                      if (desc) sessionStorage.setItem(`pnDesc:${pn}`, desc);
+                      const desc = INDEX?.codeDesc?.[normPart(codeKey)] || '';
+                      if (desc) {
+                        sessionStorage.setItem(`pnDesc:${pn}`, desc);
+                      }
                     }
-                  } catch {}
+                  } catch { }
 
                   renderCrumbs();
                 }
 
                 setSelected(j.partNo, j.desc, j.qty);
 
+                // opcional: se quiseres já meter qty no input do carrinho
                 const q = parseInt(j.qty || '1', 10);
                 if (!Number.isNaN(q) && q > 0) $('qtyInput').value = String(q);
 
                 sessionStorage.removeItem('searchJump');
               }
             }
-          } catch {}
-
+          } catch { }
         } catch (e) {
           toast('map falhou');
         }
@@ -865,19 +828,17 @@ async function loadSvg(url) {
 async function route() {
   const hash = window.location.hash || '#/';
   const pathStr = hash.replace(/^#\//, '').trim();
-  state.path = pathStr ? pathStr.split('/').filter(Boolean).map(canonSvgBase) : [];
+  state.path = pathStr ? pathStr.split('/').filter(Boolean) : [];
   renderCrumbs();
   clearSelected();
   renderCart();
 
-  const last = state.path.length ? canonSvgBase(state.path[state.path.length - 1]) : null;
-  const url = last ? `assets/svgs/${last}.svg` : state.config.root_svg;
+  const url = state.path.length ? `assets/svgs/${state.path[state.path.length - 1]}.svg` : state.config.root_svg;
   await loadSvg(url);
 }
 
 async function main() {
   await loadConfig();
-  await loadSearchMeta();
   setupUI();
   renderCrumbs();
   clearSelected();
@@ -1097,3 +1058,5 @@ const pan = (() => {
 
   return { onKeyDown, onKeyUp, up };
 })();
+
+

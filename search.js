@@ -16,6 +16,24 @@ function setHeaderVisible(on) {
 function normPart(s) {
   return String(s || '').replace(/[\s\-_]/g, '').toUpperCase();
 }
+
+function getPathsForAssembly(code) {
+  const key = normPart(code);
+  const map = INDEX?.pathsToRoot || {};
+  return map[key] || [];
+}
+
+function formatBreadcrumb(pathArr) {
+  // pathArr é tipo ["50021302","Z","Y","X"] (normalizados)
+  // Vamos mostrar "Catalog > Z > Y > X" (e por CSS podemos bold no último)
+  // Nota: se o root não tiver "pai_" aqui, tratamos o 1º elemento como root.
+  const parts = pathArr.slice(); // copy
+  // primeiro elemento é o root code; no UI vamos chamar-lhe "Catalog"
+  // mas tu podes trocar para o nome do catálogo real.
+  const ui = ["Catalog", ...parts.slice(1)];
+  return ui;
+}
+
 function normDesc(s) {
   return String(s || '').toLowerCase().replace(/\s+/g, ' ').trim();
 }
@@ -170,29 +188,38 @@ function buildHits(validTokens) {
     const partTokens = validTokens.filter(t => fieldMatches(e, t, 'partNo'));
     const descTokens = validTokens.filter(t => fieldMatches(e, t, 'desc'));
 
+    const paths = getPathsForAssembly(e.code);   // pode ser [] se orphan
+    const effectivePaths = paths.length ? paths : [[]]; // se não houver path, ainda mostramos uma linha sem breadcrumb completo
+
     if (partTokens.length) {
-      hits.push({
-        svgBase: e.svgBase,
-        code: e.code,
-        matchField: 'partNo',
-        previewText: e.partNo,
-        highlightTokens: partTokens,
-        partNo: e.partNo,
-        desc: e.desc,
-        qty: e.qty ?? null,
-      });
+      for (const p of effectivePaths) {
+        hits.push({
+          svgBase: e.svgBase,
+          code: e.code,
+          path: p,                 // NOVO: caminho root->...->code (normalizado)
+          matchField: 'partNo',
+          previewText: e.partNo,
+          highlightTokens: partTokens,
+          partNo: e.partNo,
+          desc: e.desc,
+          qty: e.qty ?? null,
+        });
+      }
     }
     if (descTokens.length) {
-      hits.push({
-        svgBase: e.svgBase,
-        code: e.code,
-        matchField: 'desc',
-        previewText: e.desc,
-        highlightTokens: descTokens,
-        partNo: e.partNo,
-        desc: e.desc,
-        qty: e.qty ?? null,
-      });
+      for (const p of effectivePaths) {
+        hits.push({
+          svgBase: e.svgBase,
+          code: e.code,
+          path: p,
+          matchField: 'desc',
+          previewText: e.desc,
+          highlightTokens: descTokens,
+          partNo: e.partNo,
+          desc: e.desc,
+          qty: e.qty ?? null,
+        });
+      }
     }
   }
 
@@ -253,11 +280,39 @@ function renderHits(hits) {
     const codeWrap = document.createElement('div');
     codeWrap.className = 'searchCodeWrap';
 
-    const codeEl = document.createElement('div');
-    codeEl.className = 'searchCode';
-    codeEl.textContent = h.code;
+    // 🔹 Breadcrumb (Containing assembly path)
+    const crumb = document.createElement('div');
+    crumb.className = 'searchCrumb';
 
-    // ✅ NEW: robust description from index.codeDesc + fallback label if missing
+    // h.path vem do índice (normalizado), ex:
+    // ["50021302","Z","Y","X"]
+    const uiParts =
+      (h.path && h.path.length)
+        ? ["Catalog", ...h.path.slice(1)]
+        : ["Catalog", h.code];
+
+    for (let i = 0; i < uiParts.length; i++) {
+      const seg = document.createElement('span');
+      seg.className = 'crumbSeg';
+      seg.textContent = uiParts[i];
+
+      if (i === uiParts.length - 1) {
+        seg.classList.add('crumbHere'); // último nível a bold
+      }
+
+      crumb.appendChild(seg);
+
+      if (i !== uiParts.length - 1) {
+        const sep = document.createElement('span');
+        sep.className = 'crumbSep';
+        sep.textContent = ' > ';
+        crumb.appendChild(sep);
+      }
+    }
+
+    codeWrap.appendChild(crumb);
+
+    // 🔹 Assembly description (from index.codeDesc)
     const { desc } = getAssemblyDescFor(h.code);
     const missing = isMissingAssemblyDesc(h.code) || (!desc);
 
@@ -265,7 +320,8 @@ function renderHits(hits) {
     codeDescEl.className = 'searchCodeDesc';
     codeDescEl.textContent = desc || (missing ? 'Missing description' : '');
 
-    codeWrap.append(codeEl, codeDescEl);
+    codeWrap.appendChild(codeDescEl);
+
 
     // col 3: preview (highlight all matches)
     const prev = document.createElement('div');
@@ -281,8 +337,12 @@ function renderHits(hits) {
         partNo: h.partNo,
         desc: h.desc,
         qty: h.qty,
+        path: h.path || null,   // ✅ ESTA LINHA É O PASSO 2.5
       };
-      try { sessionStorage.setItem('searchJump', JSON.stringify(payload)); } catch {}
+
+      try {
+        sessionStorage.setItem('searchJump', JSON.stringify(payload));
+      } catch { }
 
       window.location.href = `index.html#/${encodeURIComponent(h.svgBase)}`;
     });
