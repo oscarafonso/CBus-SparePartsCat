@@ -1100,3 +1100,81 @@ body {
   -webkit-line-clamp: 2; /* WebKit */
   line-clamp: 2;         /* Standard */
 }
+
+/* =========================
+   MODAL: Review Order
+   ========================= */
+
+.modalOverlay{
+  position: fixed;
+  inset: 0;
+  z-index: 9999; /* acima de tudo */
+}
+
+/* fundo escuro clicável */
+.modalBackdrop{
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 24, 39, .55);
+}
+
+/* painel */
+.modalPanel{
+  position: relative;
+  width: min(1100px, calc(100vw - 48px));
+  height: min(820px, calc(100vh - 48px));
+  margin: 24px auto;
+
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 18px 50px rgba(0,0,0,.28);
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* header do modal */
+.modalTop{
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+/* corpo do modal (onde vive o carrinho grande) */
+.modalBody{
+  padding: 14px 16px;
+  flex: 1;
+  min-height: 0; /* importante p/ scroll funcionar */
+  overflow: hidden;
+}
+
+/* footer com botões */
+.modalFooter{
+  padding: 14px 16px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* carrinho no modal: ocupar altura e deixar scroll no body */
+.cartModal{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* aqui o scroll do carrinho grande */
+.cartModal .cartBody{
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+
+/* no modal, dá um bocadinho mais de “ar” às linhas */
+.cartModal .cartRow{
+  font-size: 12px;
+  padding: 10px 6px;
+}

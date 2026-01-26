@@ -116,7 +116,7 @@ function renderCrumbs() {
 
     if (i === visiblePath.length - 1) {
       let desc = '';
-      try { desc = sessionStorage.getItem(`pnDesc:${pn}`) || ''; } catch {}
+      try { desc = sessionStorage.getItem(`pnDesc:${pn}`) || ''; } catch { }
 
       const s = document.createElement('span');
       s.className = 'current';
@@ -145,29 +145,67 @@ function clearSelected() {
   state.selected = null;
 }
 
-function renderCart() {
-  const body = $('cartBody'); body.innerHTML = '';
+function renderCartInto(bodyEl) {
+  if (!bodyEl) return;
+  bodyEl.innerHTML = '';
+
   if (!state.cart.length) {
-    const d = document.createElement('div'); d.style.color = '#6b7280'; d.style.padding = '12px 0'; d.textContent = 'Cart empty.'; body.appendChild(d); return;
+    const d = document.createElement('div');
+    d.style.color = '#6b7280';
+    d.style.padding = '12px 0';
+    d.textContent = 'Cart empty.';
+    bodyEl.appendChild(d);
+    return;
   }
+
   state.cart.forEach((row, idx) => {
     const r = document.createElement('div'); r.className = 'cartRow';
+
     const pn = document.createElement('div'); pn.className = 'pnCell'; pn.textContent = row.partNo;
     const desc = document.createElement('div'); desc.textContent = row.desc;
     const price = document.createElement('div'); price.className = 'priceCell'; price.textContent = row.price || 'TBA';
-    const qty = document.createElement('input'); qty.type = 'number'; qty.min = '1'; qty.value = String(row.qty);
-    qty.addEventListener('change', () => { row.qty = Math.max(1, parseInt(qty.value || '1', 10)); qty.value = String(row.qty); });
+
+    const qty = document.createElement('input');
+    qty.type = 'number';
+    qty.min = '1';
+    qty.value = String(row.qty);
+
+    qty.addEventListener('change', () => {
+      row.qty = Math.max(1, parseInt(qty.value || '1', 10));
+      // sincroniza ambas as views
+      renderCart();
+    });
+
     const rm = document.createElement('button'); rm.className = 'rmBtn'; rm.textContent = '✕';
-    rm.addEventListener('click', () => { state.cart.splice(idx, 1); renderCart(); });
-    r.append(pn, desc, price, qty, rm); body.appendChild(r);
+    rm.addEventListener('click', () => {
+      state.cart.splice(idx, 1);
+      renderCart();
+    });
+
+    r.append(pn, desc, price, qty, rm);
+    bodyEl.appendChild(r);
   });
 }
 
+function renderCart() {
+  renderCartInto($('cartBody'));       // carrinho pequeno
+  renderCartInto($('cartBodyModal'));  // carrinho grande (modal)
+}
+
+function openOrderModal() {
+  const m = $('orderModal');
+  if (!m) return;
+  m.hidden = false;
+}
+
+function closeOrderModal() {
+  const m = $('orderModal');
+  if (!m) return;
+  m.hidden = true;
+}
+
 function setupUI() {
-  $('qtyDown').addEventListener('click', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10) - 1)));
-  $('qtyUp').addEventListener('click', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10) + 1)));
-  $('qtyInput').addEventListener('change', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10))));
-  $('btnSend').addEventListener('click', () => {
+  function sendOrderRequest() {
     if (!state.cart.length) { toast('Your cart is empty!'); return; }
 
     const dt = new Date().toISOString().replace('T', ' ').slice(0, 19);
@@ -183,8 +221,6 @@ function setupUI() {
     for (const r of state.cart) {
       out += `${r.partNo} | ${r.desc} | ${r.price || 'TBA'} | ${r.qty}\n`;
     }
-
-
 
     // ===== guardar pedido no browser =====
     const ts = Date.now();
@@ -220,11 +256,18 @@ function setupUI() {
       ).catch(err => console.warn("EmailJS failed", err));
     }
 
-
-
     toast("We've received your order request and will get back to you shortly.");
     state.cart = [];
     renderCart();
+    closeOrderModal(); // ✅ depois de enviar, fecha o modal (faz sentido no fluxo)
+  }
+  $('qtyDown').addEventListener('click', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10) - 1)));
+  $('qtyUp').addEventListener('click', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10) + 1)));
+  $('qtyInput').addEventListener('change', () => $('qtyInput').value = String(Math.max(1, parseInt($('qtyInput').value || '1', 10))));
+  $('btnSend').addEventListener('click', () => {
+    if (!state.cart.length) { toast('Your cart is empty!'); return; }
+    renderCart();       // garante sync
+    openOrderModal();   // ✅ agora abre modal (não envia)
   });
 
   $('btnAdd').addEventListener('click', () => {
@@ -248,6 +291,25 @@ function setupUI() {
 
     const next = [...state.path, state.selected.partNo].join('/');
     window.location.hash = '#/' + next;
+  });
+
+  // modal: fechar
+  $('btnModalClose')?.addEventListener('click', closeOrderModal);
+
+  $('orderModal')?.addEventListener('click', (e) => {
+    const t = e.target;
+    if (t && t.dataset && t.dataset.close === '1') closeOrderModal();
+  });
+
+  // modal: send
+  $('btnModalSend')?.addEventListener('click', sendOrderRequest);
+
+  // tecla ESC fecha
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      const m = $('orderModal');
+      if (m && !m.hidden) closeOrderModal();
+    }
   });
 }
 

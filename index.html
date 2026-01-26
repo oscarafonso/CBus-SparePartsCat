@@ -12,7 +12,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Catálogo Digital (Local)</title>
-  
+
   <script>
     (function () {
       const l = document.createElement('link');
@@ -118,7 +118,7 @@
           <div class="cartBody" id="cartBody"></div>
 
           <div class="cartFooter">
-            <button class="btn big primary" id="btnSend">Send order request</button>
+            <button class="btn big primary" id="btnSend">Review order request</button>
             <div class="hint">Please ensure that the desired part numbers and quantities are correct before submitting
               your request.</div>
           </div>
@@ -128,6 +128,39 @@
   </main>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ===== Review Order Modal (hidden by default) ===== -->
+  <div id="orderModal" class="modalOverlay" hidden>
+    <!-- este overlay serve para clicar fora e fechar -->
+    <div class="modalBackdrop" data-close="1"></div>
+
+    <div class="modalPanel" role="dialog" aria-modal="true" aria-labelledby="orderModalTitle">
+      <div class="modalTop">
+        <div class="panelTitle" id="orderModalTitle">Review order request</div>
+      </div>
+
+      <div class="modalBody">
+        <!-- “cópia” do carrinho, mas maior -->
+        <div class="cart cartModal">
+          <div class="cartHeader">
+            <div class="colPN">P/N</div>
+            <div class="colDesc">Description</div>
+            <div class="colPrice">Price</div>
+            <div class="colQty">Qty</div>
+            <div class="colRm"></div>
+          </div>
+
+          <div class="cartBody" id="cartBodyModal"></div>
+        </div>
+      </div>
+
+      <div class="modalFooter">
+        <button class="btn" id="btnModalClose" type="button">Back to catalogue</button>
+        <button class="btn primary" id="btnModalSend" type="button">Send order request</button>
+      </div>
+    </div>
+  </div>
+
   <script>
     const v = Date.now();
     const s = document.createElement('script');
