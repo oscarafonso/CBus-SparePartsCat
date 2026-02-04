@@ -1,0 +1,5954 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-01-24T13:17:36.920919Z",
+  "svgsIndexed": 45,
+  "svgsWithBom": 45,
+  "rowsIndexed": 510,
+  "entries": [
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "1",
+      "partNo": "5A10004301",
+      "desc": "Washer M18",
+      "qty": "1",
+      "partNoN": "5A10004301",
+      "descN": "washer m18"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "2",
+      "partNo": "5A220020",
+      "desc": "Washer M12x4x40",
+      "qty": "4",
+      "partNoN": "5A220020",
+      "descN": "washer m12x4x40"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "3",
+      "partNo": "5A220021",
+      "desc": "Washer M12x4x40",
+      "qty": "4",
+      "partNoN": "5A220021",
+      "descN": "washer m12x4x40"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "4",
+      "partNo": "5A44117701",
+      "desc": "Electric cables support",
+      "qty": "1",
+      "partNoN": "5A44117701",
+      "descN": "electric cables support"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "5",
+      "partNo": "70024159",
+      "desc": "Self locking nut M12X1,5",
+      "qty": "4",
+      "partNoN": "70024159",
+      "descN": "self locking nut m12x1,5"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "6",
+      "partNo": "70040801",
+      "desc": "PEM MOTOR ELFA3",
+      "qty": "1",
+      "partNoN": "70040801",
+      "descN": "pem motor elfa3"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "7",
+      "partNo": "70046788",
+      "desc": "Screw DIN 6921 ZFSHL M12X1.5X90 10.9",
+      "qty": "4",
+      "partNoN": "70046788",
+      "descN": "screw din 6921 zfshl m12x1.5x90 10.9"
+    },
+    {
+      "svgBase": "5A10004401",
+      "code": "5A10004401",
+      "pos": "8",
+      "partNo": "TBA",
+      "desc": "Kitas sensor",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "kitas sensor"
+    },
+    {
+      "svgBase": "5A10123A01",
+      "code": "5A10123A01",
+      "pos": "1",
+      "partNo": "5A10004401",
+      "desc": "Motor assembly on the lower subframe",
+      "qty": "1",
+      "partNoN": "5A10004401",
+      "descN": "motor assembly on the lower subframe"
+    },
+    {
+      "svgBase": "5A10123A01",
+      "code": "5A10123A01",
+      "pos": "2",
+      "partNo": "5A44103801",
+      "desc": "Traction inverter assembly",
+      "qty": "1",
+      "partNoN": "5A44103801",
+      "descN": "traction inverter assembly"
+    },
+    {
+      "svgBase": "5A10123A01",
+      "code": "5A10123A01",
+      "pos": "3",
+      "partNo": "5A54085901",
+      "desc": "Engine wiring harness",
+      "qty": "1",
+      "partNoN": "5A54085901",
+      "descN": "engine wiring harness"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "1",
+      "partNo": "5A22004701",
+      "desc": "Motor Support",
+      "qty": "1",
+      "partNoN": "5A22004701",
+      "descN": "motor support"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "2",
+      "partNo": "5A22005101",
+      "desc": "Motor Support",
+      "qty": "1",
+      "partNoN": "5A22005101",
+      "descN": "motor support"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "3",
+      "partNo": "5A22005501",
+      "desc": "Motor Support",
+      "qty": "1",
+      "partNoN": "5A22005501",
+      "descN": "motor support"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "4",
+      "partNo": "5A22005901",
+      "desc": "Motor Support",
+      "qty": "1",
+      "partNoN": "5A22005901",
+      "descN": "motor support"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "5",
+      "partNo": "70037577",
+      "desc": "Hex flange bolt DIN 6921 10.9 M12X40",
+      "qty": "16",
+      "partNoN": "70037577",
+      "descN": "hex flange bolt din 6921 10.9 m12x40"
+    },
+    {
+      "svgBase": "5A22123A01",
+      "code": "5A22123A01",
+      "pos": "6",
+      "partNo": "70030457",
+      "desc": "Cylindrical mount",
+      "qty": "4",
+      "partNoN": "70030457",
+      "descN": "cylindrical mount"
+    },
+    {
+      "svgBase": "5A24123A01",
+      "code": "5A24123A01",
+      "pos": "1",
+      "partNo": "5A31200801",
+      "desc": "Motor Charriot - base structure",
+      "qty": "1",
+      "partNoN": "5A31200801",
+      "descN": "motor charriot - base structure"
+    },
+    {
+      "svgBase": "5A24123A01",
+      "code": "5A24123A01",
+      "pos": "2",
+      "partNo": "5A31201901",
+      "desc": "Motor Charriot - upper structure",
+      "qty": "1",
+      "partNoN": "5A31201901",
+      "descN": "motor charriot - upper structure"
+    },
+    {
+      "svgBase": "5A24123A01",
+      "code": "5A24123A01",
+      "pos": "3",
+      "partNo": "70023879",
+      "desc": "Hex Flange Screw M10X25",
+      "qty": "8",
+      "partNoN": "70023879",
+      "descN": "hex flange screw m10x25"
+    },
+    {
+      "svgBase": "5A24123A01",
+      "code": "5A24123A01",
+      "pos": "4",
+      "partNo": "70024158",
+      "desc": "Self lock nut M10",
+      "qty": "8",
+      "partNoN": "70024158",
+      "descN": "self lock nut m10"
+    },
+    {
+      "svgBase": "5A29007701",
+      "code": "5A29007701",
+      "pos": "1",
+      "partNo": "5A29007601",
+      "desc": "Accelerator pedal support",
+      "qty": "1",
+      "partNoN": "5A29007601",
+      "descN": "accelerator pedal support"
+    },
+    {
+      "svgBase": "5A29007701",
+      "code": "5A29007701",
+      "pos": "2",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X20",
+      "qty": "3",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A29007701",
+      "code": "5A29007701",
+      "pos": "3",
+      "partNo": "70024137",
+      "desc": "Hex flange screw M8X20",
+      "qty": "3",
+      "partNoN": "70024137",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A29007701",
+      "code": "5A29007701",
+      "pos": "4",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "3",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A29007701",
+      "code": "5A29007701",
+      "pos": "5",
+      "partNo": "70041593",
+      "desc": "Accelerator pedal",
+      "qty": "1",
+      "partNoN": "70041593",
+      "descN": "accelerator pedal"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "1",
+      "partNo": "5A420062",
+      "desc": "Push-in Silencer",
+      "qty": "1",
+      "partNoN": "5A420062",
+      "descN": "push-in silencer"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "2",
+      "partNo": "70023317",
+      "desc": "M12x1.5 Plug with O-ring",
+      "qty": "2",
+      "partNoN": "70023317",
+      "descN": "m12x1.5 plug with o-ring"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "3",
+      "partNo": "70024137",
+      "desc": "Hex Flange Screw M8x30",
+      "qty": "4",
+      "partNoN": "70024137",
+      "descN": "hex flange screw m8x30"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "4",
+      "partNo": "70024157",
+      "desc": "Self locking hex nut M8",
+      "qty": "7",
+      "partNoN": "70024157",
+      "descN": "self locking hex nut m8"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "5",
+      "partNo": "70024273",
+      "desc": "Stainless-Steel Clamp W4 25–40 mm",
+      "qty": "2",
+      "partNoN": "70024273",
+      "descN": "stainless-steel clamp w4 25–40 mm"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "6",
+      "partNo": "70027463",
+      "desc": "ECAS Pressure Sensor",
+      "qty": "1",
+      "partNoN": "70027463",
+      "descN": "ecas pressure sensor"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "7",
+      "partNo": "70036622",
+      "desc": "ABS Push-in Connector R8x1.0",
+      "qty": "1",
+      "partNoN": "70036622",
+      "descN": "abs push-in connector r8x1.0"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "8",
+      "partNo": "70036623",
+      "desc": "Union Fitting – F-shape Standard",
+      "qty": "1",
+      "partNoN": "70036623",
+      "descN": "union fitting – f-shape standard"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "9",
+      "partNo": "70036625",
+      "desc": "ABC Fitting with Internal Thread – Standard",
+      "qty": "1",
+      "partNoN": "70036625",
+      "descN": "abc fitting with internal thread – standard"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "10",
+      "partNo": "70039651",
+      "desc": "ABC Male–Male Union M16x1.5",
+      "qty": "4",
+      "partNoN": "70039651",
+      "descN": "abc male–male union m16x1.5"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "11",
+      "partNo": "70039654",
+      "desc": "ABC Elbow 90° Female–Female R12x1.5",
+      "qty": "3",
+      "partNoN": "70039654",
+      "descN": "abc elbow 90° female–female r12x1.5"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "12",
+      "partNo": "70040787",
+      "desc": "Cooling Water Hose 28x37 - 125mm",
+      "qty": "1",
+      "partNoN": "70040787",
+      "descN": "cooling water hose 28x37 - 125mm"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "13",
+      "partNo": "70043973",
+      "desc": "O-ring NBR 23.81 × 2.62",
+      "qty": "1",
+      "partNoN": "70043973",
+      "descN": "o-ring nbr 23.81 × 2.62"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "14",
+      "partNo": "70044017",
+      "desc": "Brake Pedal Modulator Valve",
+      "qty": "1",
+      "partNoN": "70044017",
+      "descN": "brake pedal modulator valve"
+    },
+    {
+      "svgBase": "5A29007801",
+      "code": "5A29007801",
+      "pos": "15",
+      "partNo": "TBA",
+      "desc": "Bake Pedal Unit",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "bake pedal unit"
+    },
+    {
+      "svgBase": "5A29123A01",
+      "code": "5A29123A01",
+      "pos": "1",
+      "partNo": "5A29007701",
+      "desc": "Accelerator pedal kit",
+      "qty": "1",
+      "partNoN": "5A29007701",
+      "descN": "accelerator pedal kit"
+    },
+    {
+      "svgBase": "5A29123A01",
+      "code": "5A29123A01",
+      "pos": "2",
+      "partNo": "5A29007801",
+      "desc": "Brake pedal kit",
+      "qty": "1",
+      "partNoN": "5A29007801",
+      "descN": "brake pedal kit"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "1",
+      "partNo": "5A31165301",
+      "desc": "Converter Support Structure Assembly",
+      "qty": "1",
+      "partNoN": "5A31165301",
+      "descN": "converter support structure assembly"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "2",
+      "partNo": "5A31166401",
+      "desc": "Powerbox support structure",
+      "qty": "1",
+      "partNoN": "5A31166401",
+      "descN": "powerbox support structure"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "3",
+      "partNo": "70023878",
+      "desc": "Hex flange screw M10X20",
+      "qty": "14",
+      "partNoN": "70023878",
+      "descN": "hex flange screw m10x20"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "4",
+      "partNo": "70036232",
+      "desc": "M6 Rivet Nut",
+      "qty": "14",
+      "partNoN": "70036232",
+      "descN": "m6 rivet nut"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "5",
+      "partNo": "70037451",
+      "desc": "M8 Knurled Rivet Nut",
+      "qty": "9",
+      "partNoN": "70037451",
+      "descN": "m8 knurled rivet nut"
+    },
+    {
+      "svgBase": "5A31123A01",
+      "code": "5A31123A01",
+      "pos": "6",
+      "partNo": "TBA",
+      "desc": "TBA",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "tba"
+    },
+    {
+      "svgBase": "5A31165301",
+      "code": "5A31165301",
+      "pos": "1",
+      "partNo": "199413",
+      "desc": "Rivet AD 612 4,8x13",
+      "qty": "24",
+      "partNoN": "199413",
+      "descN": "rivet ad 612 4,8x13"
+    },
+    {
+      "svgBase": "5A31165301",
+      "code": "5A31165301",
+      "pos": "2",
+      "partNo": "5A31186101",
+      "desc": "Converters insulation",
+      "qty": "1",
+      "partNoN": "5A31186101",
+      "descN": "converters insulation"
+    },
+    {
+      "svgBase": "5A31165301",
+      "code": "5A31165301",
+      "pos": "3",
+      "partNo": "5A31187601",
+      "desc": "Converters support structure",
+      "qty": "1",
+      "partNoN": "5A31187601",
+      "descN": "converters support structure"
+    },
+    {
+      "svgBase": "5A41123A01",
+      "code": "5A41123A01",
+      "pos": "1",
+      "partNo": "70028428",
+      "desc": "Hex flange screw M12X30",
+      "qty": "4",
+      "partNoN": "70028428",
+      "descN": "hex flange screw m12x30"
+    },
+    {
+      "svgBase": "5A41123A01",
+      "code": "5A41123A01",
+      "pos": "2",
+      "partNo": "70040773",
+      "desc": "Drive shaft",
+      "qty": "1",
+      "partNoN": "70040773",
+      "descN": "drive shaft"
+    },
+    {
+      "svgBase": "5A41123A01",
+      "code": "5A41123A01",
+      "pos": "3",
+      "partNo": "TBA",
+      "desc": "Hex nut M12x1,25",
+      "qty": "4",
+      "partNoN": "TBA",
+      "descN": "hex nut m12x1,25"
+    },
+    {
+      "svgBase": "5A41123A01",
+      "code": "5A41123A01",
+      "pos": "4",
+      "partNo": "TBA",
+      "desc": "Hex flange screw M12 1,25x42",
+      "qty": "4",
+      "partNoN": "TBA",
+      "descN": "hex flange screw m12 1,25x42"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "1",
+      "partNo": "70023313",
+      "desc": "Nut M22X1,5",
+      "qty": "2",
+      "partNoN": "70023313",
+      "descN": "nut m22x1,5"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "2",
+      "partNo": "70027463",
+      "desc": "Pressure sensor ECAS",
+      "qty": "2",
+      "partNoN": "70027463",
+      "descN": "pressure sensor ecas"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "3",
+      "partNo": "70027466",
+      "desc": "Long Reducer M22×1.2 – M16×1.5",
+      "qty": "2",
+      "partNoN": "70027466",
+      "descN": "long reducer m22×1.2 – m16×1.5"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "4",
+      "partNo": "TBA",
+      "desc": "Pneumatic valve support plate",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "pneumatic valve support plate"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "5",
+      "partNo": "TBA",
+      "desc": "Pneumatic valve support bracket",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "pneumatic valve support bracket"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "6",
+      "partNo": "TBA",
+      "desc": "Hex flange screw M8X25 10.9",
+      "qty": "6",
+      "partNoN": "TBA",
+      "descN": "hex flange screw m8x25 10.9"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "7",
+      "partNo": "70024136",
+      "desc": "Hex flange screw M8X60",
+      "qty": "2",
+      "partNoN": "70024136",
+      "descN": "hex flange screw m8x60"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "8",
+      "partNo": "TBA",
+      "desc": "Hex flange screw M8x70-10.9",
+      "qty": "2",
+      "partNoN": "TBA",
+      "descN": "hex flange screw m8x70-10.9"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "9",
+      "partNo": "TBA",
+      "desc": "Hex flange screw M8x100-10.9",
+      "qty": "2",
+      "partNoN": "TBA",
+      "descN": "hex flange screw m8x100-10.9"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "10",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "12",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "11",
+      "partNo": "70031248",
+      "desc": "Solenoide valve",
+      "qty": "1",
+      "partNoN": "70031248",
+      "descN": "solenoide valve"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "12",
+      "partNo": "70038722",
+      "desc": "Mini-valve LEGRIS 3/2",
+      "qty": "1",
+      "partNoN": "70038722",
+      "descN": "mini-valve legris 3/2"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "13",
+      "partNo": "70039651",
+      "desc": "Union ABC M/M M16x1.5",
+      "qty": "4",
+      "partNoN": "70039651",
+      "descN": "union abc m/m m16x1.5"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "14",
+      "partNo": "70039652",
+      "desc": "Elbow ABC 90º F/F R6x1",
+      "qty": "3",
+      "partNoN": "70039652",
+      "descN": "elbow abc 90º f/f r6x1"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "15",
+      "partNo": "70039653",
+      "desc": "Elbow ABC 90º F/F R8X1",
+      "qty": "1",
+      "partNoN": "70039653",
+      "descN": "elbow abc 90º f/f r8x1"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "16",
+      "partNo": "TBA",
+      "desc": "Quick release valve kit",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "quick release valve kit"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "17",
+      "partNo": "TBA",
+      "desc": "3.5BAR pressure limiting valve",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "3.5bar pressure limiting valve"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "18",
+      "partNo": "TBA",
+      "desc": "Solenoid valve",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "solenoid valve"
+    },
+    {
+      "svgBase": "5A42048301",
+      "code": "5A42048301",
+      "pos": "19",
+      "partNo": "TBA",
+      "desc": "Solenoid valve w/ pressure switch",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "solenoid valve w/ pressure switch"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "1",
+      "partNo": "5A42048501",
+      "desc": "Compressor support spacer",
+      "qty": "2",
+      "partNoN": "5A42048501",
+      "descN": "compressor support spacer"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "2",
+      "partNo": "5A42049401",
+      "desc": "Compressor support plate",
+      "qty": "1",
+      "partNoN": "5A42049401",
+      "descN": "compressor support plate"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "3",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "4",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "4",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "6",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "5",
+      "partNo": "70028546",
+      "desc": "Male stud conector M27×2.0",
+      "qty": "1",
+      "partNoN": "70028546",
+      "descN": "male stud conector m27×2.0"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "6",
+      "partNo": "70028547",
+      "desc": "Plug M16×1.5",
+      "qty": "1",
+      "partNoN": "70028547",
+      "descN": "plug m16×1.5"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "7",
+      "partNo": "70031008",
+      "desc": "Bushing M20x1.5",
+      "qty": "1",
+      "partNoN": "70031008",
+      "descN": "bushing m20x1.5"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "8",
+      "partNo": "70031009",
+      "desc": "Bushing M12x1.5",
+      "qty": "1",
+      "partNoN": "70031009",
+      "descN": "bushing m12x1.5"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "9",
+      "partNo": "70034981",
+      "desc": "Air Compressor",
+      "qty": "1",
+      "partNoN": "70034981",
+      "descN": "air compressor"
+    },
+    {
+      "svgBase": "5A42049501",
+      "code": "5A42049501",
+      "pos": "10",
+      "partNo": "70038976",
+      "desc": "Hex flange screw M6X30",
+      "qty": "2",
+      "partNoN": "70038976",
+      "descN": "hex flange screw m6x30"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "1",
+      "partNo": "70025678",
+      "desc": "Compressed air hose",
+      "qty": "1",
+      "partNoN": "70025678",
+      "descN": "compressed air hose"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "2",
+      "partNo": "5A42038100",
+      "desc": "Silent block 40x40 Kit",
+      "qty": "4",
+      "partNoN": "5A42038100",
+      "descN": "silent block 40x40 kit"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "3",
+      "partNo": "5A42049501",
+      "desc": "Compressor assembly",
+      "qty": "1",
+      "partNoN": "5A42049501",
+      "descN": "compressor assembly"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "4",
+      "partNo": "5A42049601",
+      "desc": "Compressor support base",
+      "qty": "1",
+      "partNoN": "5A42049601",
+      "descN": "compressor support base"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "5",
+      "partNo": "5A42052801",
+      "desc": "Compressor Intake Filter Assembly",
+      "qty": "1",
+      "partNoN": "5A42052801",
+      "descN": "compressor intake filter assembly"
+    },
+    {
+      "svgBase": "5A42049801",
+      "code": "5A42049801",
+      "pos": "6",
+      "partNo": "70030847",
+      "desc": "Hex flange screw M12X30X1.75 10.9",
+      "qty": "6",
+      "partNoN": "70030847",
+      "descN": "hex flange screw m12x30x1.75 10.9"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "1",
+      "partNo": "70023293",
+      "desc": "Push-in Silencer",
+      "qty": "1",
+      "partNoN": "70023293",
+      "descN": "push-in silencer"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "2",
+      "partNo": "70023722",
+      "desc": "Union M22X1.5-22L",
+      "qty": "2",
+      "partNoN": "70023722",
+      "descN": "union m22x1.5-22l"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "3",
+      "partNo": "5A420149",
+      "desc": "Push-in connector",
+      "qty": "1",
+      "partNoN": "5A420149",
+      "descN": "push-in connector"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "4",
+      "partNo": "5A420178",
+      "desc": "Union 450 22L",
+      "qty": "1",
+      "partNoN": "5A420178",
+      "descN": "union 450 22l"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "5",
+      "partNo": "70023718",
+      "desc": "Elbow 22L",
+      "qty": "2",
+      "partNoN": "70023718",
+      "descN": "elbow 22l"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "6",
+      "partNo": "70024094",
+      "desc": "22L to 8L Reducer",
+      "qty": "1",
+      "partNoN": "70024094",
+      "descN": "22l to 8l reducer"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "7",
+      "partNo": "70034987",
+      "desc": "Compressed air hose",
+      "qty": "1",
+      "partNoN": "70034987",
+      "descN": "compressed air hose"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "8",
+      "partNo": "70023340",
+      "desc": "M/F Union M16×1.5 – R16×2.0",
+      "qty": "1",
+      "partNoN": "70023340",
+      "descN": "m/f union m16×1.5 – r16×2.0"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "9",
+      "partNo": "70023880",
+      "desc": "Hex flange screw M12X1,5X30",
+      "qty": "3",
+      "partNoN": "70023880",
+      "descN": "hex flange screw m12x1,5x30"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "10",
+      "partNo": "70024093",
+      "desc": "T-fitting 22L with Swivel Nut",
+      "qty": "1",
+      "partNoN": "70024093",
+      "descN": "t-fitting 22l with swivel nut"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "11",
+      "partNo": "70027463",
+      "desc": "Pressure sensor",
+      "qty": "1",
+      "partNoN": "70027463",
+      "descN": "pressure sensor"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "12",
+      "partNo": "70031244",
+      "desc": "Double air heater",
+      "qty": "1",
+      "partNoN": "70031244",
+      "descN": "double air heater"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "13",
+      "partNo": "70031251",
+      "desc": "Safety valve",
+      "qty": "1",
+      "partNoN": "70031251",
+      "descN": "safety valve"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "14",
+      "partNo": "70036620",
+      "desc": "ABC T-union - regular",
+      "qty": "2",
+      "partNoN": "70036620",
+      "descN": "abc t-union - regular"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "15",
+      "partNo": "70036621",
+      "desc": "Ffitting with M22×1.5 thread - regular",
+      "qty": "1",
+      "partNoN": "70036621",
+      "descN": "ffitting with m22×1.5 thread - regular"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "16",
+      "partNo": "70036625",
+      "desc": "Fitting with Internal Thread – Regular",
+      "qty": "2",
+      "partNoN": "70036625",
+      "descN": "fitting with internal thread – regular"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "17",
+      "partNo": "70036626",
+      "desc": "ABC Union regular",
+      "qty": "1",
+      "partNoN": "70036626",
+      "descN": "abc union regular"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "18",
+      "partNo": "70039651",
+      "desc": "ABC Male/Male Union M16×1.5",
+      "qty": "1",
+      "partNoN": "70039651",
+      "descN": "abc male/male union m16×1.5"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "19",
+      "partNo": "70039652",
+      "desc": "ABC Elbow 90° F/F R6×1 90306005 Regular",
+      "qty": "1",
+      "partNoN": "70039652",
+      "descN": "abc elbow 90° f/f r6×1 90306005 regular"
+    },
+    {
+      "svgBase": "5A42050001",
+      "code": "5A42050001",
+      "pos": "20",
+      "partNo": "70045546",
+      "desc": "ABC Regular Fitting – Female M22×1.5",
+      "qty": "1",
+      "partNoN": "70045546",
+      "descN": "abc regular fitting – female m22×1.5"
+    },
+    {
+      "svgBase": "5A42050101",
+      "code": "5A42050101",
+      "pos": "1",
+      "partNo": "5A42046301",
+      "desc": "Air dryer support",
+      "qty": "1",
+      "partNoN": "5A42046301",
+      "descN": "air dryer support"
+    },
+    {
+      "svgBase": "5A42050101",
+      "code": "5A42050101",
+      "pos": "2",
+      "partNo": "5A42050001",
+      "desc": "Air dryer kit",
+      "qty": "1",
+      "partNoN": "5A42050001",
+      "descN": "air dryer kit"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "1",
+      "partNo": "5A420135",
+      "desc": "M22–1/4 reduction nut",
+      "qty": "1",
+      "partNoN": "5A420135",
+      "descN": "m22–1/4 reduction nut"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "2",
+      "partNo": "5A42050701",
+      "desc": "L bracket",
+      "qty": "1",
+      "partNoN": "5A42050701",
+      "descN": "l bracket"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "3",
+      "partNo": "70023295",
+      "desc": "Check valve",
+      "qty": "1",
+      "partNoN": "70023295",
+      "descN": "check valve"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "4",
+      "partNo": "70023313",
+      "desc": "Nut M22X1,5",
+      "qty": "1",
+      "partNoN": "70023313",
+      "descN": "nut m22x1,5"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "5",
+      "partNo": "70023324",
+      "desc": "MFM reducer M22/M16/M22",
+      "qty": "1",
+      "partNoN": "70023324",
+      "descN": "mfm reducer m22/m16/m22"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "6",
+      "partNo": "70023346",
+      "desc": "Male–female adapter M16x1 R8x1.0",
+      "qty": "1",
+      "partNoN": "70023346",
+      "descN": "male–female adapter m16x1 r8x1.0"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "7",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "2",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "8",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "2",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A42050801",
+      "code": "5A42050801",
+      "pos": "9",
+      "partNo": "70024401",
+      "desc": "Quick coupling",
+      "qty": "1",
+      "partNoN": "70024401",
+      "descN": "quick coupling"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "1",
+      "partNo": "209597",
+      "desc": "Cheese slotted screw M6X50",
+      "qty": "2",
+      "partNoN": "209597",
+      "descN": "cheese slotted screw m6x50"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "2",
+      "partNo": "212195",
+      "desc": "Rivet MGLP R8 10 6,5x20",
+      "qty": "2",
+      "partNoN": "212195",
+      "descN": "rivet mglp r8 10 6,5x20"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "3",
+      "partNo": "5A420105",
+      "desc": "Union 18L",
+      "qty": "4",
+      "partNoN": "5A420105",
+      "descN": "union 18l"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "4",
+      "partNo": "5A420190",
+      "desc": "Center Compressed Air Coil",
+      "qty": "1",
+      "partNoN": "5A420190",
+      "descN": "center compressed air coil"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "5",
+      "partNo": "5A420192",
+      "desc": "Inlet Compressed Air Coil",
+      "qty": "1",
+      "partNoN": "5A420192",
+      "descN": "inlet compressed air coil"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "6",
+      "partNo": "70028437",
+      "desc": "Reduction 22L 18L",
+      "qty": "1",
+      "partNoN": "70028437",
+      "descN": "reduction 22l 18l"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "7",
+      "partNo": "5A420335",
+      "desc": "Air coil support bracket",
+      "qty": "1",
+      "partNoN": "5A420335",
+      "descN": "air coil support bracket"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "8",
+      "partNo": "5A42051101",
+      "desc": "L bracket 80mm",
+      "qty": "1",
+      "partNoN": "5A42051101",
+      "descN": "l bracket 80mm"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "9",
+      "partNo": "5A42051201",
+      "desc": "L bracket 50mm",
+      "qty": "1",
+      "partNoN": "5A42051201",
+      "descN": "l bracket 50mm"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "10",
+      "partNo": "5A42051301",
+      "desc": "Outlet Compressed Air Coil",
+      "qty": "1",
+      "partNoN": "5A42051301",
+      "descN": "outlet compressed air coil"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "11",
+      "partNo": "5A42051401",
+      "desc": "Pipe from air coil to compressor",
+      "qty": "1",
+      "partNoN": "5A42051401",
+      "descN": "pipe from air coil to compressor"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "12",
+      "partNo": "5A42052401",
+      "desc": "Air coil support bracket",
+      "qty": "1",
+      "partNoN": "5A42052401",
+      "descN": "air coil support bracket"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "13",
+      "partNo": "5A53046501",
+      "desc": "RHS condenser support bracket",
+      "qty": "1",
+      "partNoN": "5A53046501",
+      "descN": "rhs condenser support bracket"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "14",
+      "partNo": "5A53046701",
+      "desc": "LHS condenser support bracket",
+      "qty": "1",
+      "partNoN": "5A53046701",
+      "descN": "lhs condenser support bracket"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "15",
+      "partNo": "70007792",
+      "desc": "18 mm Zinc-Plated Clamp with Rubber",
+      "qty": "8",
+      "partNoN": "70007792",
+      "descN": "18 mm zinc-plated clamp with rubber"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "16",
+      "partNo": "70019124",
+      "desc": "Washer 18 mm A2",
+      "qty": "2",
+      "partNoN": "70019124",
+      "descN": "washer 18 mm a2"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "17",
+      "partNo": "70023387",
+      "desc": "Silent block M8x20",
+      "qty": "1",
+      "partNoN": "70023387",
+      "descN": "silent block m8x20"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "18",
+      "partNo": "70023852",
+      "desc": "Hex nut A2 M8",
+      "qty": "2",
+      "partNoN": "70023852",
+      "descN": "hex nut a2 m8"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "19",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "10",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "20",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "6",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "21",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "12",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "22",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "6",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "23",
+      "partNo": "70029441",
+      "desc": "Pipe clamp 18 mm",
+      "qty": "1",
+      "partNoN": "70029441",
+      "descN": "pipe clamp 18 mm"
+    },
+    {
+      "svgBase": "5A42051701",
+      "code": "5A42051701",
+      "pos": "24",
+      "partNo": "70029469",
+      "desc": "Pipe clamp reinforcement",
+      "qty": "1",
+      "partNoN": "70029469",
+      "descN": "pipe clamp reinforcement"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "1",
+      "partNo": "5A42052501",
+      "desc": "Air intake filter bracket",
+      "qty": "1",
+      "partNoN": "5A42052501",
+      "descN": "air intake filter bracket"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "2",
+      "partNo": "5A42053901",
+      "desc": "Fitler hose union",
+      "qty": "1",
+      "partNoN": "5A42053901",
+      "descN": "fitler hose union"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "3",
+      "partNo": "5A580002",
+      "desc": "Zinc-plated L bracket 80mm M8",
+      "qty": "1",
+      "partNoN": "5A580002",
+      "descN": "zinc-plated l bracket 80mm m8"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "4",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "4",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "5",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "4",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "6",
+      "partNo": "70025217",
+      "desc": "28 mm zinc-plated rubber-lined clamp",
+      "qty": "3",
+      "partNoN": "70025217",
+      "descN": "28 mm zinc-plated rubber-lined clamp"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "7",
+      "partNo": "70033712",
+      "desc": "Hose end fitting",
+      "qty": "1",
+      "partNoN": "70033712",
+      "descN": "hose end fitting"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "8",
+      "partNo": "70040657",
+      "desc": "38 mm zinc-plated rubber clamp",
+      "qty": "1",
+      "partNoN": "70040657",
+      "descN": "38 mm zinc-plated rubber clamp"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "9",
+      "partNo": "70040741",
+      "desc": "Clamp 20-32/12 W5",
+      "qty": "1",
+      "partNoN": "70040741",
+      "descN": "clamp 20-32/12 w5"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "10",
+      "partNo": "70040850_60",
+      "desc": "Cooling water hose 20x29mm",
+      "qty": "1",
+      "partNoN": "7004085060",
+      "descN": "cooling water hose 20x29mm"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "11",
+      "partNo": "70048177_1500",
+      "desc": "19mm Hose",
+      "qty": "1",
+      "partNoN": "700481771500",
+      "descN": "19mm hose"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "12",
+      "partNo": "FiltroArCompressorWabco",
+      "desc": "Compressed air filter",
+      "qty": "1",
+      "partNoN": "FILTROARCOMPRESSORWABCO",
+      "descN": "compressed air filter"
+    },
+    {
+      "svgBase": "5A42052801",
+      "code": "5A42052801",
+      "pos": "13",
+      "partNo": "5A42052701",
+      "desc": "L bracket 130mm",
+      "qty": "1",
+      "partNoN": "5A42052701",
+      "descN": "l bracket 130mm"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "1",
+      "partNo": "5A42048201",
+      "desc": "5A42123A01-1/5A42086A01-1/5A42048201-1",
+      "qty": "1",
+      "partNoN": "5A42048201",
+      "descN": "5a42123a01-1/5a42086a01-1/5a42048201-1"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "2",
+      "partNo": "5A42048301",
+      "desc": "Pneumtic valves assembly kit",
+      "qty": "1",
+      "partNoN": "5A42048301",
+      "descN": "pneumtic valves assembly kit"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "3",
+      "partNo": "5A42049701",
+      "desc": "5A42123A01-1/5A42086A01-1/5A42049701-1",
+      "qty": "1",
+      "partNoN": "5A42049701",
+      "descN": "5a42123a01-1/5a42086a01-1/5a42049701-1"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "4",
+      "partNo": "5A42049801",
+      "desc": "Electric compressor kit",
+      "qty": "1",
+      "partNoN": "5A42049801",
+      "descN": "electric compressor kit"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "5",
+      "partNo": "5A42050101",
+      "desc": "Air dryer assembly",
+      "qty": "1",
+      "partNoN": "5A42050101",
+      "descN": "air dryer assembly"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "6",
+      "partNo": "5A42050801",
+      "desc": "External air inlet",
+      "qty": "1",
+      "partNoN": "5A42050801",
+      "descN": "external air inlet"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "7",
+      "partNo": "5A42051001",
+      "desc": "Pneumatic air support",
+      "qty": "1",
+      "partNoN": "5A42051001",
+      "descN": "pneumatic air support"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "8",
+      "partNo": "5A42051701",
+      "desc": "Compressed air coil assembly",
+      "qty": "1",
+      "partNoN": "5A42051701",
+      "descN": "compressed air coil assembly"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "9",
+      "partNo": "5A72063101",
+      "desc": "5A42123A01-1/5A42086A01-1/5A72063101-1",
+      "qty": "1",
+      "partNoN": "5A72063101",
+      "descN": "5a42123a01-1/5a42086a01-1/5a72063101-1"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "14",
+      "partNo": "TBA",
+      "desc": "Air tank 30L",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "air tank 30l"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "15",
+      "partNo": "TBA",
+      "desc": "Air tank 40L",
+      "qty": "7",
+      "partNoN": "TBA",
+      "descN": "air tank 40l"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "16",
+      "partNo": "TBA",
+      "desc": "Air tank 20L",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "air tank 20l"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "17",
+      "partNo": "TBA",
+      "desc": "5A42123A01-1/5A42086A01-1/PRT-0280976-1",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "5a42123a01-1/5a42086a01-1/prt-0280976-1"
+    },
+    {
+      "svgBase": "5A42123A01",
+      "code": "5A42123A01",
+      "pos": "18",
+      "partNo": "TBA",
+      "desc": "Brake Pedal Sup",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "brake pedal sup"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "1",
+      "partNo": "5A44064000",
+      "desc": "Ground bus",
+      "qty": "1",
+      "partNoN": "5A44064000",
+      "descN": "ground bus"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "2",
+      "partNo": "5A44064100",
+      "desc": "Ground Bus Clamp Plate",
+      "qty": "2",
+      "partNoN": "5A44064100",
+      "descN": "ground bus clamp plate"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "3",
+      "partNo": "70016982",
+      "desc": "Hex Self-Locking Nut M10",
+      "qty": "5",
+      "partNoN": "70016982",
+      "descN": "hex self-locking nut m10"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "4",
+      "partNo": "70020314",
+      "desc": "Stainless Steel Spring Washer M10",
+      "qty": "5",
+      "partNoN": "70020314",
+      "descN": "stainless steel spring washer m10"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "5",
+      "partNo": "70024158",
+      "desc": "Hex Self-Locking Nut M10",
+      "qty": "6",
+      "partNoN": "70024158",
+      "descN": "hex self-locking nut m10"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "6",
+      "partNo": "70031469",
+      "desc": "Hex Head Screw M10x20, Stainless Steel",
+      "qty": "5",
+      "partNoN": "70031469",
+      "descN": "hex head screw m10x20, stainless steel"
+    },
+    {
+      "svgBase": "5A44064300",
+      "code": "5A44064300",
+      "pos": "7",
+      "partNo": "70048571",
+      "desc": "Washer M10 – ISO 7093, Stainless Steel A2",
+      "qty": "2",
+      "partNoN": "70048571",
+      "descN": "washer m10 – iso 7093, stainless steel a2"
+    },
+    {
+      "svgBase": "5A44086A01",
+      "code": "5A44086A01",
+      "pos": "1",
+      "partNo": "5A44064300",
+      "desc": "Ground Bus Bar",
+      "qty": "1",
+      "partNoN": "5A44064300",
+      "descN": "ground bus bar"
+    },
+    {
+      "svgBase": "5A44086A01",
+      "code": "5A44086A01",
+      "pos": "2",
+      "partNo": "5A44105201",
+      "desc": "Fuse Box Kit",
+      "qty": "1",
+      "partNoN": "5A44105201",
+      "descN": "fuse box kit"
+    },
+    {
+      "svgBase": "5A44086A01",
+      "code": "5A44086A01",
+      "pos": "3",
+      "partNo": "5A44111801",
+      "desc": "Batteries Kit",
+      "qty": "1",
+      "partNoN": "5A44111801",
+      "descN": "batteries kit"
+    },
+    {
+      "svgBase": "5A44086A01",
+      "code": "5A44086A01",
+      "pos": "4",
+      "partNo": "5A44113801",
+      "desc": "Brackets and Clamps Kit",
+      "qty": "1",
+      "partNoN": "5A44113801",
+      "descN": "brackets and clamps kit"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "1",
+      "partNo": "5A44098901",
+      "desc": "Inverter support",
+      "qty": "1",
+      "partNoN": "5A44098901",
+      "descN": "inverter support"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "2",
+      "partNo": "5A44103301",
+      "desc": "Cables support",
+      "qty": "1",
+      "partNoN": "5A44103301",
+      "descN": "cables support"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "3",
+      "partNo": "5A44104001",
+      "desc": "Cables support",
+      "qty": "1",
+      "partNoN": "5A44104001",
+      "descN": "cables support"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "4",
+      "partNo": "5A44111101",
+      "desc": "Cables support",
+      "qty": "1",
+      "partNoN": "5A44111101",
+      "descN": "cables support"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "5",
+      "partNo": "70008040",
+      "desc": "Hex screw M8X20 A2",
+      "qty": "10",
+      "partNoN": "70008040",
+      "descN": "hex screw m8x20 a2"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "6",
+      "partNo": "70019124",
+      "desc": "Washer M8 ABA 18mm A2",
+      "qty": "14",
+      "partNoN": "70019124",
+      "descN": "washer m8 aba 18mm a2"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "7",
+      "partNo": "70023852",
+      "desc": "Hex nut A2 M8",
+      "qty": "4",
+      "partNoN": "70023852",
+      "descN": "hex nut a2 m8"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "8",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "6",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "9",
+      "partNo": "70011554",
+      "desc": "Clamp",
+      "qty": "1",
+      "partNoN": "70011554",
+      "descN": "clamp"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "10",
+      "partNo": "70041427",
+      "desc": "Clamp 22",
+      "qty": "24",
+      "partNoN": "70041427",
+      "descN": "clamp 22"
+    },
+    {
+      "svgBase": "5A44103801",
+      "code": "5A44103801",
+      "pos": "11",
+      "partNo": "70040802",
+      "desc": "Interver ELFA3 DV3-750WH-A",
+      "qty": "1",
+      "partNoN": "70040802",
+      "descN": "interver elfa3 dv3-750wh-a"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "1",
+      "partNo": "5A54095001",
+      "desc": "Fuse box connection plate",
+      "qty": "2",
+      "partNoN": "5A54095001",
+      "descN": "fuse box connection plate"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "2",
+      "partNo": "70005081",
+      "desc": "150A Fuse",
+      "qty": "1",
+      "partNoN": "70005081",
+      "descN": "150a fuse"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "3",
+      "partNo": "70023773",
+      "desc": "100A Fuse",
+      "qty": "2",
+      "partNoN": "70023773",
+      "descN": "100a fuse"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "4",
+      "partNo": "70030867",
+      "desc": "Low-Profile Socket Head Screw M8×20",
+      "qty": "12",
+      "partNoN": "70030867",
+      "descN": "low-profile socket head screw m8×20"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "5",
+      "partNo": "70030872",
+      "desc": "Fuse box",
+      "qty": "3",
+      "partNoN": "70030872",
+      "descN": "fuse box"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "6",
+      "partNo": "70031505",
+      "desc": "250A Fuse",
+      "qty": "3",
+      "partNoN": "70031505",
+      "descN": "250a fuse"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "7",
+      "partNo": "70037453",
+      "desc": "400A Fuse",
+      "qty": "1",
+      "partNoN": "70037453",
+      "descN": "400a fuse"
+    },
+    {
+      "svgBase": "5A44105201",
+      "code": "5A44105201",
+      "pos": "8",
+      "partNo": "70045469",
+      "desc": "M8 Flange Nut, Zinc-Plated",
+      "qty": "24",
+      "partNoN": "70045469",
+      "descN": "m8 flange nut, zinc-plated"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "2",
+      "partNo": "5A44166301",
+      "desc": "Relay support bracket",
+      "qty": "1",
+      "partNoN": "5A44166301",
+      "descN": "relay support bracket"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "3",
+      "partNo": "70018559",
+      "desc": "M5×20 cheese head screw",
+      "qty": "4",
+      "partNoN": "70018559",
+      "descN": "m5×20 cheese head screw"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "4",
+      "partNo": "70023553",
+      "desc": "Battery disconnect switch",
+      "qty": "1",
+      "partNoN": "70023553",
+      "descN": "battery disconnect switch"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "5",
+      "partNo": "70023773",
+      "desc": "MEGA fuse 100A",
+      "qty": "1",
+      "partNoN": "70023773",
+      "descN": "mega fuse 100a"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "7",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "4",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "8",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "2",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "9",
+      "partNo": "70026666",
+      "desc": "Mega fuse holder",
+      "qty": "2",
+      "partNoN": "70026666",
+      "descN": "mega fuse holder"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "10",
+      "partNo": "70027847",
+      "desc": "M5×40 socket head cap screw",
+      "qty": "2",
+      "partNoN": "70027847",
+      "descN": "m5×40 socket head cap screw"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "11",
+      "partNo": "70036962",
+      "desc": "Knurled thin-head M5 rivet nut",
+      "qty": "4",
+      "partNoN": "70036962",
+      "descN": "knurled thin-head m5 rivet nut"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "12",
+      "partNo": "70037453",
+      "desc": "MEGA fuse 400A",
+      "qty": "1",
+      "partNoN": "70037453",
+      "descN": "mega fuse 400a"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "13",
+      "partNo": "70041427",
+      "desc": "Clamp",
+      "qty": "1",
+      "partNoN": "70041427",
+      "descN": "clamp"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "14",
+      "partNo": "70041442",
+      "desc": "12V Battery",
+      "qty": "2",
+      "partNoN": "70041442",
+      "descN": "12v battery"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "15",
+      "partNo": "70041692",
+      "desc": "Latching relay 300A",
+      "qty": "1",
+      "partNoN": "70041692",
+      "descN": "latching relay 300a"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "16",
+      "partNo": "70023771",
+      "desc": "Battery Terminal (+)",
+      "qty": "2",
+      "partNoN": "70023771",
+      "descN": "battery terminal (+)"
+    },
+    {
+      "svgBase": "5A44111801",
+      "code": "5A44111801",
+      "pos": "17",
+      "partNo": "70023772",
+      "desc": "Battery Terminal (-)",
+      "qty": "2",
+      "partNoN": "70023772",
+      "descN": "battery terminal (-)"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "1",
+      "partNo": "156_00006",
+      "desc": "Fixing tie 45 mm",
+      "qty": "7",
+      "partNoN": "15600006",
+      "descN": "fixing tie 45 mm"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "2",
+      "partNo": "5A44112201",
+      "desc": "Cable and tube bracket",
+      "qty": "1",
+      "partNoN": "5A44112201",
+      "descN": "cable and tube bracket"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "3",
+      "partNo": "5A44127201",
+      "desc": "Cable support",
+      "qty": "1",
+      "partNoN": "5A44127201",
+      "descN": "cable support"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "4",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "3",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "5",
+      "partNo": "70028272",
+      "desc": "Hex flange screw M8X16",
+      "qty": "6",
+      "partNoN": "70028272",
+      "descN": "hex flange screw m8x16"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "6",
+      "partNo": "70036793",
+      "desc": "Snap-in clamp 36 mm",
+      "qty": "2",
+      "partNoN": "70036793",
+      "descN": "snap-in clamp 36 mm"
+    },
+    {
+      "svgBase": "5A44113801",
+      "code": "5A44113801",
+      "pos": "7",
+      "partNo": "70041427",
+      "desc": "Clamp 22 mm",
+      "qty": "33",
+      "partNoN": "70041427",
+      "descN": "clamp 22 mm"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "1",
+      "partNo": "5A46022501",
+      "desc": "Inverter assembly",
+      "qty": "1",
+      "partNoN": "5A46022501",
+      "descN": "inverter assembly"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "2",
+      "partNo": "5A46023001",
+      "desc": "Aux. motor and sterring pump assembly",
+      "qty": "1",
+      "partNoN": "5A46023001",
+      "descN": "aux. motor and sterring pump assembly"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "3",
+      "partNo": "5A46034601",
+      "desc": "Oil reservoir assembly",
+      "qty": "1",
+      "partNoN": "5A46034601",
+      "descN": "oil reservoir assembly"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "4",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "4",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "5",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "4",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A46020101",
+      "code": "5A46020101",
+      "pos": "6",
+      "partNo": "70041427",
+      "desc": "Clamp",
+      "qty": "1",
+      "partNoN": "70041427",
+      "descN": "clamp"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "1",
+      "partNo": "5A46021801",
+      "desc": "Rigid pipes clamps kit",
+      "qty": "1",
+      "partNoN": "5A46021801",
+      "descN": "rigid pipes clamps kit"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "2",
+      "partNo": "5A46022601",
+      "desc": "Rigid pressure line pipe 1",
+      "qty": "1",
+      "partNoN": "5A46022601",
+      "descN": "rigid pressure line pipe 1"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "3",
+      "partNo": "5A46022701",
+      "desc": "Rigid pressure line pipe 2",
+      "qty": "1",
+      "partNoN": "5A46022701",
+      "descN": "rigid pressure line pipe 2"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "4",
+      "partNo": "5A46022801",
+      "desc": "Rigid return line pipe",
+      "qty": "1",
+      "partNoN": "5A46022801",
+      "descN": "rigid return line pipe"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "5",
+      "partNo": "70032801",
+      "desc": "GMA3/15PL measurement union",
+      "qty": "1",
+      "partNoN": "70032801",
+      "descN": "gma3/15pl measurement union"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "6",
+      "partNo": "70034207",
+      "desc": "15L Union",
+      "qty": "2",
+      "partNoN": "70034207",
+      "descN": "15l union"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "7",
+      "partNo": "70043328",
+      "desc": "Nut with washer",
+      "qty": "2",
+      "partNoN": "70043328",
+      "descN": "nut with washer"
+    },
+    {
+      "svgBase": "5A46022901",
+      "code": "5A46022901",
+      "pos": "8",
+      "partNo": "70044857",
+      "desc": "GR18/15LCFX fitting",
+      "qty": "1",
+      "partNoN": "70044857",
+      "descN": "gr18/15lcfx fitting"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "1",
+      "partNo": "5A46020801",
+      "desc": "Motor support plate",
+      "qty": "1",
+      "partNoN": "5A46020801",
+      "descN": "motor support plate"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "2",
+      "partNo": "5A46026501",
+      "desc": "Motor + Pump Assembly Kit",
+      "qty": "1",
+      "partNoN": "5A46026501",
+      "descN": "motor + pump assembly kit"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "3",
+      "partNo": "209929",
+      "desc": "Washer A8,4 A2",
+      "qty": "8",
+      "partNoN": "209929",
+      "descN": "washer a8,4 a2"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "4",
+      "partNo": "70023387",
+      "desc": "Silent block A30/20 M8",
+      "qty": "4",
+      "partNoN": "70023387",
+      "descN": "silent block a30/20 m8"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "5",
+      "partNo": "70023852",
+      "desc": "Hex nut A2 M8",
+      "qty": "8",
+      "partNoN": "70023852",
+      "descN": "hex nut a2 m8"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "6",
+      "partNo": "70042923",
+      "desc": "Power Steering Motor",
+      "qty": "1",
+      "partNoN": "70042923",
+      "descN": "power steering motor"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "7",
+      "partNo": "5A46024301",
+      "desc": "Power steering interior support plate",
+      "qty": "1",
+      "partNoN": "5A46024301",
+      "descN": "power steering interior support plate"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "8",
+      "partNo": "70002044",
+      "desc": "Washer M10 A2",
+      "qty": "2",
+      "partNoN": "70002044",
+      "descN": "washer m10 a2"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "9",
+      "partNo": "Suppliedwithflange",
+      "desc": "Screws for flanges",
+      "qty": "8",
+      "partNoN": "SUPPLIEDWITHFLANGE",
+      "descN": "screws for flanges"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "10",
+      "partNo": "70042131",
+      "desc": "Gear pump flange M24X1.5",
+      "qty": "1",
+      "partNoN": "70042131",
+      "descN": "gear pump flange m24x1.5"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "11",
+      "partNo": "70042147",
+      "desc": "Gear pump flange M26X1.5",
+      "qty": "1",
+      "partNoN": "70042147",
+      "descN": "gear pump flange m26x1.5"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "12",
+      "partNo": "PC_M10_DIN912",
+      "desc": "Hex socket screw M10X35",
+      "qty": "2",
+      "partNoN": "PCM10DIN912",
+      "descN": "hex socket screw m10x35"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "13",
+      "partNo": "70042923",
+      "desc": "Power Steering Pump",
+      "qty": "1",
+      "partNoN": "70042923",
+      "descN": "power steering pump"
+    },
+    {
+      "svgBase": "5A46023001",
+      "code": "5A46023001",
+      "pos": "14",
+      "partNo": "70046094",
+      "desc": "Screw M8X14X1.25",
+      "qty": "4",
+      "partNoN": "70046094",
+      "descN": "screw m8x14x1.25"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "1",
+      "partNo": "5A46020901",
+      "desc": "Suction hose",
+      "qty": "1",
+      "partNoN": "5A46020901",
+      "descN": "suction hose"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "2",
+      "partNo": "5A46021001",
+      "desc": "Hose",
+      "qty": "1",
+      "partNoN": "5A46021001",
+      "descN": "hose"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "3",
+      "partNo": "5A46021101",
+      "desc": "Hose",
+      "qty": "1",
+      "partNoN": "5A46021101",
+      "descN": "hose"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "4",
+      "partNo": "5A46023201",
+      "desc": "Support with clamps kit",
+      "qty": "1",
+      "partNoN": "5A46023201",
+      "descN": "support with clamps kit"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "5",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "2",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "6",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "2",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "7",
+      "partNo": "70034063",
+      "desc": "25 mm Zinc Clamp with Rubber Lining",
+      "qty": "2",
+      "partNoN": "70034063",
+      "descN": "25 mm zinc clamp with rubber lining"
+    },
+    {
+      "svgBase": "5A46023301",
+      "code": "5A46023301",
+      "pos": "8",
+      "partNo": "70040741",
+      "desc": "Clamp 20–32/12 W5",
+      "qty": "2",
+      "partNoN": "70040741",
+      "descN": "clamp 20–32/12 w5"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "1",
+      "partNo": "212195",
+      "desc": "Rivet MGLP R8 10 6,5x20",
+      "qty": "4",
+      "partNoN": "212195",
+      "descN": "rivet mglp r8 10 6,5x20"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "2",
+      "partNo": "220016",
+      "desc": "A2 M10 wing nut",
+      "qty": "1",
+      "partNoN": "220016",
+      "descN": "a2 m10 wing nut"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "3",
+      "partNo": "5A46034501",
+      "desc": "Reservoir support",
+      "qty": "1",
+      "partNoN": "5A46034501",
+      "descN": "reservoir support"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "4",
+      "partNo": "5A46038001",
+      "desc": "Spacer",
+      "qty": "1",
+      "partNoN": "5A46038001",
+      "descN": "spacer"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "5",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "2",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "6",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "2",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A46034601",
+      "code": "5A46034601",
+      "pos": "7",
+      "partNo": "TBA",
+      "desc": "Power steering reservoir",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "power steering reservoir"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "1",
+      "partNo": "5A46020101",
+      "desc": "Powersteering system",
+      "qty": "1",
+      "partNoN": "5A46020101",
+      "descN": "powersteering system"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "2",
+      "partNo": "5A46022901",
+      "desc": "Hard line kit",
+      "qty": "1",
+      "partNoN": "5A46022901",
+      "descN": "hard line kit"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "3",
+      "partNo": "5A46023301",
+      "desc": "Powersteering hoses",
+      "qty": "1",
+      "partNoN": "5A46023301",
+      "descN": "powersteering hoses"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "4",
+      "partNo": "5A46034801",
+      "desc": "Clamp support kit",
+      "qty": "1",
+      "partNoN": "5A46034801",
+      "descN": "clamp support kit"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "5",
+      "partNo": "TBA",
+      "desc": "Steering rod",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "steering rod"
+    },
+    {
+      "svgBase": "5A46123A01",
+      "code": "5A46123A01",
+      "pos": "6",
+      "partNo": "TBA_",
+      "desc": "Powersteering gearbox kit",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "powersteering gearbox kit"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "1",
+      "partNo": "5A50045600",
+      "desc": "Upper coolant pipe bracket",
+      "qty": "1",
+      "partNoN": "5A50045600",
+      "descN": "upper coolant pipe bracket"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "2",
+      "partNo": "5A50082701",
+      "desc": "Radiator bleed pipe",
+      "qty": "1",
+      "partNoN": "5A50082701",
+      "descN": "radiator bleed pipe"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "3",
+      "partNo": "5A50083701",
+      "desc": "Hot water manifold",
+      "qty": "1",
+      "partNoN": "5A50083701",
+      "descN": "hot water manifold"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "4",
+      "partNo": "5A50085501",
+      "desc": "Bracket for radiator bleed pipe",
+      "qty": "2",
+      "partNoN": "5A50085501",
+      "descN": "bracket for radiator bleed pipe"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "5",
+      "partNo": "5A50085601",
+      "desc": "Tank return pipe",
+      "qty": "1",
+      "partNoN": "5A50085601",
+      "descN": "tank return pipe"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "6",
+      "partNo": "5A50086601",
+      "desc": "Return pipe DC/DC",
+      "qty": "1",
+      "partNoN": "5A50086601",
+      "descN": "return pipe dc/dc"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "7",
+      "partNo": "5A550041",
+      "desc": "Hose plug 22mm",
+      "qty": "2",
+      "partNoN": "5A550041",
+      "descN": "hose plug 22mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "8",
+      "partNo": "5A580002",
+      "desc": "L bracket M8",
+      "qty": "3",
+      "partNoN": "5A580002",
+      "descN": "l bracket m8"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "9",
+      "partNo": "70016547",
+      "desc": "Clamp with rubber lining",
+      "qty": "7",
+      "partNoN": "70016547",
+      "descN": "clamp with rubber lining"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "10",
+      "partNo": "70016886",
+      "desc": "Clamp with rubber lining",
+      "qty": "1",
+      "partNoN": "70016886",
+      "descN": "clamp with rubber lining"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "11",
+      "partNo": "70023387",
+      "desc": "SIlent block M8X20",
+      "qty": "1",
+      "partNoN": "70023387",
+      "descN": "silent block m8x20"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "12",
+      "partNo": "70023871",
+      "desc": "Hex screw M6X20",
+      "qty": "10",
+      "partNoN": "70023871",
+      "descN": "hex screw m6x20"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "13",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X20",
+      "qty": "2",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "14",
+      "partNo": "70023920",
+      "desc": "Clamp w/ rubber 44mm",
+      "qty": "2",
+      "partNoN": "70023920",
+      "descN": "clamp w/ rubber 44mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "15",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "10",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "16",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "2",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "17",
+      "partNo": "70027482",
+      "desc": "Water level sensor",
+      "qty": "1",
+      "partNoN": "70027482",
+      "descN": "water level sensor"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "18",
+      "partNo": "70028436",
+      "desc": "M/F reducer M16-1/4F8UGB",
+      "qty": "1",
+      "partNoN": "70028436",
+      "descN": "m/f reducer m16-1/4f8ugb"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "19",
+      "partNo": "70040845_100",
+      "desc": "Water cooling hose 8x15 mm",
+      "qty": "1",
+      "partNoN": "70040845100",
+      "descN": "water cooling hose 8x15 mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "20",
+      "partNo": "70040845_150",
+      "desc": "Water cooling hose 8x15 mm",
+      "qty": "1",
+      "partNoN": "70040845150",
+      "descN": "water cooling hose 8x15 mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "21",
+      "partNo": "70040845_70",
+      "desc": "Water cooling hose 8x15 mm",
+      "qty": "1",
+      "partNoN": "7004084570",
+      "descN": "water cooling hose 8x15 mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "22",
+      "partNo": "70040845_80",
+      "desc": "Water cooling hose 8x15 mm",
+      "qty": "2",
+      "partNoN": "7004084580",
+      "descN": "water cooling hose 8x15 mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "23",
+      "partNo": "70040851_80",
+      "desc": "Water cooling hose 22x31 mm",
+      "qty": "2",
+      "partNoN": "7004085180",
+      "descN": "water cooling hose 22x31 mm"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "24",
+      "partNo": "70040993",
+      "desc": "Clamp WF 12-22/9 W3",
+      "qty": "10",
+      "partNoN": "70040993",
+      "descN": "clamp wf 12-22/9 w3"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "25",
+      "partNo": "70040994",
+      "desc": "Clamp WF 20-32/9 W3",
+      "qty": "4",
+      "partNoN": "70040994",
+      "descN": "clamp wf 20-32/9 w3"
+    },
+    {
+      "svgBase": "5A50081901",
+      "code": "5A50081901",
+      "pos": "26",
+      "partNo": "70041143",
+      "desc": "Temperature sensor",
+      "qty": "1",
+      "partNoN": "70041143",
+      "descN": "temperature sensor"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "1",
+      "partNo": "70027719",
+      "desc": "Brass elbow 15L",
+      "qty": "2",
+      "partNoN": "70027719",
+      "descN": "brass elbow 15l"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "2",
+      "partNo": "5A50082401",
+      "desc": "Flow divider support",
+      "qty": "1",
+      "partNoN": "5A50082401",
+      "descN": "flow divider support"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "3",
+      "partNo": "5A50083501",
+      "desc": "DC/DC supply pipe",
+      "qty": "1",
+      "partNoN": "5A50083501",
+      "descN": "dc/dc supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "4",
+      "partNo": "5A50083601",
+      "desc": "DC/DC interconnection pipe",
+      "qty": "1",
+      "partNoN": "5A50083601",
+      "descN": "dc/dc interconnection pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "5",
+      "partNo": "5A50083901",
+      "desc": "ELFA #1 supply pipe",
+      "qty": "1",
+      "partNoN": "5A50083901",
+      "descN": "elfa #1 supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "6",
+      "partNo": "5A50084101",
+      "desc": "ELFA outlet / onboard supply pipe",
+      "qty": "1",
+      "partNoN": "5A50084101",
+      "descN": "elfa outlet / onboard supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "7",
+      "partNo": "5A50084201",
+      "desc": "Onboard return pipe #2",
+      "qty": "1",
+      "partNoN": "5A50084201",
+      "descN": "onboard return pipe #2"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "8",
+      "partNo": "5A50084301",
+      "desc": "Pump 1 distributor",
+      "qty": "1",
+      "partNoN": "5A50084301",
+      "descN": "pump 1 distributor"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "9",
+      "partNo": "5A50084401",
+      "desc": "ELFA #2 supply pipe",
+      "qty": "1",
+      "partNoN": "5A50084401",
+      "descN": "elfa #2 supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "10",
+      "partNo": "5A50085001",
+      "desc": "DC/DC – compressor return pipe",
+      "qty": "1",
+      "partNoN": "5A50085001",
+      "descN": "dc/dc – compressor return pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "11",
+      "partNo": "5A50085101",
+      "desc": "DC/DC – compressor return pipe #2",
+      "qty": "1",
+      "partNoN": "5A50085101",
+      "descN": "dc/dc – compressor return pipe #2"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "12",
+      "partNo": "5A50085301",
+      "desc": "L-bracket – 50 mm",
+      "qty": "2",
+      "partNoN": "5A50085301",
+      "descN": "l-bracket – 50 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "13",
+      "partNo": "5A50086701",
+      "desc": "DC/DC interconnection pipe w/ return",
+      "qty": "1",
+      "partNoN": "5A50086701",
+      "descN": "dc/dc interconnection pipe w/ return"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "14",
+      "partNo": "5A50088001",
+      "desc": "Water pump assembly",
+      "qty": "1",
+      "partNoN": "5A50088001",
+      "descN": "water pump assembly"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "15",
+      "partNo": "5A50101801",
+      "desc": "Compressor outlet pipe",
+      "qty": "1",
+      "partNoN": "5A50101801",
+      "descN": "compressor outlet pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "16",
+      "partNo": "5A50117801",
+      "desc": "Pump supply pipe",
+      "qty": "1",
+      "partNoN": "5A50117801",
+      "descN": "pump supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "17",
+      "partNo": "5A50117901",
+      "desc": "Pump supply pipe",
+      "qty": "1",
+      "partNoN": "5A50117901",
+      "descN": "pump supply pipe"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "18",
+      "partNo": "70040852_500",
+      "desc": "Conti cooling water hose 25X34mm",
+      "qty": "1",
+      "partNoN": "70040852500",
+      "descN": "conti cooling water hose 25x34mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "20",
+      "partNo": "5A58012301",
+      "desc": "Angled bracket",
+      "qty": "2",
+      "partNoN": "5A58012301",
+      "descN": "angled bracket"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "21",
+      "partNo": "70007792",
+      "desc": "18 mm zinc clamp with rubber",
+      "qty": "16",
+      "partNoN": "70007792",
+      "descN": "18 mm zinc clamp with rubber"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "22",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "30",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "23",
+      "partNo": "70023920",
+      "desc": "44 mm rubber-lined zinc clamp",
+      "qty": "2",
+      "partNoN": "70023920",
+      "descN": "44 mm rubber-lined zinc clamp"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "24",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "25",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "25",
+      "partNo": "70025217",
+      "desc": "28 mm rubber-lined zinc clamp",
+      "qty": "3",
+      "partNoN": "70025217",
+      "descN": "28 mm rubber-lined zinc clamp"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "26",
+      "partNo": "70027717",
+      "desc": "Stainless steel union M16×1.5",
+      "qty": "2",
+      "partNoN": "70027717",
+      "descN": "stainless steel union m16×1.5"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "27",
+      "partNo": "70034063",
+      "desc": "25 mm rubber-lined zinc clamp",
+      "qty": "3",
+      "partNoN": "70034063",
+      "descN": "25 mm rubber-lined zinc clamp"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "28",
+      "partNo": "70040849_140",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "70040849140",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "29",
+      "partNo": "70040849_260",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "70040849260",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "30",
+      "partNo": "70040849_450",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "70040849450",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "31",
+      "partNo": "70040849_580",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "2",
+      "partNoN": "70040849580",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "32",
+      "partNo": "70040849_600",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "70040849600",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "33",
+      "partNo": "70040849_690",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "70040849690",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "34",
+      "partNo": "70040849_75",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "7004084975",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "35",
+      "partNo": "70040849_80",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "8",
+      "partNoN": "7004084980",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "36",
+      "partNo": "70040849_90",
+      "desc": "Conti cooling water hose 18×27 mm",
+      "qty": "1",
+      "partNoN": "7004084990",
+      "descN": "conti cooling water hose 18×27 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "37",
+      "partNo": "70040852_100",
+      "desc": "Conti cooling water hose 25X34mm",
+      "qty": "3",
+      "partNoN": "70040852100",
+      "descN": "conti cooling water hose 25x34mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "38",
+      "partNo": "70040852_120",
+      "desc": "Conti cooling water hose 25X34mm",
+      "qty": "2",
+      "partNoN": "70040852120",
+      "descN": "conti cooling water hose 25x34mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "39",
+      "partNo": "70040926",
+      "desc": "EPDM 90° elbow 19 mm 150×150 mm",
+      "qty": "1",
+      "partNoN": "70040926",
+      "descN": "epdm 90° elbow 19 mm 150×150 mm"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "40",
+      "partNo": "70040994",
+      "desc": "WF 20–32/9 W3 hose clamp",
+      "qty": "36",
+      "partNoN": "70040994",
+      "descN": "wf 20–32/9 w3 hose clamp"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "41",
+      "partNo": "70041455",
+      "desc": "Constant-tension hose clamp",
+      "qty": "10",
+      "partNoN": "70041455",
+      "descN": "constant-tension hose clamp"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "42",
+      "partNo": "70041666",
+      "desc": "Connector stud DKOL15 CEL22",
+      "qty": "2",
+      "partNoN": "70041666",
+      "descN": "connector stud dkol15 cel22"
+    },
+    {
+      "svgBase": "5A50084601",
+      "code": "5A50084601",
+      "pos": "43",
+      "partNo": "70041668",
+      "desc": "Push-lock nipple ND DN19 DKOL22",
+      "qty": "2",
+      "partNoN": "70041668",
+      "descN": "push-lock nipple nd dn19 dkol22"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "1",
+      "partNo": "5A50087901",
+      "desc": "Water pump assembly",
+      "qty": "1",
+      "partNoN": "5A50087901",
+      "descN": "water pump assembly"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "2",
+      "partNo": "5A50101501",
+      "desc": "PEM outlet pipe",
+      "qty": "1",
+      "partNoN": "5A50101501",
+      "descN": "pem outlet pipe"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "3",
+      "partNo": "5A50101601",
+      "desc": "PEM inlet pipe",
+      "qty": "1",
+      "partNoN": "5A50101601",
+      "descN": "pem inlet pipe"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "4",
+      "partNo": "5A50101701",
+      "desc": "Water pump outlet pipe",
+      "qty": "1",
+      "partNoN": "5A50101701",
+      "descN": "water pump outlet pipe"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "5",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "4",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "6",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "3",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "7",
+      "partNo": "70034063",
+      "desc": "25 mm rubber-lined zinc clamp",
+      "qty": "4",
+      "partNoN": "70034063",
+      "descN": "25 mm rubber-lined zinc clamp"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "8",
+      "partNo": "70040852_100",
+      "desc": "Conti cooling water hose 25×34 mm",
+      "qty": "3",
+      "partNoN": "70040852100",
+      "descN": "conti cooling water hose 25×34 mm"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "9",
+      "partNo": "70040852_120",
+      "desc": "Conti cooling water hose 25×34 mm",
+      "qty": "1",
+      "partNoN": "70040852120",
+      "descN": "conti cooling water hose 25×34 mm"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "10",
+      "partNo": "70040924",
+      "desc": "EPDM 90° elbow, ID 25 mm, 150×150 mm",
+      "qty": "2",
+      "partNoN": "70040924",
+      "descN": "epdm 90° elbow, id 25 mm, 150×150 mm"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "11",
+      "partNo": "70041455",
+      "desc": "Constant-tension hose clamp W3 30–45",
+      "qty": "12",
+      "partNoN": "70041455",
+      "descN": "constant-tension hose clamp w3 30–45"
+    },
+    {
+      "svgBase": "5A50084701",
+      "code": "5A50084701",
+      "pos": "12",
+      "partNo": "70041468",
+      "desc": "Hydraulic adapter AGR 3/4 DN25",
+      "qty": "2",
+      "partNoN": "70041468",
+      "descN": "hydraulic adapter agr 3/4 dn25"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "1",
+      "partNo": "TBA",
+      "desc": "Expansion tank",
+      "qty": "1",
+      "partNoN": "TBA",
+      "descN": "expansion tank"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "2",
+      "partNo": "5A50081901",
+      "desc": "Radiator return and bleed line assembly",
+      "qty": "1",
+      "partNoN": "5A50081901",
+      "descN": "radiator return and bleed line assembly"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "3",
+      "partNo": "5A50117701",
+      "desc": "Tank feed pipe",
+      "qty": "1",
+      "partNoN": "5A50117701",
+      "descN": "tank feed pipe"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "4",
+      "partNo": "5A50119501",
+      "desc": "Stainless steel pipe to tank",
+      "qty": "1",
+      "partNoN": "5A50119501",
+      "descN": "stainless steel pipe to tank"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "5",
+      "partNo": "5A50135501",
+      "desc": "Union pipe D25 mm",
+      "qty": "1",
+      "partNoN": "5A50135501",
+      "descN": "union pipe d25 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "6",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "4",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "7",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "4",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "8",
+      "partNo": "70034063",
+      "desc": "Zinc-plated clamp with rubber insert 25 mm",
+      "qty": "4",
+      "partNoN": "70034063",
+      "descN": "zinc-plated clamp with rubber insert 25 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "9",
+      "partNo": "70040852_100",
+      "desc": "Coolant hose 25x34 mm",
+      "qty": "1",
+      "partNoN": "70040852100",
+      "descN": "coolant hose 25x34 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "10",
+      "partNo": "70040852_270",
+      "desc": "Coolant hose 25x34 mm",
+      "qty": "1",
+      "partNoN": "70040852270",
+      "descN": "coolant hose 25x34 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "11",
+      "partNo": "70040852_271",
+      "desc": "Coolant hose 25x34 mm",
+      "qty": "1",
+      "partNoN": "70040852271",
+      "descN": "coolant hose 25x34 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "12",
+      "partNo": "70040852_65",
+      "desc": "Coolant hose 25x34 mm",
+      "qty": "1",
+      "partNoN": "7004085265",
+      "descN": "coolant hose 25x34 mm"
+    },
+    {
+      "svgBase": "5A50084801",
+      "code": "5A50084801",
+      "pos": "13",
+      "partNo": "70041455",
+      "desc": "Constant tension clamp W3 30–45",
+      "qty": "8",
+      "partNoN": "70041455",
+      "descN": "constant tension clamp w3 30–45"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "1",
+      "partNo": "5A500111",
+      "desc": "Radiator left side support bracket",
+      "qty": "1",
+      "partNoN": "5A500111",
+      "descN": "radiator left side support bracket"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "2",
+      "partNo": "5A500113",
+      "desc": "Radiator right side support bracket",
+      "qty": "1",
+      "partNoN": "5A500113",
+      "descN": "radiator right side support bracket"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "3",
+      "partNo": "5A500114",
+      "desc": "Radiator vertical support bracket",
+      "qty": "2",
+      "partNoN": "5A500114",
+      "descN": "radiator vertical support bracket"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "4",
+      "partNo": "5A500131",
+      "desc": "Radiator insulation support bracket",
+      "qty": "2",
+      "partNoN": "5A500131",
+      "descN": "radiator insulation support bracket"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "5",
+      "partNo": "5A500139",
+      "desc": "Radiator piping support bracket",
+      "qty": "1",
+      "partNoN": "5A500139",
+      "descN": "radiator piping support bracket"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "6",
+      "partNo": "5A50119301",
+      "desc": "Connection of auxiliaries to cooling system",
+      "qty": "1",
+      "partNoN": "5A50119301",
+      "descN": "connection of auxiliaries to cooling system"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "7",
+      "partNo": "70023387",
+      "desc": "Silent block M8X20",
+      "qty": "2",
+      "partNoN": "70023387",
+      "descN": "silent block m8x20"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "8",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "2",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "9",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X25",
+      "qty": "6",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "10",
+      "partNo": "70023874",
+      "desc": "Hex flange screw M8X50",
+      "qty": "2",
+      "partNoN": "70023874",
+      "descN": "hex flange screw m8x50"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "11",
+      "partNo": "70023879",
+      "desc": "Hex flange screw M10X25",
+      "qty": "8",
+      "partNoN": "70023879",
+      "descN": "hex flange screw m10x25"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "12",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "4",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "13",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "4",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "14",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "6",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "15",
+      "partNo": "70041143",
+      "desc": "Temperature sensor",
+      "qty": "1",
+      "partNoN": "70041143",
+      "descN": "temperature sensor"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "16",
+      "partNo": "70042778",
+      "desc": "Radiator",
+      "qty": "1",
+      "partNoN": "70042778",
+      "descN": "radiator"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "17",
+      "partNo": "70044897_100",
+      "desc": "Silicone tube interior diameter=45mm",
+      "qty": "1",
+      "partNoN": "70044897100",
+      "descN": "silicone tube interior diameter=45mm"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "18",
+      "partNo": "70044897_400",
+      "desc": "Silicone tube interior diameter=45mm",
+      "qty": "1",
+      "partNoN": "70044897400",
+      "descN": "silicone tube interior diameter=45mm"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "19",
+      "partNo": "70047530",
+      "desc": "Cone support",
+      "qty": "2",
+      "partNoN": "70047530",
+      "descN": "cone support"
+    },
+    {
+      "svgBase": "5A50086401",
+      "code": "5A50086401",
+      "pos": "20",
+      "partNo": "70024023",
+      "desc": "Clamp Ø 50,8/58,7 MM TBC",
+      "qty": "4",
+      "partNoN": "70024023",
+      "descN": "clamp ø 50,8/58,7 mm tbc"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "1",
+      "partNo": "5A500124",
+      "desc": "Water pump support assembly",
+      "qty": "1",
+      "partNoN": "5A500124",
+      "descN": "water pump support assembly"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "2",
+      "partNo": "5A500126",
+      "desc": "Water pump aluminum protection cover",
+      "qty": "1",
+      "partNoN": "5A500126",
+      "descN": "water pump aluminum protection cover"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "3",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "4",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "4",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X20",
+      "qty": "4",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "5",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "4",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A50087901",
+      "code": "5A50087901",
+      "pos": "6",
+      "partNo": "70041813",
+      "desc": "Water pump",
+      "qty": "1",
+      "partNoN": "70041813",
+      "descN": "water pump"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "1",
+      "partNo": "5A500125",
+      "desc": "Water pump support",
+      "qty": "1",
+      "partNoN": "5A500125",
+      "descN": "water pump support"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "2",
+      "partNo": "5A500126",
+      "desc": "Water pump aluminum protection cover",
+      "qty": "1",
+      "partNoN": "5A500126",
+      "descN": "water pump aluminum protection cover"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "3",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "4",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "4",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X20",
+      "qty": "4",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "5",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "4",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A50088001",
+      "code": "5A50088001",
+      "pos": "6",
+      "partNo": "70041813",
+      "desc": "Water pump",
+      "qty": "1",
+      "partNoN": "70041813",
+      "descN": "water pump"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "1",
+      "partNo": "212195",
+      "desc": "Rivet MGLP R8 10 6,5x20",
+      "qty": "1",
+      "partNoN": "212195",
+      "descN": "rivet mglp r8 10 6,5x20"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "2",
+      "partNo": "5A50082901",
+      "desc": "L bracket 80 mm",
+      "qty": "2",
+      "partNoN": "5A50082901",
+      "descN": "l bracket 80 mm"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "3",
+      "partNo": "5A50083001",
+      "desc": "L bracket 120 mm",
+      "qty": "4",
+      "partNoN": "5A50083001",
+      "descN": "l bracket 120 mm"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "4",
+      "partNo": "5A50083101",
+      "desc": "Pipes support bracket",
+      "qty": "1",
+      "partNoN": "5A50083101",
+      "descN": "pipes support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "5",
+      "partNo": "5A50085701",
+      "desc": "Pipes support bracket",
+      "qty": "1",
+      "partNoN": "5A50085701",
+      "descN": "pipes support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "6",
+      "partNo": "5A50086101",
+      "desc": "PEM feed pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50086101",
+      "descN": "pem feed pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "7",
+      "partNo": "5A50101401",
+      "desc": "Pipes support bracket - firewall",
+      "qty": "1",
+      "partNoN": "5A50101401",
+      "descN": "pipes support bracket - firewall"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "8",
+      "partNo": "5A50101901",
+      "desc": "Compressor outlet pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50101901",
+      "descN": "compressor outlet pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "9",
+      "partNo": "5A50102101",
+      "desc": "Compressor outlet pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50102101",
+      "descN": "compressor outlet pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "10",
+      "partNo": "5A50103101",
+      "desc": "PEM outlet pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50103101",
+      "descN": "pem outlet pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "11",
+      "partNo": "5A50103301",
+      "desc": "Compressor outlet pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50103301",
+      "descN": "compressor outlet pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "12",
+      "partNo": "5A50118301",
+      "desc": "Charriot pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50118301",
+      "descN": "charriot pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "13",
+      "partNo": "5A50119401",
+      "desc": "EPDM pipe support bracket",
+      "qty": "1",
+      "partNoN": "5A50119401",
+      "descN": "epdm pipe support bracket"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "14",
+      "partNo": "5A580002",
+      "desc": "Zinc-plated L bracket 80 mm M8",
+      "qty": "2",
+      "partNoN": "5A580002",
+      "descN": "zinc-plated l bracket 80 mm m8"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "15",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "7",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "16",
+      "partNo": "70023873",
+      "desc": "Hex flange screw M8X20",
+      "qty": "12",
+      "partNoN": "70023873",
+      "descN": "hex flange screw m8x20"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "17",
+      "partNo": "70024156",
+      "desc": "Self lock nut M6",
+      "qty": "4",
+      "partNoN": "70024156",
+      "descN": "self lock nut m6"
+    },
+    {
+      "svgBase": "5A50102001",
+      "code": "5A50102001",
+      "pos": "18",
+      "partNo": "70024157",
+      "desc": "Self lock nut M8",
+      "qty": "5",
+      "partNoN": "70024157",
+      "descN": "self lock nut m8"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "1",
+      "partNo": "5A50118401",
+      "desc": "Radiator manifold",
+      "qty": "1",
+      "partNoN": "5A50118401",
+      "descN": "radiator manifold"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "2",
+      "partNo": "5A50118601",
+      "desc": "Radiator manifold",
+      "qty": "1",
+      "partNoN": "5A50118601",
+      "descN": "radiator manifold"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "3",
+      "partNo": "5A50118701",
+      "desc": "Radiator manifold bracket",
+      "qty": "2",
+      "partNoN": "5A50118701",
+      "descN": "radiator manifold bracket"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "4",
+      "partNo": "70023920",
+      "desc": "Zinc-plated rubber-lined clamp",
+      "qty": "2",
+      "partNoN": "70023920",
+      "descN": "zinc-plated rubber-lined clamp"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "5",
+      "partNo": "70037461",
+      "desc": "M6 hex pressure nut",
+      "qty": "2",
+      "partNoN": "70037461",
+      "descN": "m6 hex pressure nut"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "6",
+      "partNo": "70045319",
+      "desc": "Screw M6X10 8.8",
+      "qty": "2",
+      "partNoN": "70045319",
+      "descN": "screw m6x10 8.8"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "7",
+      "partNo": "5A50118901",
+      "desc": "Radiator manifold kit 2",
+      "qty": "1",
+      "partNoN": "5A50118901",
+      "descN": "radiator manifold kit 2"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "8",
+      "partNo": "5A50119101",
+      "desc": "Radiator manifold kit 1",
+      "qty": "1",
+      "partNoN": "5A50119101",
+      "descN": "radiator manifold kit 1"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "9",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "4",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "10",
+      "partNo": "70044897_L250",
+      "desc": "Silicone hose Ø int. 45",
+      "qty": "1",
+      "partNoN": "70044897L250",
+      "descN": "silicone hose ø int. 45"
+    },
+    {
+      "svgBase": "5A50119301",
+      "code": "5A50119301",
+      "pos": "11",
+      "partNo": "70024023",
+      "desc": "Clamp Ø 50.8/58.7 mm",
+      "qty": "2",
+      "partNoN": "70024023",
+      "descN": "clamp ø 50.8/58.7 mm"
+    },
+    {
+      "svgBase": "5A50123A01",
+      "code": "5A50123A01",
+      "pos": "1",
+      "partNo": "5A50084601",
+      "desc": "Auxiliary circuit assembly",
+      "qty": "1",
+      "partNoN": "5A50084601",
+      "descN": "auxiliary circuit assembly"
+    },
+    {
+      "svgBase": "5A50123A01",
+      "code": "5A50123A01",
+      "pos": "2",
+      "partNo": "5A50084701",
+      "desc": "PEM circuit assembly",
+      "qty": "1",
+      "partNoN": "5A50084701",
+      "descN": "pem circuit assembly"
+    },
+    {
+      "svgBase": "5A50123A01",
+      "code": "5A50123A01",
+      "pos": "3",
+      "partNo": "5A50084801",
+      "desc": "System supply/return assembly",
+      "qty": "1",
+      "partNoN": "5A50084801",
+      "descN": "system supply/return assembly"
+    },
+    {
+      "svgBase": "5A50123A01",
+      "code": "5A50123A01",
+      "pos": "4",
+      "partNo": "5A50086401",
+      "desc": "Radiator assembly kit",
+      "qty": "1",
+      "partNoN": "5A50086401",
+      "descN": "radiator assembly kit"
+    },
+    {
+      "svgBase": "5A50123A01",
+      "code": "5A50123A01",
+      "pos": "5",
+      "partNo": "5A50102001",
+      "desc": "Cooling system support assembly",
+      "qty": "1",
+      "partNoN": "5A50102001",
+      "descN": "cooling system support assembly"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "1",
+      "partNo": "103349",
+      "desc": "Threated bar",
+      "qty": "3",
+      "partNoN": "103349",
+      "descN": "threated bar"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "2",
+      "partNo": "199413",
+      "desc": "Rivet",
+      "qty": "10",
+      "partNoN": "199413",
+      "descN": "rivet"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "3",
+      "partNo": "212195",
+      "desc": "Rivet MGLP R8 10 6,5x20",
+      "qty": "32",
+      "partNoN": "212195",
+      "descN": "rivet mglp r8 10 6,5x20"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "4",
+      "partNo": "5A500212",
+      "desc": "Lower Shield Assembly",
+      "qty": "1",
+      "partNoN": "5A500212",
+      "descN": "lower shield assembly"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "5",
+      "partNo": "5A52012400",
+      "desc": "Exhaust hole cover",
+      "qty": "2",
+      "partNoN": "5A52012400",
+      "descN": "exhaust hole cover"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "6",
+      "partNo": "5A52021401",
+      "desc": "Left Wheel Arch Sheet-Metal",
+      "qty": "1",
+      "partNoN": "5A52021401",
+      "descN": "left wheel arch sheet-metal"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "7",
+      "partNo": "5A52021501",
+      "desc": "Powerbox Insulation",
+      "qty": "1",
+      "partNoN": "5A52021501",
+      "descN": "powerbox insulation"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "8",
+      "partNo": "5A52021601",
+      "desc": "Left Wheel Arch Sheet-Metal",
+      "qty": "1",
+      "partNoN": "5A52021601",
+      "descN": "left wheel arch sheet-metal"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "9",
+      "partNo": "5A52022001",
+      "desc": "Onboard Charger Insulation",
+      "qty": "1",
+      "partNoN": "5A52022001",
+      "descN": "onboard charger insulation"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "10",
+      "partNo": "5A52022901",
+      "desc": "Power Steering Motor Cover",
+      "qty": "1",
+      "partNoN": "5A52022901",
+      "descN": "power steering motor cover"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "11",
+      "partNo": "5A52023001",
+      "desc": "Left Sheet-Metal Bracket",
+      "qty": "1",
+      "partNoN": "5A52023001",
+      "descN": "left sheet-metal bracket"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "12",
+      "partNo": "5A52023101",
+      "desc": "Onboard Charger Insulation",
+      "qty": "1",
+      "partNoN": "5A52023101",
+      "descN": "onboard charger insulation"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "13",
+      "partNo": "5A52023201",
+      "desc": "Onboard Charger Insulation",
+      "qty": "1",
+      "partNoN": "5A52023201",
+      "descN": "onboard charger insulation"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "14",
+      "partNo": "5A52023501",
+      "desc": "Right Wheel Arch Sheet-Metal",
+      "qty": "1",
+      "partNoN": "5A52023501",
+      "descN": "right wheel arch sheet-metal"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "15",
+      "partNo": "5A52023601",
+      "desc": "Electrical Board Sheet-Metal",
+      "qty": "1",
+      "partNoN": "5A52023601",
+      "descN": "electrical board sheet-metal"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "16",
+      "partNo": "5A52024101",
+      "desc": "Right Sheet-Metal Panel",
+      "qty": "1",
+      "partNoN": "5A52024101",
+      "descN": "right sheet-metal panel"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "17",
+      "partNo": "5A52024301",
+      "desc": "Sheet-Metal Bracket",
+      "qty": "1",
+      "partNoN": "5A52024301",
+      "descN": "sheet-metal bracket"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "18",
+      "partNo": "5A52024401",
+      "desc": "Sheet-Metal Bracket",
+      "qty": "1",
+      "partNoN": "5A52024401",
+      "descN": "sheet-metal bracket"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "19",
+      "partNo": "5A52024501",
+      "desc": "Left Sheet-Metal",
+      "qty": "1",
+      "partNoN": "5A52024501",
+      "descN": "left sheet-metal"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "20",
+      "partNo": "70023871",
+      "desc": "Hex flange screw M6X20",
+      "qty": "10",
+      "partNoN": "70023871",
+      "descN": "hex flange screw m6x20"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "21",
+      "partNo": "70023872",
+      "desc": "Hex flange screw M8X25",
+      "qty": "1",
+      "partNoN": "70023872",
+      "descN": "hex flange screw m8x25"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "22",
+      "partNo": "70024135",
+      "desc": "Hex flange screw M6X16",
+      "qty": "25",
+      "partNoN": "70024135",
+      "descN": "hex flange screw m6x16"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "23",
+      "partNo": "70028272",
+      "desc": "Hex flange screw M8x16",
+      "qty": "2",
+      "partNoN": "70028272",
+      "descN": "hex flange screw m8x16"
+    },
+    {
+      "svgBase": "5A52086A01",
+      "code": "5A52086A01",
+      "pos": "24",
+      "partNo": "70032843",
+      "desc": "M6 SNU-Type Speed Nut",
+      "qty": "20",
+      "partNoN": "70032843",
+      "descN": "m6 snu-type speed nut"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "1",
+      "partNo": "5A54049501",
+      "desc": "HV cable PEM - Inverter U",
+      "qty": "1",
+      "partNoN": "5A54049501",
+      "descN": "hv cable pem - inverter u"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "2",
+      "partNo": "5A54049601",
+      "desc": "HV cable PEM - Inverter V",
+      "qty": "1",
+      "partNoN": "5A54049601",
+      "descN": "hv cable pem - inverter v"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "3",
+      "partNo": "5A54049701",
+      "desc": "HV cable PEM - Inverter W",
+      "qty": "1",
+      "partNoN": "5A54049701",
+      "descN": "hv cable pem - inverter w"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "4",
+      "partNo": "5A54049801",
+      "desc": "HV cable Powerbox - Inverter",
+      "qty": "1",
+      "partNoN": "5A54049801",
+      "descN": "hv cable powerbox - inverter"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "5",
+      "partNo": "5A54049901",
+      "desc": "Earth cable PEM",
+      "qty": "1",
+      "partNoN": "5A54049901",
+      "descN": "earth cable pem"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "6",
+      "partNo": "5A54050001",
+      "desc": "Earth cable Inverter",
+      "qty": "1",
+      "partNoN": "5A54050001",
+      "descN": "earth cable inverter"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "7",
+      "partNo": "5A54050102",
+      "desc": "IVPM to Chassis Main Board",
+      "qty": "1",
+      "partNoN": "5A54050102",
+      "descN": "ivpm to chassis main board"
+    },
+    {
+      "svgBase": "5A54085901",
+      "code": "5A54085901",
+      "pos": "8",
+      "partNo": "5A54053101",
+      "desc": "IVPM to PEM",
+      "qty": "1",
+      "partNoN": "5A54053101",
+      "descN": "ivpm to pem"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "1",
+      "partNo": "5A54048901",
+      "desc": "HV cable Powerbox - DC/AC 3",
+      "qty": "1",
+      "partNoN": "5A54048901",
+      "descN": "hv cable powerbox - dc/ac 3"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "2",
+      "partNo": "5A54049001",
+      "desc": "HV cable Powerbox - DC/AC 2",
+      "qty": "1",
+      "partNoN": "5A54049001",
+      "descN": "hv cable powerbox - dc/ac 2"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "3",
+      "partNo": "5A54049101",
+      "desc": "HV cable Powerbox - DC/AC 1",
+      "qty": "1",
+      "partNoN": "5A54049101",
+      "descN": "hv cable powerbox - dc/ac 1"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "4",
+      "partNo": "5A54049301",
+      "desc": "Cable FuseBox to Steering Relay",
+      "qty": "1",
+      "partNoN": "5A54049301",
+      "descN": "cable fusebox to steering relay"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "5",
+      "partNo": "5A54050401",
+      "desc": "HV cable DC/AC 1 - Air compressor",
+      "qty": "1",
+      "partNoN": "5A54050401",
+      "descN": "hv cable dc/ac 1 - air compressor"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "6",
+      "partNo": "5A54054201",
+      "desc": "Cable DC/AC 1 to Fusebox",
+      "qty": "1",
+      "partNoN": "5A54054201",
+      "descN": "cable dc/ac 1 to fusebox"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "7",
+      "partNo": "5A54054401",
+      "desc": "Cable Main Relay to Fusebox3",
+      "qty": "1",
+      "partNoN": "5A54054401",
+      "descN": "cable main relay to fusebox3"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "8",
+      "partNo": "5A54054601",
+      "desc": "Cable DC/AC 2 to Fusebox",
+      "qty": "1",
+      "partNoN": "5A54054601",
+      "descN": "cable dc/ac 2 to fusebox"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "9",
+      "partNo": "5A54054701",
+      "desc": "Cable DC/AC 1 Earth",
+      "qty": "1",
+      "partNoN": "5A54054701",
+      "descN": "cable dc/ac 1 earth"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "10",
+      "partNo": "5A54054801",
+      "desc": "Cable DC/AC 2 Earth",
+      "qty": "1",
+      "partNoN": "5A54054801",
+      "descN": "cable dc/ac 2 earth"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "11",
+      "partNo": "5A54054901",
+      "desc": "Cable DC/AC 3 GND",
+      "qty": "1",
+      "partNoN": "5A54054901",
+      "descN": "cable dc/ac 3 gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "12",
+      "partNo": "5A54055001",
+      "desc": "Cable manual switch to bat. fuse",
+      "qty": "1",
+      "partNoN": "5A54055001",
+      "descN": "cable manual switch to bat. fuse"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "13",
+      "partNo": "5A54055101",
+      "desc": "Cable Battery1 to Battery2",
+      "qty": "1",
+      "partNoN": "5A54055101",
+      "descN": "cable battery1 to battery2"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "14",
+      "partNo": "5A54055201",
+      "desc": "Cable Battery 1 to GND",
+      "qty": "1",
+      "partNoN": "5A54055201",
+      "descN": "cable battery 1 to gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "15",
+      "partNo": "5A54055301",
+      "desc": "Cable ECOMP Earth",
+      "qty": "1",
+      "partNoN": "5A54055301",
+      "descN": "cable ecomp earth"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "16",
+      "partNo": "5A54055401",
+      "desc": "Cable battery 2 to manual switch",
+      "qty": "1",
+      "partNoN": "5A54055401",
+      "descN": "cable battery 2 to manual switch"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "17",
+      "partNo": "5A54055601",
+      "desc": "Cable FuseBox to chassis board",
+      "qty": "1",
+      "partNoN": "5A54055601",
+      "descN": "cable fusebox to chassis board"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "18",
+      "partNo": "5A54057502",
+      "desc": "Cable battery fuse to Main relay",
+      "qty": "1",
+      "partNoN": "5A54057502",
+      "descN": "cable battery fuse to main relay"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "19",
+      "partNo": "5A54057601",
+      "desc": "Cable DC/AC 3 to Fusebox",
+      "qty": "1",
+      "partNoN": "5A54057601",
+      "descN": "cable dc/ac 3 to fusebox"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "20",
+      "partNo": "5A54057801",
+      "desc": "Cable DC/AC 1 GND",
+      "qty": "1",
+      "partNoN": "5A54057801",
+      "descN": "cable dc/ac 1 gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "21",
+      "partNo": "5A54057901",
+      "desc": "Cable DC/AC 2 GND",
+      "qty": "1",
+      "partNoN": "5A54057901",
+      "descN": "cable dc/ac 2 gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "22",
+      "partNo": "5A54058001",
+      "desc": "Cable DC/AC 3 Earth",
+      "qty": "1",
+      "partNoN": "5A54058001",
+      "descN": "cable dc/ac 3 earth"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "23",
+      "partNo": "5A54058201",
+      "desc": "Cable PowerBox Earth",
+      "qty": "1",
+      "partNoN": "5A54058201",
+      "descN": "cable powerbox earth"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "24",
+      "partNo": "5A54058401",
+      "desc": "Cable Steering Inverter GND",
+      "qty": "1",
+      "partNoN": "5A54058401",
+      "descN": "cable steering inverter gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "25",
+      "partNo": "5A54058501",
+      "desc": "Cables Steering Inverter to motor",
+      "qty": "1",
+      "partNoN": "5A54058501",
+      "descN": "cables steering inverter to motor"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "26",
+      "partNo": "5A54058802",
+      "desc": "Harness Left chassis",
+      "qty": "1",
+      "partNoN": "5A54058802",
+      "descN": "harness left chassis"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "27",
+      "partNo": "5A54059002",
+      "desc": "Harness right chassis",
+      "qty": "1",
+      "partNoN": "5A54059002",
+      "descN": "harness right chassis"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "28",
+      "partNo": "5A54059101",
+      "desc": "Harness Front chassis",
+      "qty": "1",
+      "partNoN": "5A54059101",
+      "descN": "harness front chassis"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "29",
+      "partNo": "5A54059202",
+      "desc": "Harness Dashboard chassis",
+      "qty": "1",
+      "partNoN": "5A54059202",
+      "descN": "harness dashboard chassis"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "30",
+      "partNo": "5A54059501",
+      "desc": "Cable chassis board GND",
+      "qty": "1",
+      "partNoN": "5A54059501",
+      "descN": "cable chassis board gnd"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "31",
+      "partNo": "5A54061101",
+      "desc": "Cable + Bat fuse to chassis board",
+      "qty": "1",
+      "partNoN": "5A54061101",
+      "descN": "cable + bat fuse to chassis board"
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "32",
+      "partNo": "5A54069801",
+      "desc": "Cable Batt Earth to Chassis distr.",
+      "qty": "1",
+      "partNoN": "5A54069801",
+      "descN": "cable batt earth to chassis distr."
+    },
+    {
+      "svgBase": "5A54123A01",
+      "code": "5A54123A01",
+      "pos": "33",
+      "partNo": "5A54072001",
+      "desc": "Cable Powerbox sctruct. to right pt.",
+      "qty": "1",
+      "partNoN": "5A54072001",
+      "descN": "cable powerbox sctruct. to right pt."
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "1",
+      "partNo": "5A10123A01",
+      "desc": "Traction motor",
+      "qty": "1",
+      "partNoN": "5A10123A01",
+      "descN": "traction motor"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "2",
+      "partNo": "5A22123A01",
+      "desc": "Traction motor support assembly kit",
+      "qty": "1",
+      "partNoN": "5A22123A01",
+      "descN": "traction motor support assembly kit"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "3",
+      "partNo": "5A24123A01",
+      "desc": "Charriot",
+      "qty": "1",
+      "partNoN": "5A24123A01",
+      "descN": "charriot"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "4",
+      "partNo": "5A29123A01",
+      "desc": "Driver's pedal assembly",
+      "qty": "1",
+      "partNoN": "5A29123A01",
+      "descN": "driver's pedal assembly"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "5",
+      "partNo": "5A31123A01",
+      "desc": "Structure kit",
+      "qty": "1",
+      "partNoN": "5A31123A01",
+      "descN": "structure kit"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "6",
+      "partNo": "5A41123A01",
+      "desc": "Driveshaft",
+      "qty": "1",
+      "partNoN": "5A41123A01",
+      "descN": "driveshaft"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "7",
+      "partNo": "5A42123A01",
+      "desc": "Pneumatic system",
+      "qty": "1",
+      "partNoN": "5A42123A01",
+      "descN": "pneumatic system"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "8",
+      "partNo": "5A46123A01",
+      "desc": "Steering system",
+      "qty": "1",
+      "partNoN": "5A46123A01",
+      "descN": "steering system"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "9",
+      "partNo": "5A50123A01",
+      "desc": "Cooling system",
+      "qty": "1",
+      "partNoN": "5A50123A01",
+      "descN": "cooling system"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "10",
+      "partNo": "5A52086A01",
+      "desc": "Sheet-metal panels",
+      "qty": "1",
+      "partNoN": "5A52086A01",
+      "descN": "sheet-metal panels"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "11",
+      "partNo": "5A54123A01",
+      "desc": "Electrical Wiring",
+      "qty": "1",
+      "partNoN": "5A54123A01",
+      "descN": "electrical wiring"
+    },
+    {
+      "svgBase": "pai_50021302",
+      "code": "50021302",
+      "pos": "12",
+      "partNo": "5A44086A01",
+      "desc": "Electrical components",
+      "qty": "1",
+      "partNoN": "5A44086A01",
+      "descN": "electrical components"
+    }
+  ],
+  "codeDesc": {
+    "5A10004301": "Washer M18",
+    "5A220020": "Washer M12x4x40",
+    "5A220021": "Washer M12x4x40",
+    "5A44117701": "Electric cables support",
+    "70024159": "Self locking nut M12X1,5",
+    "70040801": "PEM MOTOR ELFA3",
+    "70046788": "Screw DIN 6921 ZFSHL M12X1.5X90 10.9",
+    "TBA": "Kitas sensor",
+    "5A10004401": "Motor assembly on the lower subframe",
+    "5A44103801": "Traction inverter assembly",
+    "5A54085901": "Engine wiring harness",
+    "5A22004701": "Motor Support",
+    "5A22005101": "Motor Support",
+    "5A22005501": "Motor Support",
+    "5A22005901": "Motor Support",
+    "70037577": "Hex flange bolt DIN 6921 10.9 M12X40",
+    "70030457": "Cylindrical mount",
+    "5A31200801": "Motor Charriot - base structure",
+    "5A31201901": "Motor Charriot - upper structure",
+    "70023879": "Hex Flange Screw M10X25",
+    "70024158": "Self lock nut M10",
+    "5A29007601": "Accelerator pedal support",
+    "70023873": "Hex flange screw M8X20",
+    "70024137": "Hex flange screw M8X20",
+    "70024157": "Self lock nut M8",
+    "70041593": "Accelerator pedal",
+    "5A420062": "Push-in Silencer",
+    "70023317": "M12x1.5 Plug with O-ring",
+    "70024273": "Stainless-Steel Clamp W4 25–40 mm",
+    "70027463": "ECAS Pressure Sensor",
+    "70036622": "ABS Push-in Connector R8x1.0",
+    "70036623": "Union Fitting – F-shape Standard",
+    "70036625": "ABC Fitting with Internal Thread – Standard",
+    "70039651": "ABC Male–Male Union M16x1.5",
+    "70039654": "ABC Elbow 90° Female–Female R12x1.5",
+    "70040787": "Cooling Water Hose 28x37 - 125mm",
+    "70043973": "O-ring NBR 23.81 × 2.62",
+    "70044017": "Brake Pedal Modulator Valve",
+    "5A29007701": "Accelerator pedal kit",
+    "5A29007801": "Brake pedal kit",
+    "5A31165301": "Converter Support Structure Assembly",
+    "5A31166401": "Powerbox support structure",
+    "70023878": "Hex flange screw M10X20",
+    "70036232": "M6 Rivet Nut",
+    "70037451": "M8 Knurled Rivet Nut",
+    "199413": "Rivet AD 612 4,8x13",
+    "5A31186101": "Converters insulation",
+    "5A31187601": "Converters support structure",
+    "70028428": "Hex flange screw M12X30",
+    "70040773": "Drive shaft",
+    "70023313": "Nut M22X1,5",
+    "70027466": "Long Reducer M22×1.2 – M16×1.5",
+    "70024136": "Hex flange screw M8X60",
+    "70031248": "Solenoide valve",
+    "70038722": "Mini-valve LEGRIS 3/2",
+    "70039652": "Elbow ABC 90º F/F R6x1",
+    "70039653": "Elbow ABC 90º F/F R8X1",
+    "5A42048501": "Compressor support spacer",
+    "5A42049401": "Compressor support plate",
+    "70024135": "Hex flange screw M6X16",
+    "70024156": "Self lock nut M6",
+    "70028546": "Male stud conector M27×2.0",
+    "70028547": "Plug M16×1.5",
+    "70031008": "Bushing M20x1.5",
+    "70031009": "Bushing M12x1.5",
+    "70034981": "Air Compressor",
+    "70038976": "Hex flange screw M6X30",
+    "70025678": "Compressed air hose",
+    "5A42038100": "Silent block 40x40 Kit",
+    "5A42049501": "Compressor assembly",
+    "5A42049601": "Compressor support base",
+    "5A42052801": "Compressor Intake Filter Assembly",
+    "70030847": "Hex flange screw M12X30X1.75 10.9",
+    "70023293": "Push-in Silencer",
+    "70023722": "Union M22X1.5-22L",
+    "5A420149": "Push-in connector",
+    "5A420178": "Union 450 22L",
+    "70023718": "Elbow 22L",
+    "70024094": "22L to 8L Reducer",
+    "70034987": "Compressed air hose",
+    "70023340": "M/F Union M16×1.5 – R16×2.0",
+    "70023880": "Hex flange screw M12X1,5X30",
+    "70024093": "T-fitting 22L with Swivel Nut",
+    "70031244": "Double air heater",
+    "70031251": "Safety valve",
+    "70036620": "ABC T-union - regular",
+    "70036621": "Ffitting with M22×1.5 thread - regular",
+    "70036626": "ABC Union regular",
+    "70045546": "ABC Regular Fitting – Female M22×1.5",
+    "5A42046301": "Air dryer support",
+    "5A42050001": "Air dryer kit",
+    "5A420135": "M22–1/4 reduction nut",
+    "5A42050701": "L bracket",
+    "70023295": "Check valve",
+    "70023324": "MFM reducer M22/M16/M22",
+    "70023346": "Male–female adapter M16x1 R8x1.0",
+    "70023872": "Hex flange screw M8X25",
+    "70024401": "Quick coupling",
+    "209597": "Cheese slotted screw M6X50",
+    "212195": "Rivet MGLP R8 10 6,5x20",
+    "5A420105": "Union 18L",
+    "5A420190": "Center Compressed Air Coil",
+    "5A420192": "Inlet Compressed Air Coil",
+    "70028437": "Reduction 22L 18L",
+    "5A420335": "Air coil support bracket",
+    "5A42051101": "L bracket 80mm",
+    "5A42051201": "L bracket 50mm",
+    "5A42051301": "Outlet Compressed Air Coil",
+    "5A42051401": "Pipe from air coil to compressor",
+    "5A42052401": "Air coil support bracket",
+    "5A53046501": "RHS condenser support bracket",
+    "5A53046701": "LHS condenser support bracket",
+    "70007792": "18 mm Zinc-Plated Clamp with Rubber",
+    "70019124": "Washer 18 mm A2",
+    "70023387": "Silent block M8x20",
+    "70023852": "Hex nut A2 M8",
+    "70023871": "Hex flange screw M6X20",
+    "70029441": "Pipe clamp 18 mm",
+    "70029469": "Pipe clamp reinforcement",
+    "5A42052501": "Air intake filter bracket",
+    "5A42053901": "Fitler hose union",
+    "5A580002": "Zinc-plated L bracket 80mm M8",
+    "70025217": "28 mm zinc-plated rubber-lined clamp",
+    "70033712": "Hose end fitting",
+    "70040657": "38 mm zinc-plated rubber clamp",
+    "70040741": "Clamp 20-32/12 W5",
+    "7004085060": "Cooling water hose 20x29mm",
+    "700481771500": "19mm Hose",
+    "FILTROARCOMPRESSORWABCO": "Compressed air filter",
+    "5A42052701": "L bracket 130mm",
+    "5A42048201": "5A42123A01-1/5A42086A01-1/5A42048201-1",
+    "5A42048301": "Pneumtic valves assembly kit",
+    "5A42049701": "5A42123A01-1/5A42086A01-1/5A42049701-1",
+    "5A42049801": "Electric compressor kit",
+    "5A42050101": "Air dryer assembly",
+    "5A42050801": "External air inlet",
+    "5A42051001": "Pneumatic air support",
+    "5A42051701": "Compressed air coil assembly",
+    "5A72063101": "5A42123A01-1/5A42086A01-1/5A72063101-1",
+    "5A44064000": "Ground bus",
+    "5A44064100": "Ground Bus Clamp Plate",
+    "70016982": "Hex Self-Locking Nut M10",
+    "70020314": "Stainless Steel Spring Washer M10",
+    "70031469": "Hex Head Screw M10x20, Stainless Steel",
+    "70048571": "Washer M10 – ISO 7093, Stainless Steel A2",
+    "5A44064300": "Ground Bus Bar",
+    "5A44105201": "Fuse Box Kit",
+    "5A44111801": "Batteries Kit",
+    "5A44113801": "Brackets and Clamps Kit",
+    "5A44098901": "Inverter support",
+    "5A44103301": "Cables support",
+    "5A44104001": "Cables support",
+    "5A44111101": "Cables support",
+    "70008040": "Hex screw M8X20 A2",
+    "70011554": "Clamp",
+    "70041427": "Clamp 22",
+    "70040802": "Interver ELFA3 DV3-750WH-A",
+    "5A54095001": "Fuse box connection plate",
+    "70005081": "150A Fuse",
+    "70023773": "100A Fuse",
+    "70030867": "Low-Profile Socket Head Screw M8×20",
+    "70030872": "Fuse box",
+    "70031505": "250A Fuse",
+    "70037453": "400A Fuse",
+    "70045469": "M8 Flange Nut, Zinc-Plated",
+    "5A44166301": "Relay support bracket",
+    "70018559": "M5×20 cheese head screw",
+    "70023553": "Battery disconnect switch",
+    "70026666": "Mega fuse holder",
+    "70027847": "M5×40 socket head cap screw",
+    "70036962": "Knurled thin-head M5 rivet nut",
+    "70041442": "12V Battery",
+    "70041692": "Latching relay 300A",
+    "70023771": "Battery Terminal (+)",
+    "70023772": "Battery Terminal (-)",
+    "15600006": "Fixing tie 45 mm",
+    "5A44112201": "Cable and tube bracket",
+    "5A44127201": "Cable support",
+    "70028272": "Hex flange screw M8X16",
+    "70036793": "Snap-in clamp 36 mm",
+    "5A46022501": "Inverter assembly",
+    "5A46023001": "Aux. motor and sterring pump assembly",
+    "5A46034601": "Oil reservoir assembly",
+    "5A46021801": "Rigid pipes clamps kit",
+    "5A46022601": "Rigid pressure line pipe 1",
+    "5A46022701": "Rigid pressure line pipe 2",
+    "5A46022801": "Rigid return line pipe",
+    "70032801": "GMA3/15PL measurement union",
+    "70034207": "15L Union",
+    "70043328": "Nut with washer",
+    "70044857": "GR18/15LCFX fitting",
+    "5A46020801": "Motor support plate",
+    "5A46026501": "Motor + Pump Assembly Kit",
+    "209929": "Washer A8,4 A2",
+    "70042923": "Power Steering Motor",
+    "5A46024301": "Power steering interior support plate",
+    "70002044": "Washer M10 A2",
+    "SUPPLIEDWITHFLANGE": "Screws for flanges",
+    "70042131": "Gear pump flange M24X1.5",
+    "70042147": "Gear pump flange M26X1.5",
+    "PCM10DIN912": "Hex socket screw M10X35",
+    "70046094": "Screw M8X14X1.25",
+    "5A46020901": "Suction hose",
+    "5A46021001": "Hose",
+    "5A46021101": "Hose",
+    "5A46023201": "Support with clamps kit",
+    "70034063": "25 mm Zinc Clamp with Rubber Lining",
+    "220016": "A2 M10 wing nut",
+    "5A46034501": "Reservoir support",
+    "5A46038001": "Spacer",
+    "5A46020101": "Powersteering system",
+    "5A46022901": "Hard line kit",
+    "5A46023301": "Powersteering hoses",
+    "5A46034801": "Clamp support kit",
+    "5A50045600": "Upper coolant pipe bracket",
+    "5A50082701": "Radiator bleed pipe",
+    "5A50083701": "Hot water manifold",
+    "5A50085501": "Bracket for radiator bleed pipe",
+    "5A50085601": "Tank return pipe",
+    "5A50086601": "Return pipe DC/DC",
+    "5A550041": "Hose plug 22mm",
+    "70016547": "Clamp with rubber lining",
+    "70016886": "Clamp with rubber lining",
+    "70023920": "Clamp w/ rubber 44mm",
+    "70027482": "Water level sensor",
+    "70028436": "M/F reducer M16-1/4F8UGB",
+    "70040845100": "Water cooling hose 8x15 mm",
+    "70040845150": "Water cooling hose 8x15 mm",
+    "7004084570": "Water cooling hose 8x15 mm",
+    "7004084580": "Water cooling hose 8x15 mm",
+    "7004085180": "Water cooling hose 22x31 mm",
+    "70040993": "Clamp WF 12-22/9 W3",
+    "70040994": "Clamp WF 20-32/9 W3",
+    "70041143": "Temperature sensor",
+    "70027719": "Brass elbow 15L",
+    "5A50082401": "Flow divider support",
+    "5A50083501": "DC/DC supply pipe",
+    "5A50083601": "DC/DC interconnection pipe",
+    "5A50083901": "ELFA #1 supply pipe",
+    "5A50084101": "ELFA outlet / onboard supply pipe",
+    "5A50084201": "Onboard return pipe #2",
+    "5A50084301": "Pump 1 distributor",
+    "5A50084401": "ELFA #2 supply pipe",
+    "5A50085001": "DC/DC – compressor return pipe",
+    "5A50085101": "DC/DC – compressor return pipe #2",
+    "5A50085301": "L-bracket – 50 mm",
+    "5A50086701": "DC/DC interconnection pipe w/ return",
+    "5A50088001": "Water pump assembly",
+    "5A50101801": "Compressor outlet pipe",
+    "5A50117801": "Pump supply pipe",
+    "5A50117901": "Pump supply pipe",
+    "70040852500": "Conti cooling water hose 25X34mm",
+    "5A58012301": "Angled bracket",
+    "70027717": "Stainless steel union M16×1.5",
+    "70040849140": "Conti cooling water hose 18×27 mm",
+    "70040849260": "Conti cooling water hose 18×27 mm",
+    "70040849450": "Conti cooling water hose 18×27 mm",
+    "70040849580": "Conti cooling water hose 18×27 mm",
+    "70040849600": "Conti cooling water hose 18×27 mm",
+    "70040849690": "Conti cooling water hose 18×27 mm",
+    "7004084975": "Conti cooling water hose 18×27 mm",
+    "7004084980": "Conti cooling water hose 18×27 mm",
+    "7004084990": "Conti cooling water hose 18×27 mm",
+    "70040852100": "Conti cooling water hose 25X34mm",
+    "70040852120": "Conti cooling water hose 25X34mm",
+    "70040926": "EPDM 90° elbow 19 mm 150×150 mm",
+    "70041455": "Constant-tension hose clamp",
+    "70041666": "Connector stud DKOL15 CEL22",
+    "70041668": "Push-lock nipple ND DN19 DKOL22",
+    "5A50087901": "Water pump assembly",
+    "5A50101501": "PEM outlet pipe",
+    "5A50101601": "PEM inlet pipe",
+    "5A50101701": "Water pump outlet pipe",
+    "70040924": "EPDM 90° elbow, ID 25 mm, 150×150 mm",
+    "70041468": "Hydraulic adapter AGR 3/4 DN25",
+    "5A50081901": "Radiator return and bleed line assembly",
+    "5A50117701": "Tank feed pipe",
+    "5A50119501": "Stainless steel pipe to tank",
+    "5A50135501": "Union pipe D25 mm",
+    "70040852270": "Coolant hose 25x34 mm",
+    "70040852271": "Coolant hose 25x34 mm",
+    "7004085265": "Coolant hose 25x34 mm",
+    "5A500111": "Radiator left side support bracket",
+    "5A500113": "Radiator right side support bracket",
+    "5A500114": "Radiator vertical support bracket",
+    "5A500131": "Radiator insulation support bracket",
+    "5A500139": "Radiator piping support bracket",
+    "5A50119301": "Connection of auxiliaries to cooling system",
+    "70023874": "Hex flange screw M8X50",
+    "70042778": "Radiator",
+    "70044897100": "Silicone tube interior diameter=45mm",
+    "70044897400": "Silicone tube interior diameter=45mm",
+    "70047530": "Cone support",
+    "70024023": "Clamp Ø 50,8/58,7 MM TBC",
+    "5A500124": "Water pump support assembly",
+    "5A500126": "Water pump aluminum protection cover",
+    "70041813": "Water pump",
+    "5A500125": "Water pump support",
+    "5A50082901": "L bracket 80 mm",
+    "5A50083001": "L bracket 120 mm",
+    "5A50083101": "Pipes support bracket",
+    "5A50085701": "Pipes support bracket",
+    "5A50086101": "PEM feed pipe support bracket",
+    "5A50101401": "Pipes support bracket - firewall",
+    "5A50101901": "Compressor outlet pipe support bracket",
+    "5A50102101": "Compressor outlet pipe support bracket",
+    "5A50103101": "PEM outlet pipe support bracket",
+    "5A50103301": "Compressor outlet pipe support bracket",
+    "5A50118301": "Charriot pipe support bracket",
+    "5A50119401": "EPDM pipe support bracket",
+    "5A50118401": "Radiator manifold",
+    "5A50118601": "Radiator manifold",
+    "5A50118701": "Radiator manifold bracket",
+    "70037461": "M6 hex pressure nut",
+    "70045319": "Screw M6X10 8.8",
+    "5A50118901": "Radiator manifold kit 2",
+    "5A50119101": "Radiator manifold kit 1",
+    "70044897L250": "Silicone hose Ø int. 45",
+    "5A50084601": "Auxiliary circuit assembly",
+    "5A50084701": "PEM circuit assembly",
+    "5A50084801": "System supply/return assembly",
+    "5A50086401": "Radiator assembly kit",
+    "5A50102001": "Cooling system support assembly",
+    "103349": "Threated bar",
+    "5A500212": "Lower Shield Assembly",
+    "5A52012400": "Exhaust hole cover",
+    "5A52021401": "Left Wheel Arch Sheet-Metal",
+    "5A52021501": "Powerbox Insulation",
+    "5A52021601": "Left Wheel Arch Sheet-Metal",
+    "5A52022001": "Onboard Charger Insulation",
+    "5A52022901": "Power Steering Motor Cover",
+    "5A52023001": "Left Sheet-Metal Bracket",
+    "5A52023101": "Onboard Charger Insulation",
+    "5A52023201": "Onboard Charger Insulation",
+    "5A52023501": "Right Wheel Arch Sheet-Metal",
+    "5A52023601": "Electrical Board Sheet-Metal",
+    "5A52024101": "Right Sheet-Metal Panel",
+    "5A52024301": "Sheet-Metal Bracket",
+    "5A52024401": "Sheet-Metal Bracket",
+    "5A52024501": "Left Sheet-Metal",
+    "70032843": "M6 SNU-Type Speed Nut",
+    "5A54049501": "HV cable PEM - Inverter U",
+    "5A54049601": "HV cable PEM - Inverter V",
+    "5A54049701": "HV cable PEM - Inverter W",
+    "5A54049801": "HV cable Powerbox - Inverter",
+    "5A54049901": "Earth cable PEM",
+    "5A54050001": "Earth cable Inverter",
+    "5A54050102": "IVPM to Chassis Main Board",
+    "5A54053101": "IVPM to PEM",
+    "5A54048901": "HV cable Powerbox - DC/AC 3",
+    "5A54049001": "HV cable Powerbox - DC/AC 2",
+    "5A54049101": "HV cable Powerbox - DC/AC 1",
+    "5A54049301": "Cable FuseBox to Steering Relay",
+    "5A54050401": "HV cable DC/AC 1 - Air compressor",
+    "5A54054201": "Cable DC/AC 1 to Fusebox",
+    "5A54054401": "Cable Main Relay to Fusebox3",
+    "5A54054601": "Cable DC/AC 2 to Fusebox",
+    "5A54054701": "Cable DC/AC 1 Earth",
+    "5A54054801": "Cable DC/AC 2 Earth",
+    "5A54054901": "Cable DC/AC 3 GND",
+    "5A54055001": "Cable manual switch to bat. fuse",
+    "5A54055101": "Cable Battery1 to Battery2",
+    "5A54055201": "Cable Battery 1 to GND",
+    "5A54055301": "Cable ECOMP Earth",
+    "5A54055401": "Cable battery 2 to manual switch",
+    "5A54055601": "Cable FuseBox to chassis board",
+    "5A54057502": "Cable battery fuse to Main relay",
+    "5A54057601": "Cable DC/AC 3 to Fusebox",
+    "5A54057801": "Cable DC/AC 1 GND",
+    "5A54057901": "Cable DC/AC 2 GND",
+    "5A54058001": "Cable DC/AC 3 Earth",
+    "5A54058201": "Cable PowerBox Earth",
+    "5A54058401": "Cable Steering Inverter GND",
+    "5A54058501": "Cables Steering Inverter to motor",
+    "5A54058802": "Harness Left chassis",
+    "5A54059002": "Harness right chassis",
+    "5A54059101": "Harness Front chassis",
+    "5A54059202": "Harness Dashboard chassis",
+    "5A54059501": "Cable chassis board GND",
+    "5A54061101": "Cable + Bat fuse to chassis board",
+    "5A54069801": "Cable Batt Earth to Chassis distr.",
+    "5A54072001": "Cable Powerbox sctruct. to right pt.",
+    "5A10123A01": "Traction motor",
+    "5A22123A01": "Traction motor support assembly kit",
+    "5A24123A01": "Charriot",
+    "5A29123A01": "Driver's pedal assembly",
+    "5A31123A01": "Structure kit",
+    "5A41123A01": "Driveshaft",
+    "5A42123A01": "Pneumatic system",
+    "5A46123A01": "Steering system",
+    "5A50123A01": "Cooling system",
+    "5A52086A01": "Sheet-metal panels",
+    "5A54123A01": "Electrical Wiring",
+    "5A44086A01": "Electrical components",
+    "50021302": "Root assembly"
+  },
+  "missingCodeDesc": [],
+  "parentsOf": {
+    "5A10004401": [
+      "5A10123A01"
+    ],
+    "5A44103801": [
+      "5A10123A01"
+    ],
+    "5A54085901": [
+      "5A10123A01"
+    ],
+    "5A29007701": [
+      "5A29123A01"
+    ],
+    "5A29007801": [
+      "5A29123A01"
+    ],
+    "5A31165301": [
+      "5A31123A01"
+    ],
+    "5A42049501": [
+      "5A42049801"
+    ],
+    "5A42052801": [
+      "5A42049801"
+    ],
+    "5A42050001": [
+      "5A42050101"
+    ],
+    "5A42048301": [
+      "5A42123A01"
+    ],
+    "5A42049801": [
+      "5A42123A01"
+    ],
+    "5A42050101": [
+      "5A42123A01"
+    ],
+    "5A42050801": [
+      "5A42123A01"
+    ],
+    "5A42051701": [
+      "5A42123A01"
+    ],
+    "5A44064300": [
+      "5A44086A01"
+    ],
+    "5A44105201": [
+      "5A44086A01"
+    ],
+    "5A44111801": [
+      "5A44086A01"
+    ],
+    "5A44113801": [
+      "5A44086A01"
+    ],
+    "5A46023001": [
+      "5A46020101"
+    ],
+    "5A46034601": [
+      "5A46020101"
+    ],
+    "5A46020101": [
+      "5A46123A01"
+    ],
+    "5A46022901": [
+      "5A46123A01"
+    ],
+    "5A46023301": [
+      "5A46123A01"
+    ],
+    "5A50088001": [
+      "5A50084601"
+    ],
+    "5A50087901": [
+      "5A50084701"
+    ],
+    "5A50081901": [
+      "5A50084801"
+    ],
+    "5A50119301": [
+      "5A50086401"
+    ],
+    "5A50084601": [
+      "5A50123A01"
+    ],
+    "5A50084701": [
+      "5A50123A01"
+    ],
+    "5A50084801": [
+      "5A50123A01"
+    ],
+    "5A50086401": [
+      "5A50123A01"
+    ],
+    "5A50102001": [
+      "5A50123A01"
+    ],
+    "5A10123A01": [
+      "50021302"
+    ],
+    "5A22123A01": [
+      "50021302"
+    ],
+    "5A24123A01": [
+      "50021302"
+    ],
+    "5A29123A01": [
+      "50021302"
+    ],
+    "5A31123A01": [
+      "50021302"
+    ],
+    "5A41123A01": [
+      "50021302"
+    ],
+    "5A42123A01": [
+      "50021302"
+    ],
+    "5A46123A01": [
+      "50021302"
+    ],
+    "5A50123A01": [
+      "50021302"
+    ],
+    "5A52086A01": [
+      "50021302"
+    ],
+    "5A54123A01": [
+      "50021302"
+    ],
+    "5A44086A01": [
+      "50021302"
+    ],
+    "50021302": []
+  },
+  "pathsToRoot": {
+    "50021302": [
+      [
+        "50021302"
+      ]
+    ],
+    "5A10004401": [
+      [
+        "50021302",
+        "5A10123A01",
+        "5A10004401"
+      ]
+    ],
+    "5A10123A01": [
+      [
+        "50021302",
+        "5A10123A01"
+      ]
+    ],
+    "5A22123A01": [
+      [
+        "50021302",
+        "5A22123A01"
+      ]
+    ],
+    "5A24123A01": [
+      [
+        "50021302",
+        "5A24123A01"
+      ]
+    ],
+    "5A29007701": [
+      [
+        "50021302",
+        "5A29123A01",
+        "5A29007701"
+      ]
+    ],
+    "5A29007801": [
+      [
+        "50021302",
+        "5A29123A01",
+        "5A29007801"
+      ]
+    ],
+    "5A29123A01": [
+      [
+        "50021302",
+        "5A29123A01"
+      ]
+    ],
+    "5A31123A01": [
+      [
+        "50021302",
+        "5A31123A01"
+      ]
+    ],
+    "5A31165301": [
+      [
+        "50021302",
+        "5A31123A01",
+        "5A31165301"
+      ]
+    ],
+    "5A41123A01": [
+      [
+        "50021302",
+        "5A41123A01"
+      ]
+    ],
+    "5A42048301": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42048301"
+      ]
+    ],
+    "5A42049501": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42049801",
+        "5A42049501"
+      ]
+    ],
+    "5A42049801": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42049801"
+      ]
+    ],
+    "5A42050001": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42050101",
+        "5A42050001"
+      ]
+    ],
+    "5A42050101": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42050101"
+      ]
+    ],
+    "5A42050801": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42050801"
+      ]
+    ],
+    "5A42051701": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42051701"
+      ]
+    ],
+    "5A42052801": [
+      [
+        "50021302",
+        "5A42123A01",
+        "5A42049801",
+        "5A42052801"
+      ]
+    ],
+    "5A42123A01": [
+      [
+        "50021302",
+        "5A42123A01"
+      ]
+    ],
+    "5A44064300": [
+      [
+        "50021302",
+        "5A44086A01",
+        "5A44064300"
+      ]
+    ],
+    "5A44086A01": [
+      [
+        "50021302",
+        "5A44086A01"
+      ]
+    ],
+    "5A44103801": [
+      [
+        "50021302",
+        "5A10123A01",
+        "5A44103801"
+      ]
+    ],
+    "5A44105201": [
+      [
+        "50021302",
+        "5A44086A01",
+        "5A44105201"
+      ]
+    ],
+    "5A44111801": [
+      [
+        "50021302",
+        "5A44086A01",
+        "5A44111801"
+      ]
+    ],
+    "5A44113801": [
+      [
+        "50021302",
+        "5A44086A01",
+        "5A44113801"
+      ]
+    ],
+    "5A46020101": [
+      [
+        "50021302",
+        "5A46123A01",
+        "5A46020101"
+      ]
+    ],
+    "5A46022901": [
+      [
+        "50021302",
+        "5A46123A01",
+        "5A46022901"
+      ]
+    ],
+    "5A46023001": [
+      [
+        "50021302",
+        "5A46123A01",
+        "5A46020101",
+        "5A46023001"
+      ]
+    ],
+    "5A46023301": [
+      [
+        "50021302",
+        "5A46123A01",
+        "5A46023301"
+      ]
+    ],
+    "5A46034601": [
+      [
+        "50021302",
+        "5A46123A01",
+        "5A46020101",
+        "5A46034601"
+      ]
+    ],
+    "5A46123A01": [
+      [
+        "50021302",
+        "5A46123A01"
+      ]
+    ],
+    "5A50081901": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084801",
+        "5A50081901"
+      ]
+    ],
+    "5A50084601": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084601"
+      ]
+    ],
+    "5A50084701": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084701"
+      ]
+    ],
+    "5A50084801": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084801"
+      ]
+    ],
+    "5A50086401": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50086401"
+      ]
+    ],
+    "5A50087901": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084701",
+        "5A50087901"
+      ]
+    ],
+    "5A50088001": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50084601",
+        "5A50088001"
+      ]
+    ],
+    "5A50102001": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50102001"
+      ]
+    ],
+    "5A50119301": [
+      [
+        "50021302",
+        "5A50123A01",
+        "5A50086401",
+        "5A50119301"
+      ]
+    ],
+    "5A50123A01": [
+      [
+        "50021302",
+        "5A50123A01"
+      ]
+    ],
+    "5A52086A01": [
+      [
+        "50021302",
+        "5A52086A01"
+      ]
+    ],
+    "5A54085901": [
+      [
+        "50021302",
+        "5A10123A01",
+        "5A54085901"
+      ]
+    ],
+    "5A54123A01": [
+      [
+        "50021302",
+        "5A54123A01"
+      ]
+    ]
+  }
+}

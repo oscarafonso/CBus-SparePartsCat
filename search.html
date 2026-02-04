@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="utf-8" />
+
+    <!-- Google Font: Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="brand">
+            <a href="index.html" title="Voltar ao catálogo">
+                <img src="assets/logo.svg" alt="CATÁLOGO" class="brandLogo">
+            </a>
+        </div>
+
+        <div class="crumbs"></div>
+
+        <div class="topRightTitle">Search</div>
+    </header>
+
+    <main class="layout layoutSearch">
+        <section class="left">
+            <div class="panel">
+                <div class="panelTop">
+                    <div class="panelTitle">Search parts</div>
+
+                    <div class="searchBar">
+                        <input id="q" class="searchInput" type="text" placeholder="Search part numbers or descriptions"
+                            autocomplete="off" spellcheck="false" />
+                        <button id="btnClear" class="btn" type="button">Clear</button>
+                    </div>
+
+                    <div class="searchMeta">
+                        <div id="searchStatus" class="searchStatus">Loading index...</div>
+                       
+                    </div>
+                </div>
+
+                <div class="list">
+                    <div class="listHeader searchHeader" id="resultsHeader" hidden>
+                        <div class="searchHeaderLeft">Containing assembly</div>
+                        <div class="searchHeaderRight">Matching text</div>
+                    </div>
+
+                    <div class="listBody" id="results">
+                        <div class="listEmpty">Loading…</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="search.js"></script>
+</body>
+
+</html>
